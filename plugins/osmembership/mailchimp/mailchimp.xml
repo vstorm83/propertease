@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="osmembership" method="upgrade">
+	<name>Membership Pro - Mailchimp plugin</name>
+	<author>Tuan Pham Ngoc</author>
+	<creationDate>06-10-2014</creationDate>
+	<copyright>Ossolution Team</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@joomservices.com</authorEmail>
+	<authorUrl>www.joomdonation.com</authorUrl>
+	<version>1.0</version>	
+	<description>This plugin is used to add subscribers to Mailchimp when they sign up for a subscription plan in Membership Pro extension</description>
+	<files>
+		<filename plugin="mailchimp">mailchimp.php</filename>
+		<folder>api</folder>
+	</files>	
+	<config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="api_key" type="text" size="60" default="" label="API Key" description="Your Mailchimp API Key" />                
+            </fieldset>
+        </fields>
+    </config>
+</extension>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="content" method="upgrade">
+
+<name>Content - FlexiContactPlus</name>
+<creationDate>16 January 2014</creationDate>
+<author>Les Arbres Design</author>
+<copyright>Les Arbres Design 2014</copyright>
+<license>GNU GPL</license>
+<authorUrl>www.lesarbresdesign.info</authorUrl>
+<version>9.00</version>
+<description>FlexiContactPlus Plugin</description>
+
+<files>
+	<filename plugin="flexicontactplus">flexicontactplus.php</filename>
+	<filename>index.html</filename>
+</files>
+
+<languages folder="language">
+	<language tag="en-GB">en-GB.plg_content_flexicontactplus.ini</language>
+	<language tag="en-GB">en-GB.plg_content_flexicontactplus.sys.ini</language>
+	<language tag="fr-FR">fr-FR.plg_content_flexicontactplus.ini</language>
+</languages>
+
+</extension>

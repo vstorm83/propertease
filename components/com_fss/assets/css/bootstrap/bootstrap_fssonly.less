@@ -1,0 +1,43 @@
+
+@import "modal-core.less";
+
+.fss_main {
+	@import "bootstrap.less"; // import bootstrap into .fss_main only!
+
+	
+
+	// fixes for common non-bootstrap template issues
+	ul.nav, ul.dropdown-menu {
+	  list-style: none !important;
+	  list-style-position: none !important;
+	  list-style-type: none !important;
+	}
+
+	ul.dropdown-menu 
+    {
+		padding: 5px 0 !important;
+		margin: 2px 0 0 !important;
+    }
+	a.btn 
+    {
+		text-decoration: none;
+    }
+} 
+  
+// Add tooltips to non fss_main class as they always live outside!
+@import "variables.less";
+@import "mixins.less";
+@import "tooltip.less";
+ 
+.collapse {
+  position:relative;
+  height:0;
+  overflow:hidden;
+  -webkit-transition:height 0.35s ease;
+  -moz-transition:height 0.35s ease;
+  -o-transition:height 0.35s ease;
+  transition:height 0.35s ease;
+}
+.collapse.in {
+  height:auto;
+}

@@ -1,0 +1,147 @@
+/* Grey and silver for right to left languages */
+/* Version 10.02 */
+
+.fcp_wrapper 
+	{border:1px solid #6B6B6B; border-radius:5px; padding:5px;
+         background-color:#EFEFEF; font-family:Arial, sans-serif; font-size:90%; font-weight:bold; color:#444444;
+         direction:rtl; }
+
+/* single-line right-to-left layout */
+
+div.fcp_line       {clear:right; padding-top:1.5em;}
+div.fcp_line label {display:inline-block; float:right; text-align:left; width:7em; margin:2px; font-weight:bold;}
+
+@media screen and (max-width: 800px) 
+{
+    div.fcp_line label     {display:block; text-align:right; width:auto; max-width:90%;}
+}
+
+div.fcp_line input, div.fcp_line textarea, div.fcp_line select {float:right;}
+	
+/* mandatory and errors */
+
+.fcp_mandatory:after {content:"*"; margin-right:0.25em; font-size:larger;}
+.fcp_error_msg       {display:inline-block; margin:5px; background: url('css_images/val_err2.png') no-repeat left center; }
+.fcp_error_msg span  {display:inline-block; height:16px; width:16px; }
+span.fcp_err         {display:none; }
+.fcp_error_field      {border:2px solid #444444 !important;}
+
+/* secure-image captcha */
+
+div.fcp_captcha input   {vertical-align:top;}
+div.fcp_captcha_inner   {display:inline-block; float:right; padding:2px; background:#F3F4F5 url('css_images/securimage.png') no-repeat 96% 90%;
+                         border:1px solid #6B6B6B; border-radius:5px;}
+img.fcp_captcha_img     {vertical-align:middle; margin:0 5px 0 5px; float:right;
+                         border:1px solid #6B6B6B; border-radius:5px;}
+span.fcp_captcha_reload {display:inline-block; height:24px; width:24px; padding-top:24px;
+                         background:#F3F4F5 url('css_images/reload_blue.png') no-repeat center center; cursor:pointer;}
+#fcp_err_captcha        {margin-top:20px;}                
+
+/* image captcha */
+
+.fcp_image_inner    	{display:inline-block; float:right;}                     
+.fcp_image_inner img 	{cursor:pointer; transition:border 0.7s;}
+.fcp_inactive           {border:2px solid transparent;}
+.fcp_active             {border:2px solid #0079C1; border-radius:4px;}
+#fcp_err_image          {margin-top:20px;}
+
+/* recaptcha */
+
+#recaptcha_widget_div	{display:inline-block; float:right; direction:ltr;}
+#fcp_err_recap		{margin-top:10px;}
+
+/* fieldsets */
+
+fieldset.fcp_fieldset         
+	{display:inline-block; float:right; margin:5px; padding:5px; background-color:#EFEFEF; border:1px solid #6B6B6B;
+         border-radius:6px; vertical-align:top;}
+fieldset.fcp_fieldset legend  
+	{background:linear-gradient(to bottom, #ffffff 0%,#f6f6f6 47%,#ededed 100%); padding:3px 10px 3px 10px;
+         border:1px solid #444444; border-radius:4px;
+         width:auto; font-size:100%; line-height:1em; margin:0 10px 0 0; text-align:right;}
+
+/* input fields */
+
+div.fcp_line input, div.fcp_line textarea, div.fcp_line select
+	{max-width:90%; float:right; width:auto !important; border:1px inset #F5F5F5; padding:1px 2px 1px 3px; margin:2px;
+         border-radius:3px; transition:box-shadow 0.5s;}
+div.fcp_line textarea {height:auto; }
+div.fcp_line input:hover, div.fcp_line textarea:hover, div.fcp_line select:hover
+	{border-color:#0079C1; box-shadow:0 0 5px #74B9EF;}
+div.fcp_line input:focus, div.fcp_line textarea:focus, div.fcp_line select:focus
+	{outline:none; border:1px solid #4D90FE; }
+div.fcp_radio input, div.fcp_checkbox input             {border:none;}
+div.fcp_radio input:hover, div.fcp_checkbox input:hover {border:none;}
+div.fcp_line input[type="checkbox"] {margin-top:0; vertical-align:middle;}	
+
+@media screen and (max-width:500px) 
+{
+    div.fcp_line input, div.fcp_line textarea, div.fcp_line select  {width:90% !important;}
+    div.fcp_line.fcp_date input {width:80% !important;}
+}
+
+/* radio button and multiple checkbox layout */
+
+div.fcp_radio_h_inner     {display:inline-block; float:right; max-width:70%;}
+span.fcp_radio_h          {display:inline-block; float:right;}
+span.fcp_radio_h label    {width:auto; padding-right:5px;}
+span.fcp_radio_h input    {float:right;}
+
+div.fcp_radio_v_inner     {display:inline-block; float:right; max-width:70%;}
+span.fcp_radio_v          {display:block;}
+span.fcp_radio_v label    {width:auto; padding-left:5px;}
+span.fcp_radio_v input    {clear:right; float:right;}
+
+div.fcp_checkbox_l input.fcp_lcb {margin-left:1em; margin-right:6em;}
+div.fcp_checkbox_l label.fcp_lcb {float:none; width:auto; max-width:70%;}
+
+@media screen and (max-width: 800px) 
+{
+	div.fcp_checkbox_l input.fcp_lcb {margin-left:0.5em; margin-right:0.5em;}
+	div.fcp_checkbox_l label.fcp_lcb {float:none; max-width:95%;}
+}
+
+div.fcp_checkbox_inner    {display:inline-block; float:right; max-width:60%;}
+span.fcp_checkbox_m       {display:inline-block; float:right;}
+span.fcp_checkbox_m label {width:auto; padding-right:5px;}
+span.fcp_checkbox_m input {float:right;}
+
+span.fcp_checkbox_h	  {float:right;}
+
+/* fixed texts */
+
+div.fcp_fixed_text 
+	{padding:5px; border-radius:4px;
+         margin:5px; background: linear-gradient(to bottom, #fcfff4 0%,#dfe5d7 40%,#b3bead 100%);  }
+div.fcp_fixed_text label 
+	{float: none; text-align:right; margin-right:1em; font-size:1.2em; line-height:1em; white-space:nowrap;}
+div.fcp_fixed_text span
+	{display:block; margin-right:2em;}
+
+/* the send button */
+
+.fcp_sendrow {margin-right:10%;}
+
+.fcp_form input.button 
+	{background:linear-gradient(to bottom, #ffffff 0%,#f6f6f6 47%,#ededed 100%);
+         border:1px solid #6B6B6B; border-radius:5px;
+         width:auto; min-width:65px; margin:2px 2px 2px 5px; padding:5px 14px;
+         font-size:1.2em; font-weight:bold; color:#36465f; cursor:pointer;}
+.fcp_form input.button:hover    
+	{box-shadow:0 0 5px #74B9EF;}
+.fcp_form input.button:disabled 
+	{opacity:0.5; border:none; cursor:default;}
+
+#fcp_spinner {margin-top:8px;}
+.fcp_spinner {background:url('css_images/spinner.gif') no-repeat left center !important; height:16px; width:16px;}
+
+/* info buttons */
+
+.fcp_info {display:inline-block; vertical-align:text-bottom; 
+	background:url('css_images/info-16.png') no-repeat left center !important; height:16px; width:16px;}
+
+/* Tooltips */
+
+.tooltip {padding:4px; position:absolute; z-index:9999; max-width:400px; box-shadow:0 0 5px #AAA;
+             border-radius:4px !important;
+             font-size:1em !important; background:black !important; color:white !important;}

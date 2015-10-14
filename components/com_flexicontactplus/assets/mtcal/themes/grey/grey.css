@@ -1,0 +1,147 @@
+/* Calendar:a Javascript class for Mootools that adds accessible and unobtrusive date pickers to your form elements <http://electricprism.com/aeron/calendar> */
+/* Grey CSS for Calendar by Les Arbres */
+
+input.grey {width:8em;}
+
+button.grey {
+	background:url(grey-icon.png) no-repeat right top;
+	border:none;
+	cursor:pointer;
+	height:20px;
+	width:22px;
+	min-width:0;
+	min-height:0;
+	margin:2px 2px 2px 5px;
+	vertical-align:middle;
+}
+
+div.grey {
+	background-color:#E0E0E0;
+	 background:linear-gradient(#E0E0E0,#D2D2D2);-webkit-linear-gradient(#E0E0E0,#D2D2D2);-moz-linear-gradient(#E0E0E0,#D2D2D2);
+         border:1px solid #ABABAB; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; 
+         box-shadow:4px 4px 4px #888888; -webkit-box-shadow:4px 4px 4px #888888; -moz-box-shadow:4px 4px 4px #888888;
+	height:170px;
+	width:195px;
+	padding:0 6px 0 6px;
+	text-align:center;
+	font:normal 13px/18px Arial, Helvetica, sans-serif;
+}	
+div.grey * {
+	margin:0;
+	padding:0;
+}	
+div.grey div {
+	background:none !important;
+	cursor:move;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}	
+
+div.grey caption {
+	color:black;
+	padding-top:4px;
+	padding-bottom:4px;
+	text-align:center;
+	font-weight:bold;
+	width:100%;
+}
+div.grey caption a {
+	cursor:pointer;
+	display:block;
+	height:11px;
+	overflow:hidden;
+	position:absolute;
+	text-indent:-100px;
+	top:8px;
+	width:11px;
+}
+div.grey caption a.prev {
+	background-image:url(grey-prev.gif);
+	left:1px;
+}
+div.grey caption a.next {
+	background-image:url(grey-next.gif);
+	right:1px;
+}
+div.grey caption a:hover {
+	background-position:0 11px;
+}
+div.grey caption span {
+	position:relative;
+	text-align:center;
+}
+div.grey caption span.month {
+	padding-right:8px;
+}
+div.grey caption span.month:after {
+	content:',';
+}
+
+div.grey table {
+	border:none !important;
+	border-collapse:collapse;
+	border-spacing:0;
+	cursor:default;
+	margin:0 auto;
+	width:98%;
+}
+
+div.grey tr {
+	border:none;
+}
+
+div.grey th {
+	border:none;
+	color:black;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	height:19px;
+	text-align:center;
+}
+
+div.grey td {
+	border:none;
+	height:19px;
+	color:#666565;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+div.grey td.invalid {
+	color:#020202;
+}
+
+div.grey td.valid, div.grey td.inactive, div.grey td.active {
+        border:1px solid white;
+	color:black;
+	cursor:pointer;
+}
+
+div.grey td.today {
+	font-weight:bold;
+	border:2px inset red;
+}
+
+div.grey td.active {
+	color:black;
+	font-weight:bold;
+}
+
+div.grey td.hover {
+	background-color:#FEFBF1;
+	color:black;
+	cursor:pointer;
+}
+
+@media screen and (max-width: 500px) 
+{
+	div.grey {width:95%;height:250px;left:0 !important;margin-left:3px;margin-right:3px;}
+	div.grey th {height:30px; font-size:13px;}
+	div.grey td {height:30px; font-size:13px;}
+	div.grey caption a {height:15px;width:15px;}
+	div.grey caption a.prev {background-image:url(grey-prev-l.gif);}
+	div.grey caption a.next {background-image:url(grey-next-l.gif);}
+	div.grey caption a:hover {background-position:0 15px;}
+}

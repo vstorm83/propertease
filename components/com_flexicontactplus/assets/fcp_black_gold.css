@@ -1,0 +1,162 @@
+/* Black and gold */
+/* Version 10.02 */
+
+.fcp_wrapper 
+	{border:1px solid #6B6B6B; border-radius:5px; padding:5px;
+         background-color:black; font-family:Arial, sans-serif; font-size:90%; font-weight:bold; color:white; 
+         display:inline-block; width:75%;}
+
+/* single-line layout above 800px; tw-line layout below 800px */
+
+div.fcp_line       {clear:left; padding-top:0.5em;}
+div.fcp_line label {display:inline-block; vertical-align:top; text-align:right; width:12em; max-width:20%; margin-right:1em;}
+	
+@media screen and (max-width:800px) 
+{
+    .fcp_wrapper       {width:90%;}
+    div.fcp_line label {display:block; text-align:left; width:auto; max-width:90%;}
+}
+
+/* line layout inside fieldsets */
+
+fieldset div.fcp_line label {text-align:right; width:12em; margin-right:1em;}
+
+@media screen and (max-width:800px) 
+{
+    fieldset div.fcp_line label	{display:block; text-align:left;}
+}
+
+/* mandatory and errors */
+
+.fcp_mandatory:after {content:"*"; margin-left:0.25em; font-size:larger;}
+.fcp_error_msg       {display:inline-block; margin-left:5px; background:url('css_images/val_err1.png') no-repeat left center; }
+.fcp_error_msg span  {display:inline-block; height:16px; width:16px; }
+span.fcp_err         {display:none; }
+.fcp_error_field     {border:2px solid #CC7019 !important;}
+
+/* secure-image captcha */
+
+div.fcp_captcha input   {vertical-align:top;}
+div.fcp_captcha_inner   {display:inline-block; padding:2px; background-color:black;
+                         border:1px solid #F8972A; border-radius:4px;}
+img.fcp_captcha_img     {vertical-align:middle; margin:0 5px 0 5px; 
+                         border:1px solid #F8972A; border-radius:4px;}
+span.fcp_captcha_reload {display:inline-block; height:24px; width:24px; vertical-align:middle;
+                         background:black url('css_images/reload_gold.png') no-repeat center center; cursor:pointer;}
+#fcp_err_captcha        {margin-top:20px;}                
+
+/* image captcha */
+
+.fcp_image_inner        {display:inline-block; }
+.fcp_image_inner img 	{cursor:pointer; transition:border 0.7s;}
+.fcp_inactive           {border:2px solid transparent;}
+.fcp_active             {border:2px solid #F8972A; border-radius:4px;}
+#fcp_err_image          {margin-top:20px;}
+
+/* recaptcha */
+
+#recaptcha_widget_div	{display:inline-block; }
+div.recaptcha_input_area label {max-width:none;}
+#fcp_err_recap		{margin-top:10px;}
+
+/* magic word */
+
+div.fcp_magic input	{width:20%;}
+
+/* fieldsets */
+
+fieldset.fcp_fieldset         
+	{display:inline-block; margin:5px; padding:5px; background-color:black; border:1px solid #edb500; border-radius:4px;
+	 vertical-align:top; }
+fieldset.fcp_fieldset legend  
+	{background-color:#edb500; background:linear-gradient(to bottom, #fcef79 0%,#edb500 100%);
+         border:1px solid #BA711F; border-radius:2px;
+         width:auto; font-size:100%; padding:0 5px 0 5px; margin:0 0 0 10px;}
+
+/* input fields */
+
+div.fcp_line input, div.fcp_line textarea, div.fcp_line select   
+	{max-width:95%; border:1px inset #F5F5F5; padding:1px 2px 1px 3px; background-color:whiteSmoke; 
+	 font-family:Arial, sans-serif; border-radius:2px; transition:border-color 0.3s;}
+div.fcp_line textarea {height:auto;}
+div.fcp_line input:hover, div.fcp_line textarea:hover, div.fcp_line select:hover
+	{border-color:#F8972A; }
+div.fcp_line input:focus, div.fcp_line textarea:focus, div.fcp_line select:focus
+	{outline:none; border-color:#4D90FE; }
+
+div.fcp_radio input, div.fcp_checkbox input
+	{background-color:transparent; border:none; }
+div.fcp_radio input:hover, div.fcp_checkbox input:hover
+	{border:none;}
+div.fcp_line input[type="checkbox"] {margin-top:0; vertical-align:middle;}	
+
+@media screen and (max-width:500px) 
+{
+    div.fcp_line input, div.fcp_line textarea, div.fcp_line select  {width:90% !important;}
+    div.fcp_line.fcp_date input {width:80% !important;}
+}
+
+/* radio button and checkbox layout */
+
+div.fcp_radio_h_inner     {display:inline-block; max-width:70%;}
+span.fcp_radio_h          {display:inline-block; }
+div.fcp_radio_h_inner span.fcp_radio_h label    
+                          {display:inline-block; width:auto; padding-left:5px; white-space:nowrap;}
+
+div.fcp_radio_v_inner     {display:inline-block; max-width:70%;}
+span.fcp_radio_v          {display:block; white-space:nowrap;}
+span.fcp_radio_v label    {width:auto; padding-left:5px;}
+span.fcp_radio_v input    {clear:left; }
+
+div.fcp_checkbox_l input.fcp_lcb {margin-left:8em; margin-right:1em;}
+div.fcp_checkbox_l label.fcp_lcb {width:auto; max-width:70%;}
+
+@media screen and (max-width:800px) 
+{
+	div.fcp_checkbox_l input.fcp_lcb {margin-left:0; }
+	div.fcp_checkbox_l label.fcp_lcb {max-width:90%; }
+}
+
+div.fcp_checkbox_inner    {display:inline-block; max-width:75%;}
+span.fcp_checkbox_m       {display:inline-block; }
+div.fcp_checkbox_inner span.fcp_checkbox_m label 
+                          {display:inline-block; width:auto; max-width:none; padding-left:5px; white-space:nowrap; }
+
+/* links need to be white */
+
+div.fcp_wrapper a:link, div.fcp_wrapper a:active, div.fcp_wrapper a:visited {color:white !important; text-decoration:underline !important;}
+
+/* fixed texts */
+
+div.fcp_fixed_text 
+	{background-color:#edb500;background:linear-gradient(to bottom, #fcef79 0%,#edb500 100%); border:1px solid #BA711F; border-radius:2px; }
+div.fcp_fixed_text label 
+	{text-align:left; margin-left:1em; font-size:1.2em; line-height:1em; white-space:nowrap;}
+div.fcp_fixed_text span
+	{display:block; margin-left:2em;}
+
+/* the send button */
+
+.fcp_sendrow {margin-left:10%;}
+
+.fcp_form input.button 
+	{background-color:#F8972A; background:linear-gradient(#F8972A,#CC7019); border:1px solid #BA711F; border-radius:2px;
+         width:auto; min-width:65px; margin:2px 2px 2px 5px; padding:3px 5px 3px 5px; text-shadow:-1px -1px 0px #CC7019;; 
+         text-align:center; font-weight:bold; font-size:1.2em; color:white; cursor:pointer;}
+.fcp_form input.button:hover    
+	{background-color:#edb500;background:linear-gradient(to bottom, #fcef79 0%,#edb500 100%); border:1px solid #BA711F; }
+.fcp_form input.button:disabled {opacity:0.5; border:none; cursor:default; }
+
+#fcp_spinner {margin-top:8px;}
+.fcp_spinner {background:url('css_images/spinner.gif') no-repeat left center !important; height:16px; width:16px;}
+
+/* info buttons */
+
+.fcp_info {display:inline-block; vertical-align:text-bottom; 
+	background:url('css_images/info-16.png') no-repeat left center !important; height:16px; width:16px;}
+
+/* Tooltips */
+
+.tooltip {padding:4px; position:absolute; z-index:9999; max-width:400px; box-shadow:0 0 5px #AAA;
+             border-radius:4px !important;
+             font-size:1em !important; background:whitesmoke !important; color:black !important;}

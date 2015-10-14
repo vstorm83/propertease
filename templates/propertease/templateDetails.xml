@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 3.3//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/3.3/template-install.dtd">
+<extension version="3.3" type="template" client="site">
+	<name>propertease-new 2015 design</name>
+	<creationDate>28 January 2015</creationDate>
+	<license>GNU General Public License version 3 or later; see LICENSE.txt</license>
+	<version>1.0.0</version>
+	<description>new 2015 design</description>
+	<author>Dusted.com.au</author>
+	<files>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<filename>favicon.ico</filename>
+		<filename>index.html</filename>
+		<filename>index.php</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>templates.php</filename>
+		<filename>LICENSE.txt</filename>
+	</files>
+
+	<positions>
+		<position>left</position>
+		<position>right</position>
+		<position>slider</position>
+      	<position>ticker</position>
+		<position>logo</position>
+		<position>headercontact</position>
+		<position>top-social</position>
+		<position>login</position>
+		<position>topmenu</position>
+		<position>partner</position>
+		<position>footermenu1</position>
+		<position>footermenu2</position>
+		<position>footermenu3</position>
+		<position>footermenu4</position>
+		<position>copyright</position>
+		<position>footermenu</position>
+		<position>reference</position>
+		<position>contentbottom</position>
+	</positions>
+</extension>

@@ -1,0 +1,267 @@
+table.ptresults, table.ptresults td, table.ptresults th, .pthinfot table, .pthinfot th, .pthinfot td {
+	margin:0;
+	padding:0;
+	border-collapse:collapse;
+	border-spacing:0;
+	border:1px solid #B58813;
+}
+.pthinfot table, .pthinfot th, .pthinfot td {
+	border:none;
+}
+table.ptresults {
+	border-left:none;
+	border-top:none;
+	width:100%;
+}
+.pthinfot th, .pthinfot td {
+	text-align:left;
+	vertical-align:top;
+	padding:6px;
+	font-size:12px;
+}
+.pthinfot th {
+	text-align:right;
+}
+.pthaddy {
+	text-align:right;
+}
+table.ptresults td, table.ptresults th {
+	border-right:none;
+	border-bottom:none;
+	text-align:left;
+	vertical-align:top;
+	padding:6px;
+	background-color:#FFF;
+	font-size:12px;
+}
+table.ptresults tr.ptresheader th, table.ptresults tr.ptresheader td {
+	background-color:#F4E8AE;
+	font-size:14px;
+	font-weight:bold;
+}
+.ptextra {
+	background-color:#008CCC;
+	color:#FFF;
+	padding:6px;
+	margin:8px 0 0;
+}
+.ptsearch label {
+	display:block;
+	font-size:14px;
+}
+.ptsearch {
+	width:100%;
+	text-align:center;
+	margin:0 auto;
+}
+.ptheader {
+	width:100%;
+	overflow:hidden;
+	border-bottom:12px solid #7AB700;
+	margin:0 0 6px;
+}
+.ptlogo {
+	float:left;
+	width:29%;
+}
+.pthinfo {
+	float:right;
+	width:69%;
+}
+.pti {
+	padding:6px;
+}
+#refw, #statew, #councilw, #schemew, #zonew, #overlaysw, #planw, #submitw {
+	padding:8px;
+	margin:0;
+}
+#statew, #overlaysw {
+	background-color:#C5FF80;
+}
+#councilw {
+	background-color:#EED1A1;
+}
+#schemew {
+	background-color:#CCC;
+}
+#zonew {
+	background-color:#80FFFF;
+}
+#planw {
+	background-color:#DFB3E2;
+}
+.ptsearch select, #refw input {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+	width:100%;
+	*width:90%;
+	_width:100%;
+}
+.ptsubp {
+	padding:0 8px 8px 0;
+}
+.ptsubex {
+	margin:8px 0 0;
+}
+.ptsubs {
+	width:100%;
+	overflow:hidden;
+}
+.ptsub1, .ptsubex4 {
+	background-color:#CCC;
+}
+.ptsub2 {
+	background-color:#C5FF80;
+}
+.ptsub3 {
+	background-color:#80FFFF;
+}
+.ptsub4 {
+	background-color:#DFB3E2;
+}
+.ptsubex3 {
+	background-color:#F0D775;
+}
+.ptsubcost, .ptsubmonthly {
+	font-size:28px;
+	line-height:30px;
+}
+.ptsubcost span, .ptsubcost em, .ptsubmonthly span, .ptsubmonthly em, .ptsuboptitem em {
+	font-size:14px;
+	line-height:16px;
+}
+.ptsuboptitem span, .ptsuboptdes {
+	font-size:18px;
+	line-height:20px;
+}
+.ptsuboptitem {
+	font-size:36px;
+	line-height:38px;
+}
+.ptsubcost del {
+	font-size:24px;
+	line-height:26px;
+}
+.ptsubcost del span {
+	font-size:12px;
+	line-height:14px;
+}
+.ptsubcost span, .ptsubmonthly span, .ptsuboptitem span {
+	vertical-align:text-top;
+}
+.ptsubsave {
+	position:relative;
+}
+.ptsubsave img {
+	position:absolute;
+	left:8px;
+	top:0;
+}
+.ptsubw {
+	float:left;
+	width:24%;
+}
+.ptsubi {
+	padding:8px 8px 0;
+}
+.ptsubcost .ptsubi, .ptsubmonthly .ptsubi {
+	padding-top:0;
+}
+.ptsubsave .ptsubi {
+	padding-left:40px;
+}
+.ptsub, .ptsubex, .ptsubopt {
+	text-align:center;
+	font-size:12px;
+	line-height:14px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#111;
+}
+.ptsub h3, .ptsub h4, .ptsubex h3, .ptsubex h4 {
+	padding:0;
+	margin:0;
+}
+.ptsubrep, .ptsubuser, .ptsubsup, .ptsubcostlab, .ptsubmonthlylab {
+	border-top:1px solid #111;
+}
+.ptsubheader h3, .ptsubexheader h4, .ptsubexheader h3 {
+	font-size:21px;
+	line-height:23px;
+	font-weight:normal;
+	font-family:Impact,Haettenschweiler,"Franklin Gothic Bold",Charcoal,"Helvetica Inserat","Bitstream Vera Sans Bold","Arial Black",sans-serif;
+}
+.ptsubexheader h3 {
+	color:#F00;
+	font-family:Arial, Helvetica, sans-serif;
+}
+/*.ptsubheader, .ptsubrep, .ptsubuser, .ptsubsup, .ptsubcostlab, .ptsubcost, .ptsubmonthlylab, .ptsubmonthly {
+	height:auto !important;
+}*/
+.ptsubheader {
+	/*min-height:66px;*/
+	height:66px;
+}
+.ptsubrep {
+	/*min-height:48px;*/
+	height:48px;
+}
+.ptsubuser, .ptsubsup {
+	/*min-height:40px;*/
+	height:40px;
+}
+.ptsubcostlab, .ptsubmonthlylab {
+	/*min-height:36px;*/
+	height:36px;
+}
+.ptsubcost, .ptsubmonthly {
+	/*min-height:48px;*/
+	height:48px;
+}
+.ptsubbutton .ptsubi, .ptsuboptbuttonc {
+	padding:8px 20px 8px;
+}
+.ptsubbutton a, a .ptsuboptbutton {
+	display:block;
+	background-color:#008CCC;
+	color:#FFF;
+	font-weight:bold;
+	padding:8px;
+}
+.ptsubbutton a:hover, a:hover .ptsuboptbutton {
+	background-color:#0073AA;
+}
+.ptsubopt, span.ptsubi, .ptsuboptprices, .ptsuboptdes, .ptsuboptitem em, .ptsuboptbuttonc {
+	display:block;
+}
+.ptsuboptprices {
+	width:100%;
+	overflow:hidden;
+	margin:0 auto;
+	max-width:400px;
+}
+.ptsubopt, a.ptsubopt {
+	background-color:#A2CD4C;
+	color:#000;
+	text-decoration:none;
+}
+.ptsuboptitem {
+	width:39%;
+	float:left;
+	text-align:center;
+}
+.ptsuboptor {
+	width:19%;
+	float:left;
+	text-align:center;
+	font-size:16px;
+}
+.noo-top-social #jj_sl_navigation {
+	z-index:10002;
+}
+@media only screen and (max-width:992px) {
+	.ptsubw {
+		float:left;
+		width:48%;
+	}
+}

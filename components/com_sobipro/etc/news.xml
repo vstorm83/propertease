@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>
+                    Sigsiu.NET News
+                </title>
+    <link>https://www.sigsiu.net/news/view,rss</link>
+    <description>
+                    Latest News of Sigsiu.NET, the company behind SobiPro - best directory component for Joomla! powered websites!
+                </description>
+    <category>Web development</category>
+    <copyright>Sigsiu.NET GmbH 2015. All rights reserved.</copyright>
+    <image>
+      <url>https://www.sigsiu.net/images/Sigsiu.NET-S.png</url>
+      <title>Sigsiu.NET GmbH</title>
+      <link>https://www.sigsiu.net</link>
+    </image>
+    <language>en-GB</language>
+    <generator>SobiPro 1.1</generator>
+    <pubDate>2015-05-08T15:19:25+02:00</pubDate>
+    <item>
+      <title>Update of SP-GeoMap Module</title>
+      <guid>https://www.sigsiu.net/news/987-update-of-sp-geomap-module</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-module.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/987-update-of-sp-geomap-module</link>
+      <description>An update of the SP-GeoMap Module is available. This is a maintenance release which includes two new languages.</description>
+      <pubDate>2015-05-08T15:19:25+02:00</pubDate>
+    </item>
+    <item>
+      <title>New application Expiration</title>
+      <guid>https://www.sigsiu.net/news/975-new-application-expiration</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-app.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/975-new-application-expiration</link>
+      <description>It is finally available: The Expiration application for SobiPro to let you manage the expiration notification and renew emails and the renew process.</description>
+      <pubDate>2015-04-28T17:22:29+02:00</pubDate>
+    </item>
+    <item>
+      <title>SobiPro 1.1.13 available</title>
+      <guid>https://www.sigsiu.net/news/922-sobipro-1-1-13-available</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-component.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/922-sobipro-1-1-13-available</link>
+      <description>This is a maintenance release.&#13;
+It is recommended to update SobiPro to version 1.1.13!</description>
+      <pubDate>2015-04-01T15:44:41+02:00</pubDate>
+    </item>
+    <item>
+      <title>Export your data from Sobi2</title>
+      <guid>https://www.sigsiu.net/news/916-export-your-data-from-sobi2</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/vc/mod_export-data.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/916-export-your-data-from-sobi2</link>
+      <description>We have released a version of our Sobi2 Export plugin for our club members to export data from a Sobi2 directory to import it into SobiPro.</description>
+      <pubDate>2015-03-27T15:12:04+01:00</pubDate>
+    </item>
+    <item>
+      <title>Installation Services available</title>
+      <guid>https://www.sigsiu.net/news/708-installation-services-available</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/vc/mod_vCard_installation.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/708-installation-services-available</link>
+      <description>As requested by many of our users, we now offer an installation and configuration service for SobiPro and its applications.</description>
+      <pubDate>2015-03-09T19:18:09+01:00</pubDate>
+    </item>
+    <item>
+      <title>SobiPro 1.1.12 stable released</title>
+      <guid>https://www.sigsiu.net/news/688-sobipro-1-1-12-stable-released</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-component.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/688-sobipro-1-1-12-stable-released</link>
+      <description>SobiPro now supports dependencies lists, a long awaited feature, for free!&#13;
+As it is a maintenance release, it is recommended to update SobiPro to version 1.1.12!</description>
+      <pubDate>2015-02-28T19:58:55+01:00</pubDate>
+    </item>
+    <item>
+      <title>New version of Import/Export Application finally available</title>
+      <guid>https://www.sigsiu.net/news/640-new-version-of-import-export-application-finally-available</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-app.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/640-new-version-of-import-export-application-finally-available</link>
+      <description>The improved Import/Export Application is built for SobiPro 1.1 and features now category and CLI import and export.</description>
+      <pubDate>2015-01-28T16:21:42+01:00</pubDate>
+    </item>
+    <item>
+      <title>Welcome in 2015 and welcome on our new website!</title>
+      <guid>https://www.sigsiu.net/news/599-welcome-in-2015-and-welcome-on-our-new-website</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/599-welcome-in-2015-and-welcome-on-our-new-website</link>
+      <description>We are happy and excited to present you our new, improved website. We hope you will find that our new system will meet your needs.</description>
+      <pubDate>2015-01-05T17:58:40+01:00</pubDate>
+    </item>
+    <item>
+      <title>Holiday Special</title>
+      <guid>https://www.sigsiu.net/news/573-holiday-special</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/vc/mod_winter-sm.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/573-holiday-special</link>
+      <description>Again a year has passed and we offer again a Holiday Special. Get all SobiPro Subscription for 20% off.</description>
+      <pubDate>2014-12-18T13:33:41+01:00</pubDate>
+    </item>
+    <item>
+      <title>SobiPro 1.1.11 stable released</title>
+      <guid>https://www.sigsiu.net/news/572-sobipro-1-1-11-stable-released</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-component.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/572-sobipro-1-1-11-stable-released</link>
+      <description>This is a maintenance release. It is recommended to update SobiPro to version 1.1.11!</description>
+      <pubDate>2014-10-28T04:00:00+01:00</pubDate>
+    </item>
+  </channel>
+</rss>

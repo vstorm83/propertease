@@ -1,0 +1,300 @@
+[04/14/2015 3:33 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+transaction_subject=5, payment_date=20:33:35 Apr 13, 2015 PDT, txn_type=web_accept, last_name=Steffan, residence_country=AU, item_name=Payment for Single Report subscription, payment_gross=, mc_currency=AUD, business=info@propertease.com.au, payment_type=instant, protection_eligibility=Ineligible, verify_sign=AI0DmCYGyKFOUDE-8AWjLe5k3EzcAga44gRHwNCatgcE8DtH83jDLq4H, payer_status=verified, tax=0.00, payer_email=alex@bornfresh.com.au, txn_id=4H9780657K1339630, quantity=1, receiver_email=info@propertease.com.au, first_name=Alex, payer_id=H9XGPZU65VCWJ, receiver_id=56PUJTL28YBAW, item_number=, handling_amount=0.00, payment_status=Completed, payment_fee=, mc_fee=1.83, shipping=0.00, mc_gross=59.00, custom=5, charset=windows-1252, notify_version=3.8, ipn_track_id=662386506152d, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Tue, 14 Apr 2015 03:33:50 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=qDSFIUvJl-IWSWkxG2lP5STWVkEKn5mLmDQDwCTxNHl_7Fl-ABTQAGEeR1pAkSnBOmZe8EpDbJV0IGoi5OdgK9M7qxVGFCGMnBy9K1YHVHyjHHmLRacaE7uPhIsWNxCkUw_IokqKrwD35LelURgV6cr0LvMopfTQit7UDjXuuFXtn2m9LLC1xRKqvQBR5GbmnABg0lpeKrBJJjgyjZns8CXBnxJ1n6cuXkn3a1Ay8XVFZq_FojmD8FKjuwZSsxgQcfmevX9fedBh06Iyk-eI4RiNrx1CJazaoUTrWpsTQAMKQN_XXTq1_5jsOgR3xLAITXDeZJZIUgGsKJHKq9TeX01oqxu1jrs1OUp9I9GEO9f3eiTvo7mSz28b6CxuQe4VH4ydrakKLxDKn64V-hYJCj1nWjwZYpuSsTiauhLB4j_Gr5-RedvdTeZfumu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 11-Apr-2025 03:33:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 13-Apr-2017 03:33:50 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.148.1428982430093530; path=/; expires=Thu, 06-Apr-45 03:33:50 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2659855445; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1428982430087245; path=/; expires=Thu, 06-Apr-45 03:33:50 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Tue, 14-Apr-2015 04:03:50 GMT; path=/; secure
+
+VERIFIED
+
+[04/29/2015 12:23 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+transaction_subject=8, payment_date=17:22:57 Apr 28, 2015 PDT, txn_type=web_accept, last_name=Steffan, residence_country=AU, item_name=Payment for Single Report subscription, payment_gross=, mc_currency=AUD, business=info@propertease.com.au, payment_type=instant, protection_eligibility=Ineligible, verify_sign=AS54rPUCw9wOTuVl0m1aSg09HaI8AiVWRaPgs8dcq8IQMLCcnOYF8E5C, payer_status=verified, tax=0.00, payer_email=alex@bornfresh.com.au, txn_id=17C617034Y718071R, quantity=1, receiver_email=info@propertease.com.au, first_name=Alex, payer_id=H9XGPZU65VCWJ, receiver_id=56PUJTL28YBAW, item_number=, handling_amount=0.00, payment_status=Completed, payment_fee=, mc_fee=1.83, shipping=0.00, mc_gross=59.00, custom=8, charset=windows-1252, notify_version=3.8, ipn_track_id=e68fbf0fedc9, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Wed, 29 Apr 2015 00:23:11 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=BeDJV7ideEQurICXnblrAJKZ5R74wQxNDbSTaJTb6OgnU0_fLLWVC4tLeo1K9ztc74GmM-8eaFjGKHDnnaL_J4D-cZAcw3nugQwg6iRyxDm2wnSrdjHrObqzVgsWadZzM2PFUZpq8l1kwRYy2fKa-srDKwBKYh47-BuwbCnOj0-Vdqj5_RwpGyRxEm45SHFwne9ANimzcNbFYE_LL8KPP0ySlWX6GNduYxsH_qUSxkBSKd4sANgDDHoepw2AE8Q_JQCvRT711S4yziBdroD77u8qHxNDTTQ8angy8JbL-o_i1QycMNjSV8z6sI6gsGQi6qYUoHMx8L5A17Z8jkM5HiraThK51dxION6J90LmDMmLThRALqTo5E5MSYBcXN9_0m8tRyvolAHTlCuWMnobxAwzYqwm_60BSVqQZ28kcXGuyNekV1ZRovtx2z0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 26-Apr-2025 00:23:11 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 28-Apr-2017 00:23:11 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.148.1430266991296283; path=/; expires=Fri, 21-Apr-45 00:23:11 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1864646741; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1430266991289389; path=/; expires=Fri, 21-Apr-45 00:23:11 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Wed, 29-Apr-2015 00:53:11 GMT; path=/; secure
+
+VERIFIED
+
+[04/29/2015 12:36 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+transaction_subject=9, payment_date=17:35:39 Apr 28, 2015 PDT, txn_type=web_accept, last_name=Steffan, residence_country=AU, item_name=Payment for Concierge Service subscription, payment_gross=, mc_currency=AUD, business=info@propertease.com.au, payment_type=instant, protection_eligibility=Ineligible, verify_sign=A1oGOA3gzVMcdXmtIgfbakbg7h5YAs4oemyrac.FCA9LpmEuXNAOOPJ8, payer_status=verified, tax=0.00, payer_email=alex@bornfresh.com.au, txn_id=9049413316317261L, quantity=1, receiver_email=info@propertease.com.au, first_name=Alex, payer_id=H9XGPZU65VCWJ, receiver_id=56PUJTL28YBAW, item_number=, handling_amount=0.00, payment_status=Completed, payment_fee=, mc_fee=2.87, shipping=0.00, mc_gross=99.00, custom=9, charset=windows-1252, notify_version=3.8, ipn_track_id=9966e57fb22fa, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Wed, 29 Apr 2015 00:36:00 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=wdrxCzrkeHzN0VL2GqZNAt6NWsHClvCiaaPk09X3dvGB-AHAPGNWEYI7VbOJb6lLF1BSE00lkxVQJIb8WOO6_vOp5XydkCop-q5GLA7_3icDA-Xhww3ioRNZ5UZ8ro1_OWj360Mzi_WuGfs5yAyJIjl-Juz17kjAaovJRegWhREGKAY6gu_vpbMZilKY4gOdWbgLH5NgHg2kOnR7iKz-nBinedHbZAhCW-wkHbk854OrKq899jXChCIjx00FrS-2-vbhCu4J4jsC8qcAeg7f1vrg6CMYhApD6vxwoczZCqF_XRG0c1jbgPdz2ubrKEtX8Dt1gv0ujT6FXgpUFyqbZoHOeJx9TsUFz4Xl7eVyVkrmGXCthpxtzuLF8IQ0pX_4OBkefP5hkSta98z9UT5h99BdtTCRFkS44ozXDzRIL4V7Bf1c0OP-ro1DyyG; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 26-Apr-2025 00:36:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 28-Apr-2017 00:36:00 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.147.1430267760534321; path=/; expires=Fri, 21-Apr-45 00:36:00 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D1881620565; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1430267760527745; path=/; expires=Fri, 21-Apr-45 00:36:00 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Wed, 29-Apr-2015 01:06:00 GMT; path=/; secure
+
+VERIFIED
+
+[05/04/2015 6:36 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+transaction_subject=10, payment_date=23:36:45 May 03, 2015 PDT, txn_type=web_accept, last_name=Steffan, residence_country=AU, item_name=Payment for Single Report subscription, payment_gross=, mc_currency=AUD, business=info@propertease.com.au, payment_type=instant, protection_eligibility=Ineligible, verify_sign=AHOIUjWryIjScE4zfLPrc9IJQKqUAvBmuDJaK.Hp-XaENg.BhPTt8DG3, payer_status=verified, tax=0.00, payer_email=alex@bornfresh.com.au, txn_id=9UT507250M9702406, quantity=1, receiver_email=info@propertease.com.au, first_name=Alex, payer_id=H9XGPZU65VCWJ, receiver_id=56PUJTL28YBAW, item_number=, handling_amount=0.00, payment_status=Completed, payment_fee=, mc_fee=1.83, shipping=0.00, mc_gross=59.00, custom=10, charset=windows-1252, notify_version=3.8, ipn_track_id=a0bd38fbd9aee, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Mon, 04 May 2015 06:36:57 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=f6N7QEL22950P_pSThISqEKaBFrPTQIP9XXd8UYffwEit4pTBCZFzT6GP2xijQyGya4YrhFnD5QasRxtM6wLgHrdzF7MNOpGteV9vIrfLgMPOLkWgkLGigaZhd6cSfsLQ3xfBo_NXPOudAU_ZeDzOD-BuCCMKbIFZZ-N5nMK1KJK73v8_B4nJTnrRV87DohzC6daZ55XY8XRbI4E-auQkchshMdlyQXCQsgeGM1cH2E7uXVzyEM8FE8M0002GY4WMTE9qbZtKRaqMD_CSDOp_S6ftXZawnC8oLvO1dY0hILrh9p61GIaoTaJTo4zASlMZ81xCZ5zSAm97IbGDpico8J3Y4fvRvtVHGUMtAKL4JwITuv9n1Dk60vGcPWpev4xTvXwEdWIGT0Tvn5TiOkYP86Med_ImFwa1pbYmef0O5x_G2f5eHloiUS9Vre; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 01-May-2025 06:36:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 03-May-2017 06:36:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1430721416885696; path=/; expires=Wed, 26-Apr-45 06:36:56 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2282964821; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.59.1430721416873871; path=/; expires=Wed, 26-Apr-45 06:36:56 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Mon, 04-May-2015 07:06:57 GMT; path=/; secure
+
+VERIFIED
+
+[05/06/2015 5:34 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+transaction_subject=11, payment_date=22:34:32 May 05, 2015 PDT, txn_type=web_accept, last_name=Steffan, residence_country=AU, item_name=Payment for Single Report subscription, payment_gross=, mc_currency=AUD, business=info@propertease.com.au, payment_type=instant, protection_eligibility=Ineligible, verify_sign=AQV1kzIRZvVWQiGmmmL0vI4Q9qa4ABQ0qwDGpYIAYOPav8m8fmXYiEgA, payer_status=verified, tax=0.00, payer_email=alex@bornfresh.com.au, txn_id=9WV994132P553174W, quantity=1, receiver_email=info@propertease.com.au, first_name=Alex, payer_id=H9XGPZU65VCWJ, receiver_id=56PUJTL28YBAW, item_number=, handling_amount=0.00, payment_status=Completed, payment_fee=, mc_fee=1.83, shipping=0.00, mc_gross=59.00, custom=11, charset=windows-1252, notify_version=3.8, ipn_track_id=459dcba8535da, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-1.paypal.com
+Date: Wed, 06 May 2015 05:34:45 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=DCiyxNDfOlFddn9pXeHiqYcAOBj_zeScZrFeIhz5EyxlZGUviIAjQZ827WzBRxYtESjsXkTF0tRETOyct7OckGKLVKtGsRbalwFAfJ4k9m2ytULmv7QwFrpmFYo_jBQlgbxT0JcXr6ncDB_KHideHwk2DBcXVUD3Xl0nRSvot5yewsGHFymXZS9lZZkiYJtr0_FGR8L5IJ5EJHBqr9ZNTKWTJ7mCir2lrkmGV2VZhrCXDf197YFLN_4jEh7LtBzNYB58wOOczif-hQwo7pZt-dtuBBhqqMEVhzjDXrEhVVwMZYryigRC-hhwiBupVGwIcloncw9lf3d1t0csa3zdCr1qJuEmvUteuqkfqzpCU9b3C0bu35VDiyjHRU5c3ELCmo5jtdfd43d8QVfmBD7BjaLjliuUmNVXBzHrd7B9YdLfAAkFHAE-W1kwYN0; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Sat, 03-May-2025 05:34:45 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Fri, 05-May-2017 05:34:45 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.137.1430890485251465; path=/; expires=Fri, 28-Apr-45 05:34:45 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4121381205; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.46.1430890485240064; path=/; expires=Fri, 28-Apr-45 05:34:45 GMT
+Set-Cookie: AKDC=slc-b-origin-www-1.paypal.com; expires=Wed, 06-May-2015 06:04:45 GMT; path=/; secure
+
+VERIFIED
+
+[05/11/2015 11:30 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+txn_type=subscr_signup, subscr_id=I-A6VPJKDF10EX, last_name=Steffan, residence_country=AU, mc_currency=AUD, item_name=Payment for Basic Subscription subscription, business=info@propertease.com.au, recurring=1, verify_sign=AJeY4Yh2ASa1Ail6XsBypiT9QFXzAUGZ6zPJxeQegrAYpsq8U95HMQ6J, payer_status=verified, payer_email=alex@bornfresh.com.au, first_name=Alex, receiver_email=info@propertease.com.au, payer_id=H9XGPZU65VCWJ, reattempt=1, subscr_date=04:30:30 May 11, 2015 PDT, custom=12, charset=windows-1252, notify_version=3.8, period1=1 M, mc_amount1=79.00, period3=1 M, mc_amount3=179.00, ipn_track_id=fdabde8ab2e1, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-origin-www.paypal.com
+Date: Mon, 11 May 2015 11:30:53 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=8b1n0g57afLMwLeaTvEQvmUSIyw4y_exi2Sqv9C44brKWmbCKMAX-GQhBrNWAa0btnNMBTkmWJTKHm_KSSvwC-9hCV45eqthad5i3Ddl0rCM9QbjGqXf1p_T3AzynUxoeM-MVeTbblTeEmJ9oNWsQFqwe1Q-Ghm33gLuof0BZJRArRCVXNm2j3whYJcpfWRMgD8lVLQ1pYKQBl19lAZ3Vl5v8Ccukv549yNNhyeo8lgOS9BEJVoYGdWUhl_sNcn6_1bCjRy2kbP3m0Vh6YHtHwk2f2J9Z704QuP6kUwvteZiDtUo04VD6dcV5yBT7qRLnIS3hRjTGQo2tCbJHe63b-9vr8XW46gOR5ZpiTb5mu57fW1PZCP0uHUrQt_K8BkO4qfbBTpTuAE_p8yGyUGF1g6tHCdOySUFLg0abB5Ei7Eb_5XW2Bef_MzzKx8; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 08-May-2025 11:30:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 10-May-2017 11:30:52 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.16.0.14.1431343852577220; path=/; expires=Wed, 03-May-45 11:30:52 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE9.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D3969011797; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.16.0.11.1431343852570476; path=/; expires=Wed, 03-May-45 11:30:52 GMT
+Set-Cookie: AKDC=slc-origin-www.paypal.com; expires=Mon, 11-May-2015 12:00:53 GMT; path=/; secure
+
+VERIFIED
+
+[05/11/2015 11:30 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+transaction_subject=Payment for Basic Subscription subscription, payment_date=04:30:31 May 11, 2015 PDT, txn_type=subscr_payment, subscr_id=I-A6VPJKDF10EX, last_name=Steffan, residence_country=AU, item_name=Payment for Basic Subscription subscription, payment_gross=, mc_currency=AUD, business=info@propertease.com.au, payment_type=instant, protection_eligibility=Ineligible, verify_sign=AdyUq-jLIDrC5gCeu1jPf3klva0uAl3i49Fjjmm7V8cNiZzWiG49SJCv, payer_status=verified, payer_email=alex@bornfresh.com.au, txn_id=5MB467038R171435P, receiver_email=info@propertease.com.au, first_name=Alex, payer_id=H9XGPZU65VCWJ, receiver_id=56PUJTL28YBAW, payment_status=Completed, payment_fee=, mc_fee=2.35, mc_gross=79.00, custom=12, charset=windows-1252, notify_version=3.8, ipn_track_id=fdabde8ab2e1, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Mon, 11 May 2015 11:30:58 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=Dgpq24BqZQbzaif_vTUMY5b5KLnIsldER6fy0dmVZ7o9ZxGQ_anNjMByIH91dBOfLd1KnNgRoWFVVAyCjqd30L_mY6ZgjEQ0Kj645lArui5WUxXGwLgujEZUSIojMVPE-AZBHza0WjV7MfXd6yAop5Gwxj4lZTH_Dfao81JmNyIDQo-0MkXiHqwTgPxveRh5x6aT_z6Xk4LWqmXWaFSGtApj0I4yWBhUQun2UVLPxFeqCzNaK_1G_-r-wz8Shrasl0hICrd6d_A7mdYh8cdKLUayeJBW7WK5YTrgVep_wF5zEQ1N_zJ_-3cpXf95brAHRWMEXmEnHjJjofb2eXE9Z-7zTuFkYozfWkKGeviPxH_8Zq-ekKNrK9caY8-PQhpOb8-vvxCefzrUOSpgRs1krsLk4ehU9k_9L7BhoIPQaR685kCYWnB4gszWJUa; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 08-May-2025 11:30:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 10-May-2017 11:30:57 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1431343857515969; path=/; expires=Wed, 03-May-45 11:30:57 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D4052897877; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.64.1431343857503948; path=/; expires=Wed, 03-May-45 11:30:57 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Mon, 11-May-2015 12:00:58 GMT; path=/; secure
+
+VERIFIED
+
+[05/11/2015 11:33 AM] - SUCCESS!
+IPN POST Vars from Paypal:
+txn_type=subscr_cancel, subscr_id=I-A6VPJKDF10EX, last_name=Steffan, residence_country=AU, mc_currency=AUD, item_name=Payment for Basic Subscription subscription, business=info@propertease.com.au, recurring=1, verify_sign=AhrKSl-GfoxF17wJjvxezAAh9SRtAFIxxsev3BQaNNyat25UtwhPpf8N, payer_status=verified, payer_email=alex@bornfresh.com.au, first_name=Alex, receiver_email=info@propertease.com.au, payer_id=H9XGPZU65VCWJ, reattempt=1, subscr_date=04:33:35 May 11, 2015 PDT, custom=12, charset=windows-1252, notify_version=3.8, period1=1 M, mc_amount1=79.00, period3=1 M, mc_amount3=179.00, ipn_track_id=f3a6e6ee4c54a, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-2.paypal.com
+Date: Mon, 11 May 2015 11:33:55 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=sCmmWW4ng3nqxRBhJmCR7pACXO0Drt8ZF1KN9WYuIhFfH91B85cimRzr9i1RGsi2BLV0SIMhR_gwyzLzG8ERzO6G_Lq-_V2n1z5xLUCrF-t9DK2K6yHmxOzsHdmr7sI918qkHwSR8jK8q49Llc4mWLhAkkYWvSLxHBFr3Pru4Qci3M48oeHLcJY4R4J1WbJ1UYHoJrEpPWcicscMt-XHd5WZsMlhksHS07VPGUxYowjeHcd5nCjCvVeRv1PCjsnJbs5D859HIuzj1YAp4dtRVFz3jvkeFSXxkUfD8XisxMwQu4AfmoGuiGHhBrtKHD9OV59OE1AusAgKkXLococDoIKTJ34n7Fj48YNmwSS9c_3sQ_uhv5tDgwTD_Af74dOTrtdbzbyY-F62zn1C_KwAtP17Up7yyo3yQuWo92PNWdIIbIeTdykNpvn59cu; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Thu, 08-May-2025 11:33:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Wed, 10-May-2017 11:33:55 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.137.1431344035071060; path=/; expires=Wed, 03-May-45 11:33:55 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2744340565; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.65.1431344035058268; path=/; expires=Wed, 03-May-45 11:33:55 GMT
+Set-Cookie: AKDC=slc-a-origin-www-2.paypal.com; expires=Mon, 11-May-2015 12:03:55 GMT; path=/; secure
+
+VERIFIED
+
+[05/12/2015 10:11 PM] - SUCCESS!
+IPN POST Vars from Paypal:
+mc_gross=59.00, protection_eligibility=Ineligible, payer_id=M7QACKYWF3K9S, tax=0.00, payment_date=15:11:07 May 12, 2015 PDT, payment_status=Completed, charset=windows-1252, first_name=Test, mc_fee=1.83, notify_version=3.8, custom=13, payer_status=unverified, business=info@propertease.com.au, quantity=1, verify_sign=ATgbxb7FXMNa.tr36xWZ-lacVsJcAwnVdZUs4d3hhpfc77Ped4IN-uGJ, payer_email=alex@bornfresh.com.au, txn_id=3HA702085H135402V, payment_type=instant, last_name=Account, receiver_email=info@propertease.com.au, payment_fee=, receiver_id=56PUJTL28YBAW, txn_type=web_accept, item_name=Payment for Single Report subscription, mc_currency=AUD, item_number=, residence_country=AU, receipt_id=2946-6177-7402-2648, handling_amount=0.00, transaction_subject=13, payment_gross=, shipping=0.00, ipn_track_id=8de6a27c9664c, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-a-origin-www-1.paypal.com
+Date: Tue, 12 May 2015 22:11:21 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=m-qqwYn15Zs97QQtmTwL1wRp1-7bi5ce8h6M07_WhpbRGdEk82zj9IOGRb762wtcmG8BgzQtIGmgNz5HTKbEBNygfFfYPEMYOe9frvVNc0G1phAtQ0iWlePIsQ8BxLc3OJuekPnWK0SBQ-iKiUjrWTjctoLLhr66bPd62vbW4Qt3ZePLeVD38lOzhpSXSrFwe2Zsd8j9B_p5ueTkd4hSdV24W9cateEbUsrRNIe6jwAKEFOQyVg-FHZGXZJSqAgVSSNu3-Gv9JVgBAUr854u1vaG5hooBgiIsogwVZSYXNo0WN-mjpBDZbszBxptEj-xBrSKdYJOn4aj5h-B9mDC_Ax-dsq-62dYnG4nTL4gVyhW2w1nNSmnccagPCoCscxu4CxdwEU40WSToI_h53sOuRZ1EfykJUjO2lH0E2_ye-EMgYVQcDz3zbG1frW; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 09-May-2025 22:11:21 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 11-May-2017 22:11:21 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.73.8.134.1431468680927515; path=/; expires=Thu, 04-May-45 22:11:20 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE5.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2289717845; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.73.8.37.1431468680916180; path=/; expires=Thu, 04-May-45 22:11:20 GMT
+Set-Cookie: AKDC=slc-a-origin-www-1.paypal.com; expires=Tue, 12-May-2015 22:41:21 GMT; path=/; secure
+
+VERIFIED
+
+[05/12/2015 10:17 PM] - SUCCESS!
+IPN POST Vars from Paypal:
+transaction_subject=14, payment_date=15:17:24 May 12, 2015 PDT, txn_type=web_accept, last_name=Steffan, residence_country=AU, item_name=Payment for Concierge Service subscription, payment_gross=, mc_currency=AUD, business=info@propertease.com.au, payment_type=instant, protection_eligibility=Ineligible, verify_sign=AwGL8igbhLwdqf.OjYANuNVPGoylA6dYBD7o.vamSLs4XljSu9YHPJtk, payer_status=verified, tax=0.00, payer_email=alex@bornfresh.com.au, txn_id=2G133776213391327, quantity=1, receiver_email=info@propertease.com.au, first_name=Alex, payer_id=H9XGPZU65VCWJ, receiver_id=56PUJTL28YBAW, item_number=, handling_amount=0.00, payment_status=Completed, payment_fee=, mc_fee=2.87, shipping=0.00, mc_gross=99.00, custom=14, charset=windows-1252, notify_version=3.8, ipn_track_id=186a1e026e0a1, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Tue, 12 May 2015 22:17:37 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=eSU9ww4oF1ICtLWcYV2reVZWwIJ0ku77c-a2Thkhb6Sa_SaLPq7rMSau78w8b97nZpmEJPxbjSGpoFsV_j15bdzMWSPC8UQ8Mi6S_hmx9FCNh0vbqISDuTtyD1GXtUyOg3xns1ZNYbPxJX-NkOL6CsmDx-aDNgnG11sRfxZ_YtdqFlXbeY79OQ8QmoEJteLVGQBDSHz82vnguaVNaalanP_ngub5XLmoVJKTRceiseeUZEAfQ_ewRwhW8yMVdnLehDzCCVl-1C3vvhwlmwh3i3L6V7QyNC87JzlgbNQkngiIBY9viYaC-7Xo7wed52kMpCDXmweUytUMOd2utxipc4zAqKivoex6ILwQ5QxB9nDp1Cbs6yS8WUs_SGBOMtGGaiFaX84OEVtfMzR81MtqBVArIG6V9_GsvalAGHJnob8P6U5ZnEzu93wuDli; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 09-May-2025 22:17:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 11-May-2017 22:17:37 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.137.1431469056908005; path=/; expires=Thu, 04-May-45 22:17:36 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D8147541; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.64.1431469056895347; path=/; expires=Thu, 04-May-45 22:17:36 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Tue, 12-May-2015 22:47:37 GMT; path=/; secure
+
+VERIFIED
+
+[05/12/2015 10:32 PM] - SUCCESS!
+IPN POST Vars from Paypal:
+transaction_subject=16, payment_date=15:32:13 May 12, 2015 PDT, txn_type=web_accept, last_name=Steffan, residence_country=AU, item_name=Payment for Single Report subscription, payment_gross=, mc_currency=AUD, business=info@propertease.com.au, payment_type=instant, protection_eligibility=Ineligible, verify_sign=Alti73iDWSJVMlYNJwKhwm-dY207AhK9874uNacaxjtq0sWJWe946RWk, payer_status=verified, tax=0.00, payer_email=alex@bornfresh.com.au, txn_id=1K76950586297281L, quantity=1, receiver_email=info@propertease.com.au, first_name=Alex, payer_id=H9XGPZU65VCWJ, receiver_id=56PUJTL28YBAW, item_number=, handling_amount=0.00, payment_status=Completed, payment_fee=, mc_fee=1.83, shipping=0.00, mc_gross=59.00, custom=16, charset=windows-1252, notify_version=3.8, ipn_track_id=3045b59a2eabe, 
+IPN Response from Paypal Server:
+ HTTP/1.1 200 OK
+Server: Apache
+X-Frame-Options: SAMEORIGIN
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Cache-Control: max-age=0, no-cache, no-store, must-revalidate
+Pragma: no-cache
+Content-Type: text/html; charset=UTF-8
+DC: slc-b-origin-www-2.paypal.com
+Date: Tue, 12 May 2015 22:32:23 GMT
+Content-Length: 8
+Connection: close
+Set-Cookie: cwrClyrK4LoCV1fydGbAxiNL6iG=4hITNjLq1Yhe9TZpTcN6DoOkDOpxz2Y0qQzQ_UUqSh0KYqDbL2CgGtOa1yZNNzKvnAQvL_C_FnNuldgCweJER-fVT6OM7eMWQ7G29lzP2PLSA96YdsglwWOV8h763i33G0b0cHf4-bv0d197Cmm9qfqFWmDB5awiEKGLwMj3mmMl9laplzeW0NUgqVtPc_FVhBerspWDityGLckON49FpiGxm-pLWj0Dx3wmdumooDLbgeqFWPB_PXPbplZ6Oh_XmX-i7x4D6y0wHBssn2SllGL9Lv2z2TW3umfXnjVb4aBLIC93rJaWVlISG2YYMM21NuFqc2eQnNdvAvJRMj2KgKayajf4QW2GgPAbwHixopKwiD7FNZKVaorRlpzqy4rTX7OwcrT71BQ8M7r5CB4M9Zvy2zc6mtr5zNPCXliTJOBwaEePWTwmIo_1nZ4; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: cookie_check=yes; expires=Fri, 09-May-2025 22:32:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: navlns=0.0; expires=Thu, 11-May-2017 22:32:23 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: Apache=10.74.8.134.1431469943327733; path=/; expires=Thu, 04-May-45 22:32:23 GMT
+Set-Cookie: X-PP-SILOVER=name%3DLIVE6.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2004832853; domain=.paypal.com; path=/; Secure; HttpOnly
+Set-Cookie: X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+Set-Cookie: Apache=10.74.8.54.1431469943313801; path=/; expires=Thu, 04-May-45 22:32:23 GMT
+Set-Cookie: AKDC=slc-b-origin-www-2.paypal.com; expires=Tue, 12-May-2015 23:02:23 GMT; path=/; secure
+
+VERIFIED
+

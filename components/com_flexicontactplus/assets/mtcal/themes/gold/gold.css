@@ -1,0 +1,147 @@
+/* Calendar:a Javascript class for Mootools that adds accessible and unobtrusive date pickers to your form elements <http://electricprism.com/aeron/calendar> */
+/* Gold CSS for Calendar by Les Arbres */
+
+input.gold {width:8em; }
+
+button.gold {
+	background:url(gold-icon.png) no-repeat right top;
+	border:none;
+	cursor:pointer;
+	height:20px;
+	width:22px;
+	min-width:0;
+	min-height:0;
+	margin:2px 2px 2px 5px;
+	vertical-align:middle;
+}
+
+div.gold {
+	background-color:#F8972A;
+	 background:linear-gradient(#F8972A,#CC7019);-webkit-linear-gradient(#F8972A,#CC7019);-moz-linear-gradient(#F8972A,#CC7019);
+         border:1px solid #BA711F; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; 
+         box-shadow:4px 4px 4px #888888; -webkit-box-shadow:4px 4px 4px #888888; -moz-box-shadow:4px 4px 4px #888888;
+	height:170px;
+	width:195px;
+	padding:0 6px 0 6px;
+	text-align:center;
+	font:normal 13px/18px Arial, Helvetica, sans-serif;
+}	
+div.gold * {
+	margin:0;
+	padding:0;
+}	
+div.gold div {
+	background:none !important;
+	cursor:move;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}	
+
+div.gold caption {
+	color:#FFFFFF;
+	padding-top:4px;
+	padding-bottom:4px;
+	text-align:center;
+	font-weight:bold;
+	width:100%;
+}
+div.gold caption a {
+	cursor:pointer;
+	display:block;
+	height:11px;
+	overflow:hidden;
+	position:absolute;
+	text-indent:-100px;
+	top:8px;
+	width:11px;
+}
+div.gold caption a.prev {
+	background-image:url(gold-prev.gif);
+	left:1px;
+}
+div.gold caption a.next {
+	background-image:url(gold-next.gif);
+	right:1px;
+}
+div.gold caption a:hover {
+	background-position:0 11px;
+}
+div.gold caption span {
+	position:relative;
+	text-align:center;
+}
+div.gold caption span.month {
+	padding-right:8px;
+}
+div.gold caption span.month:after {
+	content:',';
+}
+
+div.gold table {
+	border:none !important;
+	border-collapse:collapse;
+	border-spacing:0;
+	cursor:default;
+	margin:0 auto;
+	width:98%;
+}
+
+div.gold tr {
+	border:none;
+}
+
+div.gold th {
+	border:none;
+	color:#FFFFFF;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	height:19px;
+	text-align:center;
+}
+
+div.gold td {
+	border:none;
+	height:19px;
+	color:#383737;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+div.gold td.invalid {
+	color:#020202;
+}
+
+div.gold td.valid, div.gold td.inactive, div.gold td.active {
+        border:1px solid white;
+	color:#FFFFFF;
+	cursor:pointer;
+}
+
+div.gold td.today {
+	font-weight:bold;
+	border:2px inset red;
+}
+
+div.gold td.active {
+	color:black;
+	font-weight:bold;
+}
+
+div.gold td.hover {
+	background-color:#FEFBF1;
+	color:black;
+	cursor:pointer;
+}
+
+@media screen and (max-width: 500px) 
+{
+	div.gold {width:95%;height:250px;left:0 !important;margin-left:3px;margin-right:3px;}
+	div.gold th {height:30px; font-size:13px;}
+	div.gold td {height:30px; font-size:13px;}
+	div.gold caption a {height:15px;width:15px;}
+	div.gold caption a.prev {background-image:url(gold-prev-l.gif);}
+	div.gold caption a.next {background-image:url(gold-next-l.gif);}
+	div.gold caption a:hover {background-position:0 15px;}
+}
