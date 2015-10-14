@@ -18,7 +18,8 @@
   <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/bootstrap.js" type="text/javascript"></script>  
   <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/layerslider.js" type="text/javascript"></script>  
   <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/gtooltip.js" type="text/javascript"></script>  
-  <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/gvalidation.js" type="text/javascript"></script>  
+  <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/gvalidation.js" type="text/javascript"></script>
+  <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/jquery-ui.min.js" type="text/javascript"></script>  
   <script type="text/javascript">  
  jQuery(window).on('load', function() {  
                      new JCaption('img.caption');  

@@ -619,7 +619,7 @@ function loginAjax(){
 		   }
 	   },
 	   error: function (XMLHttpRequest, textStatus, errorThrown) {
-			alert(textStatus + ': Ajax request failed!');
+		   showLoginError(Joomla.JText._('E_LOGIN_AUTHENTICATE'));
 	   }
 	});
 	return false;
@@ -628,6 +628,7 @@ function showLoginError(notice,reload){
 	BTLJ("#btl-login-in-process").hide();
 	BTLJ("#btl-login-error").html(notice);
 	BTLJ("#btl-login-error").show();
+	BTLJ('#login-popup .modal-content').effect('shake');
 	if(reload){
 		setTimeout(function() {window.location.reload();},5000);
 	}
