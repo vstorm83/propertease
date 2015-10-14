@@ -287,7 +287,12 @@ $app = JFactory::getApplication();
 $menu = $app->getMenu();
 if ($menu->getActive() == $menu->getDefault() and intval($_GET['sr'])==0) {
  ?> 
-     <div class="step-process">
+ <div class="step-process">
+    <span class="step">Step</span>
+    <span class="number">1</span>
+</div>
+     <!--div class="step-process">
+         
           <span class="ico-step"></span>
           <ul>
               <li><a href="#"></a></li>
@@ -298,7 +303,7 @@ if ($menu->getActive() == $menu->getDefault() and intval($_GET['sr'])==0) {
               <li><a href="#"></a></li>
               <li><a href="#"></a></li>
           </ul>
-      </div>
+      </div-->
   <?php 
 
    }

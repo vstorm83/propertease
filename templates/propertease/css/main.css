@@ -910,9 +910,30 @@ input[type="text"] ,input[type="password"]{
 #t3-header .top-left .head-search {
     display: none;
 }
+.t3-header .nav-pills > li.active > a {
+    color:#98dd0b!important;
+    border-bottom: 2px solid #98dd0b;
+    border-radius:0;
+}
 .head-top::after {
     background: none;
     height: auto;
+}
+.step-process {
+    color:white;
+}
+.step-process span {
+    padding: 7px 10px;
+    position: relative;
+    top: 3px;text-transform: uppercase;
+    font-size: 20px;
+}
+.step-process span.number {
+    box-shadow: 1px 3px 4px rgba(0,0,0,0.5) inset;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5) inset;
+    display: inline-block;
+    min-width: 50px;
+    text-align: center;
 }
 .step-process ul {
     padding: 0;
@@ -1761,6 +1782,10 @@ input[type="password"]:focus {
     }
     .t3-content article aside dl dd {
         font-size: 16px;
+        display: none;
+    }
+    .head-search .search-menu + .pull-left {
+        display: none;
     }
     .t3-content article aside dl dd i {
         background: url('../images/ico-calendar.png') no-repeat right center;
@@ -5718,6 +5743,9 @@ div.avatar {
     width: 100px;
     cursor: pointer;
 }
+.inner-addon div.avatar {
+    border-radius: 0;
+}
 div#pop-up-avatar div.avatar{
     border-radius: 50%;
     cursor: pointer;
@@ -7658,8 +7686,33 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     white-space: nowrap;
 }
 #submenu ul li a {
-    text-transform: uppercase;  min-height: 43px;margin: 0;border-right: 1px solid #8bca0c; padding-bottom: 6px;
-    padding-top: 13px;
+    border:none;
+      border-right: 1px solid #8bca0c;
+    margin: 1px;
+   min-height: 41px;
+    padding-bottom: 9px;font-size: 16px;
+    padding-top: 9px;
+}
+#submenu ul li a[href="#profile-page"] {
+    margin-left: 50px;
+    position: relative
+}
+#submenu ul li a[href="#upgrade-page"] {
+    display: none
+}
+
+#submenu ul li a[href="#profile-page"]:after{
+      background: #86c900 url("../images/user-profile.png") no-repeat scroll center center;
+    content: "";
+    display: block;
+    height: 42px;
+    left: -51px;
+    position: absolute;
+    top: 0;
+    width: 50px;
+}
+#submenu ul li.active a {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2) inset;
 }
 .table-div select {
     float: right
