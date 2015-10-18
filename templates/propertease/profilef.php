@@ -426,19 +426,29 @@ var precinctnames=['.implode(',',$precinctnames).'];';
 	}
 	//public function profilegetaccountoutput
 	public function profilegetpastsearchesoutput() {
-		return '<h2>Search History</h2>'.profilef::profilegetpastsearches();
+		return '<div class="reportHeader"><div class="title">ALL REPORTS</div></div>'.profilef::profilegetpastsearches();
 	}
 	public function profileprintpastsearchesoutput() {
 		echo profilef::profilegetpastsearchesoutput();
 	}
 	public function profilegetpastsearches() {
-		$ret='<table class="ptpastsearch"><tr><th scope="col">Your Ref</th><th scope="col">Date</th><th scope="col">Propertease Ref</th></tr>';
+		$ret='<table class="ptpastsearch">';
 		$searches=profilef::profilegetsearchlist();
-		foreach($searches as $search) {
-			$link=JURI::base().'?sr='.intval($search['id']);
-			$ret.='<tr><td><a href="'.$link.'">'.profilef::hte($search['search_reference']).'</a></td><td><a href="'.$link.'">'.profilef::hte($search['search_date']).'</a></td><td><a href="'.$link.'">'.profilef::hte($search['search_id']).'</a></td></tr>';
+		$linenum = 0;
+		foreach($searches as $s) {
+			$link=JURI::base().'?sr='.intval($s['id']);
+			$searchid=intval($s['id']);
+			$search=profilef::profilegetsearch($searchid);
+// 			$data=profilef::profilegetdata($search['state'],$search['council'],$search['scheme'],$search['zone'],$search['overlays'],$search['plan']);
+			$title = (empty($search['reference'])?'N/A':(profilef::hte($search['reference'])));
+// 			$info = 
+			$user = (empty($search['by'])?'N/A':(profilef::hte($search['by'])));
+			$date = (empty($search['date'])?'N/A':(profilef::hte($search['date'])));
+			$ret.='<tr><td>#'.++$linenum.'</td><td>'.$title.'</td><td><span>FOR:</span>'.$user.'</td><td><span>DATE:</span>'.$date.'</td><td><a class="downloadreport" id="'.$searchid.'">download</a></td></tr>';
 		}
 		$ret.='</table>';
+		$downloadForm = profilef::profilegetpdfbutton(0);
+		$ret.=$downloadForm;
 		return $ret;
 	}
 	public function profilegetoutput() {
@@ -549,7 +559,7 @@ function hide_restriction() {
 function show_restriction() {
 	zonewj.css('display','block');
 	overlayswj.css('display','block');
-	planw.stylej.css('display','block');
+	planwj.css('display','block');
 }
 function hide_submit() {
 	submitwj.css('display','none');
@@ -824,38 +834,31 @@ jQuery(document).ready(function($){
 	$('.state-n').change(function(){
 		$('#state').val($(this).val());
 		get_council();
-		$('.step-process ul li:nth-child(2)').addClass('active');
-		$(this).parent('span').parent('a').addClass('filled-step');
+		$('.step-process .number').text('2');
 	});
 	$('.council-n').change(function(){
 		$('#council').val($(this).val());
 		get_scheme();
-		$('.step-process ul li:nth-child(3)').addClass('active');
-		$(this).parent('span').parent('a').addClass('filled-step');
+		$('.step-process .number').text('3');
 	});
 	$('.scheme-n').change(function(){
 		$('#scheme').val($(this).val());
 		get_restriction();
-		$('.step-process ul li:nth-child(4)').addClass('active');
-		$('#collapsethree').addClass('filled-step');
-		console.log('scheme');
+		$('.step-process .number').text('4');
 	});
 	$('.zone-n').change(function(){
 		$('#zone').val($(this).val());
 		get_submit();
-		$('.step-process ul li:nth-child(5)').addClass('active');
-		$('#headingFour').find('a').addClass('filled-step');
+		$('.step-process .number').text('5');
 	});
 	$('.overlays-n select').change(function(){
 
 		$('#overlays').val($(this).val());
-		$('.step-process ul li:nth-child(6)').addClass('active');
-		$('#headingFive').find('a').addClass('filled-step');
+		$('.step-process .number').text('6');
 	});
 	$('.precinct-n').change(function(){
 		$('#plan').val($(this).val());
-		$('.step-process ul li:nth-child(7)').addClass('active');
-		$(this).parent('span').parent('a').addClass('filled-step');
+		$('.step-process .number').text('7');
 		$('.btn-sbm').addClass('btn-active-submit');
 	});
 	$('.btn-sbm').click(function(){

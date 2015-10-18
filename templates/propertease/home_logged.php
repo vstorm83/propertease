@@ -76,7 +76,7 @@ if(isset($_REQUEST['conciergeaddy'])&&$userstate) {
       $content=profilef::profilegetoutput();
       $isprofile=true;
     } else {
-      if($alias=='past-searches') {
+      if($alias=='all-reports') {
         $content=profilef::profilegetpastsearchesoutput();
       }
     }
@@ -196,17 +196,20 @@ if(isset($_REQUEST['conciergeaddy'])&&$userstate) {
  <article itemscope="" itemtype="http://schema.org/Article">  
    <meta itemprop="inLanguage" content="en-GB">  
    <?php if(!(JSite::getMenu()->getActive()->menutype=="usermenu")){ ?>
-   <header class="article-header clearfix">  
+   <header class="article-header clearfix">
           <?php  
-          if($heading_title<>""){
+          if (($menu->getActive() == $menu->getDefault() and $status>0  and intval($_GET['sr'])==0) || $menu->getActive()->alias == 'all-reports') {
+          	?>
+				<h1 class="article-title" itemprop="name"><i></i>
+                <input type="text" value="Name of the Report" id="report-name">
+                </h1>
+                <div><a href="all-reports">REPORT HISTORY</a></div>
+                <div><a href="?option=com_fss&view=ticket">TICKET</a></div>
+                <div><a href="support.html">SUPPORT</a></div>
+          <?php
+          } else if($heading_title<>""){
             echo '<h1 class="article-title" itemprop="name"><i class="sun"></i> '.$heading_title.'</h1>';
           }else{
-            if ($menu->getActive() == $menu->getDefault() and $status>0  and intval($_GET['sr'])==0) {
-              ?>
-                <h1 class="article-title" itemprop="name"><i></i>
-                  <input type="text" value="Give this report a name" id="report-name"></h1>
-              <?php
-            }else{
               ?>
                 <h1 class="article-title" itemprop="name"><i class="sun"></i>
                 <?php
@@ -215,8 +218,7 @@ if(isset($_REQUEST['conciergeaddy'])&&$userstate) {
                 ?>
                 </h1>
               <?php
-            }
-          }
+           }
           ?>      
    </header>  
    <?php }
@@ -489,7 +491,56 @@ if ($menu->getActive() == $menu->getDefault() and intval($_GET['sr'])==0) {
      <div class="t3-module module footer-menu-right " id="Mod142">  
        <div class="module-inner">  
          <div class="module-ct">  
-           <jdoc:include type="modules" name="innertop" style="xhtml"/>  
+           <div class="pull-left"><jdoc:include type="modules" name="innertop" style="xhtml"/></div>
+           
+           <div class="pull-right">  
+          <!-- menu -->
+           <ul class="nav nav-tabs">
+            <li role="presentation" class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                    <span id="btl-panel-profile" class="btl-dropdown">
+                    <?php
+
+                    if (!class_exists('OSMembershipController')) {
+                      JLoader::register('OSMembershipHelper', JPATH_SITE.DIRECTORY_SEPARATOR.'components'.DIRECTORY_SEPARATOR.'com_osmembership'.DIRECTORY_SEPARATOR.'helper'.DIRECTORY_SEPARATOR.'helper.php');
+                    }
+
+                    $avatar = OSMembershipHelper::getAvatar();
+
+                    if($avatar){
+                      ?>
+                      <img class="profile-avatar-h" src="<?php echo $avatar?>">
+                      <?php
+                    }
+              
+                    if($user->name) : {
+                      echo $user->name;
+                    } else : {
+                      echo $user->username;
+                    } endif;
+                    ?>
+                  </span> 
+                  <span class="caret"></span>
+              </a>
+              <?php $returnURL = base64_encode(JURI::root() . ""); ?>
+              <ul class="dropdown-menu" style="text-align:right;">
+                <li><a href="<?php echo JURI::root(); ?>my-account.html" >My Account</a>
+                <li><a href="<?php echo JURI::root(); ?>my-account.html#upgrade-page" target="_self">Plans / Billing</a>
+                <li><a href="<?php echo JURI::root(); ?>index.php?option=com_fss&view=ticket" >Tickets</a>
+                <li><a href="<?php echo JURI::root(); ?>support.html" >Resources</a>
+                <li>
+                    <a href="<?php echo JURI::root(); ?>index.php?option=com_users&task=user.logout&<?php echo JSession::getFormToken(); ?>=1&return=<?php echo $returnURL; ?>">
+                    Logout
+                    </a>
+                </li>
+
+              </ul>
+            </li>
+          </ul>
+     </div>  
+     <!-- content dropdown/modal box -->  
+     <div class="clear"></div>  
+     
          </div>  
        </div>  
      </div>  

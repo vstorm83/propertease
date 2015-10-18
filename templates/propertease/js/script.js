@@ -38,6 +38,12 @@ jQuery(document).ready(function($){
 	$('#getpdf').click(function(){
 		$('#downloadpdf').trigger('click');
 	});
+	$('#maincontent').on('click', '.downloadreport', function(e) {
+	  var $download = $(e.target);
+	  var $form = $('#downloadpdf').closest('form');
+	  $form.find('[name="sr"]').val($download.attr('id'));
+	  $form.submit();
+	});
 	
 	var changeBlockColor = function($block) {
 		$('.block-price .block').addClass('greyed');

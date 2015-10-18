@@ -9,8 +9,8 @@
         <div class="bt_login pull-right" id="loginbtn">  
          		<jdoc:include type="modules" name="Login"/>  
         </div>  
-     <?php } ?> 
-     <div class="pull-right"><jdoc:include type="modules" name="topmenu" style="custom"/></div> 
+     <?php } ?>      <div class="pull-right"><jdoc:include type="modules" name="topmenu" style="custom"/></div>
+ 
  	<?php
 
  }else{
