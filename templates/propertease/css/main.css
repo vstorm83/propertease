@@ -7379,6 +7379,7 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     font-size:35px;
     text-transform:uppercase;
     margin-bottom: 15px;
+    font-weight: normal;
 }
 .current-ticket .fss_view_ticket  .nav-tabs {
     margin-bottom:55px;
@@ -7435,7 +7436,11 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     margin-bottom:25px;
 }
 .current-ticket .opt-search .opt-select-hidden {display:none;}
-.current-ticket .opt-search span {text-transform:uppercase;padding:0 10px;display:inline-block;}
+.current-ticket .opt-search span {
+    text-transform:uppercase;padding:0 10px;display:inline-block;
+    font-size: 18px;
+    font-family: 'Conv_Brandon_med';
+}
 .current-ticket .opt-search .input-append .btn-default {display:none;}
 .current-ticket .opt-search .input-append {
     border:1px solid #e8e8e8;
@@ -7464,10 +7469,7 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
 .current-ticket table tr td{
     text-align:center;
     padding:20px 0;
-    font-family: 'Conv_Brandon_reg';
-}
-.fss_main .table-ticketborders th:first-child, .fss_main .table-ticketborders td:first-child {
-    border-left: 1px solid #ddd!important;
+    font-family: 'Conv_Brandon_med';
 }
 .current-ticket table td.fss_ticket_title a{
     font-size:22px;
@@ -7476,7 +7478,7 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
 .current-ticket table td.ticket_code{
     font-size:20px;
     color:#7f7f7f;
-    font-family: 'Conv_Brandon_light';
+    font-family: 'Conv_Brandon_reg';
 }
 .current-ticket table td.ticket_status,.current-ticket table td.ticket_assign{
     font-size:20px;
@@ -7497,6 +7499,7 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     color:#433f3f;
     font-family: 'Conv_Brandon_reg';
     font-style:italic;
+    font-size: 20px;
 }
 .current-ticket .pagination {
     float: none;
@@ -7512,13 +7515,14 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     display:inline-block;
 }
 .current-ticket .pagination .pagination ul li  {
-    padding: 5px 15px;
+    padding: 0px 13px;
     border:2px solid #fff;
 }
 .current-ticket .pagination .pagination ul li a {
     font-size:18px;
     border:none;
     color:#4b4b4b;
+    font-family: 'Conv_Brandon_med';
 }
 .current-ticket .pagination .pagination ul li:first-child, 
 .current-ticket .pagination .pagination ul li:last-child {
@@ -7546,11 +7550,15 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     font-size:35px;
     text-transform:uppercase;
     margin-bottom: 15px;
+    font-weight: normal;
+    color: black;
 }
 
 .detail-ticket h2 {
     font-size:30px;
-    font-family: 'Conv_Brandon_reg';
+    font-family: 'Conv_Brandon_med';
+    font-weight: normal;
+    color: black;
 }
 .detail-ticket .fss_view_ticket  .nav-tabs {
     margin-bottom:55px;
@@ -7603,7 +7611,7 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
 .detail-ticket .fss_view_ticket  .nav-tabs li.active a span {
     color:#fff;
 }
-.detail-ticket .post_reply {line-height:32px;font-size:18px;font-family: 'Conv_Brandon_reg';padding:3px 15px;}
+.detail-ticket .post_reply {line-height:32px;font-size:18px;font-family: 'Conv_Brandon_med';padding:3px 15px;}
 .detail-ticket .icon-redo {
     background:url('../images/ico-sprite-ticket.png') no-repeat 0 0;
     width:  32px;
@@ -7642,7 +7650,25 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     border-top-right-radius: 8px;
     border-bottom: medium none;
 }
-.detail-ticket #ticket_messages .fss_ticket_row_user_head .label-warning {font-size:18px;}
+.detail-ticket #ticket_messages .fss_ticket_row_user_head td strong{
+    color: #747474;
+    font-weight: normal;
+}
+.detail-ticket #ticket_messages .fss_ticket_row_user_body .bbcode{
+    color: #363636;
+    font-size: 18px;
+    font-family: 'Conv_Brandon_med';
+}
+.detail-ticket #ticket_messages .fss_ticket_row_user_body .fssTip{
+    color: #898989;
+    font-size: 18px;
+    font-family: 'Conv_Brandon_reg';
+}
+.detail-ticket #ticket_messages .fss_ticket_row_user_head .label-warning {
+    font-size:18px;
+    font-family: 'Conv_Brandon_reg';
+    font-weight: normal;
+}
 
 
 .detail-ticket #ticket_messages .fss_ticket_row_user_body td {
@@ -7650,8 +7676,15 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     border-bottom-right-radius: 8px;
 }
 
-.detail-ticket #ticket_messages p {font-size:18px;color:#a0a0a0}
-.detail-ticket #ticket_messages p span{font-size:18px;color:#fff;margin-right:10px;}
+.detail-ticket #ticket_messages p {
+    font-size:18px;color:#a0a0a0;
+    font-family: 'Conv_Brandon_med';
+}
+.detail-ticket #ticket_messages p span{
+    font-size:16px;color:#fff;margin-right:10px;
+    font-family: 'Conv_Brandon_reg';
+    font-weight: normal;
+}
 .detail-ticket .fss_view_ticket .nav-tabs li ul.dropdown-menu,
 .current-ticket .fss_view_ticket .nav-tabs li ul.dropdown-menu {
     border-radius:6px;  
@@ -7774,6 +7807,36 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
    margin: 0 25px 0 60px;
 }
 
+/* new css for ticket page */
+.opt-search .input-append #basic_search::-webkit-input-placeholder {
+   font-size: 18px;
+   color: #ababab;
+   font-family: 'Conv_Brandon_light';
+}
+
+.opt-search .input-append #basic_search:-moz-placeholder { /* Firefox 18- */
+   font-size: 18px;
+   color: #ababab;
+   font-family: 'Conv_Brandon_light';
+}
+
+.opt-search .input-append #basic_search::-moz-placeholder {  /* Firefox 19+ */
+   font-size: 18px;
+   color: #ababab;
+   font-family: 'Conv_Brandon_light';
+}
+
+.opt-search .input-append #basic_search:-ms-input-placeholder {  
+   font-size: 18px;
+   color: #ababab;
+   font-family: 'Conv_Brandon_light';
+}
+.detail-ticket .fss_view_ticket .table{
+    border-collapse: separate;
+    border-radius: 6px;
+    border: 1px solid #c8c8c8;
+}
+
 @media  only screen and  (min-width: 980px){
     #btl .nav-tabs .dropdown-menu {
         border-radius:8px;
@@ -7821,6 +7884,10 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     .table-div tr:nth-child(3):hover {
         box-shadow: 0px 0px 1px 2px #c0df81 inset;
         background:#f7f7f7 url(../images/ico-add-col.png) no-repeat 90% 20%;
+        color: black;
+    }
+    .table-div tr:nth-child(8) .no-border span {
+        font-weight: bold;
     }
     .table-div tr td {
         color:#696969;
@@ -7843,7 +7910,20 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
 #btl-content-registration {
     display:none;
 }
-
+.table-ticketborders{
+    border-collapse: separate;
+    border-radius: 6px;
+}
+.table-ticketborders  tr > th:first-child, .table-ticketborders tr > td:first-child{
+    border-left: none !important;
+}
+.table-ticketborders  tr:first-child > th, .table-ticketborders tr:first-child > td{
+    border-top: none !important;
+}
+.table-ticketborders  tr > th, .table-ticketborders tr > td{
+    border-right: none !important;
+    border-bottom: none !important;
+}
 @media  only screen and  (max-width:1024px) {
     #submenu ul li a {font-size:13px;}
     #btl .nav-tabs .dropdown-menu {
@@ -7861,7 +7941,7 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     #submenu ul li a {font-size:13px;}
     .detail-ticket .table-div tr td {
         font-family: 'Conv_Brandon_med';
-        font-size:22px;
+        font-size:23px;
         line-height: 32px;
     }
     .detail-ticket .table-div tr:nth-child(10) td span {
