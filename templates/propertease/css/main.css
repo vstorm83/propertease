@@ -7837,6 +7837,77 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     border: 1px solid #c8c8c8;
 }
 
+
+/* new css by Hieu */
+.concierge-mainbody .item-pageresource{
+    padding: 60px 0 85px 0;
+    max-width: 726px;
+    margin: 0 auto;
+}
+.concierge-mainbody .header-search{
+    text-transform: uppercase;
+    font-family: 'Conv_Brandon_med';
+}
+.concierge-mainbody .header-search span{
+    font-family: 'Conv_Brandon_light';
+}
+
+.concierge-mainbody .item-pageresource .form-control{
+    background: #f6f6f6 none repeat scroll 0 0;
+    border: 1px solid #e8e8e8;
+    box-shadow: none;
+    color: #000000;
+    font-family: Conv_Brandon_light,arial;
+    font-size: 25px;
+    height: 55px;
+    padding-left: 23px;
+    width: 100% !important;
+}
+.concierge-mainbody .item-pageresource .form-control::-webkit-input-placeholder {
+   font-size: 23px;
+   color: #000;
+   font-style: italic;
+}
+
+.concierge-mainbody .item-pageresource .form-control:-moz-placeholder { /* Firefox 18- */
+   font-size: 23px;
+   color: #000;
+   font-style: italic;
+}
+
+.concierge-mainbody .item-pageresource .form-control::-moz-placeholder {  /* Firefox 19+ */
+   font-size: 23px;
+   color: #000;
+   font-style: italic;
+}
+
+.concierge-mainbody .item-pageresource .form-control:-ms-input-placeholder {  
+   font-size: 23px;
+   font-family: tahoma;
+   color: #000;
+   font-style: italic;
+}
+.concierge-mainbody .item-pageresource .input-group-btn .btn{
+    font-size: 22px;
+    color: white;
+    font-family: 'Conv_Brandon_med';
+    text-transform: uppercase;
+    -webkit-border-radius: 0 8px 8px 0 !important;
+    border-radius: 0 8px 8px 0 !important;
+    padding: 11px 30px;
+}
+.concierge-mainbody .item-pageresource .input-group{
+    padding: 5px 0 60px;
+}
+.concierge-mainbody .item-pageresource .text-in-site{
+    font-size: 20px;
+    color: #878787;
+    text-align: center;
+}
+.concierge-mainbody .item-pageresource .bol-text-site{
+    color: #7ab700;
+}
+
 @media  only screen and  (min-width: 980px){
     #btl .nav-tabs .dropdown-menu {
         border-radius:8px;
