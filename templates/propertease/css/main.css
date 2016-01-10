@@ -7572,7 +7572,7 @@ block-price .block.greyed i.one-report {
     color: #b6b6b6;
     font-family: 'Conv_Brandon_blk';
 }
-.current-ticket .fss_view_ticket .nav-tabs li.active a {
+.fss_view_ticket .nav-tabs li.active a {
     color: #fff;
     border: 1px solid #87c609;
     border-radius: 7px;

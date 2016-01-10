@@ -31,13 +31,13 @@ FSS_Translate_Helper::Tr($tabs);
 		</li>	
 	<?php endif; ?>
 		
-	<?php #if (!FSS_Settings::Get('support_only_admin_open')): ?>
-	<!--  <li class='<?php if (FSS_Input::getCmd('layout') == 'open') echo 'active'; ?>'>
+	<?php if (!FSS_Settings::Get('support_only_admin_open')): ?>
+	<li class='<?php if (FSS_Input::getCmd('layout') == 'open') echo 'active'; ?>'>
 		<a href='<?php echo FSSRoute::_( 'index.php?option=com_fss&view=ticket&layout=open' ); ?>'>
 			<?php echo JText::_("OPEN_NEW_TICKET"); ?>
 		</a>
-	</li>  -->
-	<?php #endif; ?>
+	</li>  
+	<?php endif; ?>
 	
 	<?php if (FSS_Settings::get('support_simple_userlist_tabs')): ?>
 		<li <?php if (FSS_Input::getCmd('search') == "" && FSS_Input::getInt('ticketid') < 1 && FSS_Input::getCmd('layout') != 'open'): ?>class='active'<?php endif; ?>>
