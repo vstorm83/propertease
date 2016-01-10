@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>
+                    Sigsiu.NET News
+                </title>
+    <link>https://www.sigsiu.net/news/view,rss</link>
+    <description>
+                    Latest News of Sigsiu.NET, the company behind SobiPro - best directory component for Joomla! powered websites!
+                </description>
+    <category>Web development</category>
+    <copyright>Sigsiu.NET GmbH 2015. All rights reserved.</copyright>
+    <image>
+      <url>https://www.sigsiu.net/images/Sigsiu.NET-S.png</url>
+      <title>Sigsiu.NET GmbH</title>
+      <link>https://www.sigsiu.net</link>
+    </image>
+    <language>en-GB</language>
+    <generator>SobiPro 1.1</generator>
+    <pubDate>2015-12-31T14:51:44+01:00</pubDate>
+    <item>
+      <title>An update of the Contact Form Field is available</title>
+      <guid>https://www.sigsiu.net/news/1351-an-update-of-the-contact-form-field-is-available</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-field.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1351-an-update-of-the-contact-form-field-is-available</link>
+      <description>The last day of the year 2015 comes with an update of the Contact Form Field which got a new Bootstrap 3 compatible layout for the forms.</description>
+      <pubDate>2015-12-31T14:51:44+01:00</pubDate>
+    </item>
+    <item>
+      <title>SobiPro 1.2.1 available</title>
+      <guid>https://www.sigsiu.net/news/1346-sobipro-1-2-1-available</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-component.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1346-sobipro-1-2-1-available</link>
+      <description>We just released SobiPro 1.2.1. It comes with a bunch of new features such as back-end ACL and advanced template settings. It is recommended to update SobiPro.</description>
+      <pubDate>2015-12-22T20:01:04+01:00</pubDate>
+    </item>
+    <item>
+      <title>Indonesian and Dutch Languages updated</title>
+      <guid>https://www.sigsiu.net/news/1344-indonesian-and-dutch-languages-updated</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-language.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1344-indonesian-and-dutch-languages-updated</link>
+      <description>Updated versions of the Indonesian and Dutch languages are now available to download.</description>
+      <pubDate>2015-12-20T12:05:06+01:00</pubDate>
+    </item>
+    <item>
+      <title>Holiday Special</title>
+      <guid>https://www.sigsiu.net/news/1341-holiday-special</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/vc/mod_christmas2.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1341-holiday-special</link>
+      <description>The Holiday season is coming, and some of us get presents under a Christmas tree. But our Holiday special is available for all!</description>
+      <pubDate>2015-12-19T13:36:46+01:00</pubDate>
+    </item>
+    <item>
+      <title>Update for SP-GeoMap Field available</title>
+      <guid>https://www.sigsiu.net/news/1331-update-for-sp-geomap-field-available</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-field.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1331-update-for-sp-geomap-field-available</link>
+      <description>An update of the SP-GeoMap Field is available. This is a maintenance release with adaption of the layout to the new default3 template of SobiPro 1.2.</description>
+      <pubDate>2015-12-10T17:29:10+01:00</pubDate>
+    </item>
+    <item>
+      <title>Aggregation Field update</title>
+      <guid>https://www.sigsiu.net/news/1323-aggregation-field-update</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-field.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1323-aggregation-field-update</link>
+      <description>An update of the Aggregation Field is available. It is now completely adapted to the new default3 template of SobiPro 1.2.</description>
+      <pubDate>2015-12-03T18:44:49+01:00</pubDate>
+    </item>
+    <item>
+      <title>Catalan Language for SobiPro</title>
+      <guid>https://www.sigsiu.net/news/1318-catalan-language-for-sobipro</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/vc/mod_catalan1.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1318-catalan-language-for-sobipro</link>
+      <description>The Catalan language is now available to download. Thus SobiPro is now translated into 28! languages.</description>
+      <pubDate>2015-12-01T17:16:29+01:00</pubDate>
+    </item>
+    <item>
+      <title>Review and Rating Application updated</title>
+      <guid>https://www.sigsiu.net/news/1314-review-and-rating-application-updated</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/SobiPro-News-mod-app.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1314-review-and-rating-application-updated</link>
+      <description>The first release of the upcoming package, an update of the Review and Rating Application is available now. </description>
+      <pubDate>2015-11-30T19:20:17+01:00</pubDate>
+    </item>
+    <item>
+      <title>What's coming next</title>
+      <guid>https://www.sigsiu.net/news/1309-what-s-coming-next</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/vc/mod_tabs-b.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1309-what-s-coming-next</link>
+      <description>We are going to release as next package: the Review &amp; Rating app, the Aggregation Field, the SP-GeoMap Field, SobiPro 1.2.1, the Contact Form Field and SobiRestara 3.0!</description>
+      <pubDate>2015-11-27T15:37:11+01:00</pubDate>
+    </item>
+    <item>
+      <title>Black Friday and Cyber Monday Sales</title>
+      <guid>https://www.sigsiu.net/news/1302-black-friday-and-cyber-monday-sales</guid>
+      <author>Sigrid Suski</author>
+      <enclosure url="https://www.sigsiu.net/images/sobipro/news/vc/mod_blackcyber.png" length="18000" type="image/png"/>
+      <link>https://www.sigsiu.net/news/1302-black-friday-and-cyber-monday-sales</link>
+      <description>The holiday shopping season starts...&#13;
+From Black Friday to Cyber Monday, we offer a 20% discount!&#13;
+Stay tuned!</description>
+      <pubDate>2015-11-25T14:53:23+01:00</pubDate>
+    </item>
+  </channel>
+</rss>

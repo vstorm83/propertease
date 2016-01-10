@@ -1,0 +1,147 @@
+/* Calendar:a Javascript class for Mootools that adds accessible and unobtrusive date pickers to your form elements <http://electricprism.com/aeron/calendar> */
+/* Green CSS for Calendar by Les Arbres */
+
+input.green {width:8em;}
+
+button.green {
+	background:url(green-icon.png) no-repeat right top;
+	border:none;
+	cursor:pointer;
+	height:20px;
+	width:22px;
+	min-width:0;
+	min-height:0;
+	margin:2px 2px 2px 5px;
+	vertical-align:middle;
+}
+
+div.green {
+	background-color:#94D19A;
+	 background:linear-gradient(#94D19A,#83C989);-webkit-linear-gradient(#94D19A,#83C989);-moz-linear-gradient(#94D19A,#83C989);
+         border:1px solid #76C27B; border-radius:3px; -webkit-border-radius:3px; -moz-border-radius:3px; 
+         box-shadow:4px 4px 4px #888888; -webkit-box-shadow:4px 4px 4px #888888; -moz-box-shadow:4px 4px 4px #888888;
+	height:170px;
+	width:195px;
+	padding:0 6px 0 6px;
+	text-align:center;
+	font:normal 13px/18px Arial, Helvetica, sans-serif;
+}	
+div.green * {
+	margin:0;
+	padding:0;
+}	
+div.green div {
+	background:none !important;
+	cursor:move;
+	height:100%;
+	overflow:hidden;
+	position:relative;
+	width:100%;
+}	
+
+div.green caption {
+	color:black;
+	padding-top:4px;
+	padding-bottom:4px;
+	text-align:center;
+	font-weight:bold;
+	width:100%;
+}
+div.green caption a {
+	cursor:pointer;
+	display:block;
+	height:11px;
+	overflow:hidden;
+	position:absolute;
+	text-indent:-100px;
+	top:8px;
+	width:11px;
+}
+div.green caption a.prev {
+	background-image:url(green-prev.gif);
+	left:1px;
+}
+div.green caption a.next {
+	background-image:url(green-next.gif);
+	right:1px;
+}
+div.green caption a:hover {
+	background-position:0 11px;
+}
+div.green caption span {
+	position:relative;
+	text-align:center;
+}
+div.green caption span.month {
+	padding-right:8px;
+}
+div.green caption span.month:after {
+	content:',';
+}
+
+div.green table {
+	border:none !important;
+	border-collapse:collapse;
+	border-spacing:0;
+	cursor:default;
+	margin:0 auto;
+	width:98%;
+}
+
+div.green tr {
+	border:none;
+}
+
+div.green th {
+	border:none;
+	color:black;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	height:19px;
+	text-align:center;
+}
+
+div.green td {
+	border:none;
+	height:19px;
+	color:#666565;
+	font:normal 12px Arial, Helvetica, sans-serif;
+	text-align:center;
+}
+
+div.green td.invalid {
+	color:#020202;
+}
+
+div.green td.valid, div.green td.inactive, div.green td.active {
+        border:1px solid white;
+	color:black;
+	cursor:pointer;
+}
+
+div.green td.today {
+	font-weight:bold;
+	border:2px inset red;
+}
+
+div.green td.active {
+	color:black;
+	font-weight:bold;
+}
+
+div.green td.hover {
+	background-color:#FEFBF1;
+	color:black;
+	cursor:pointer;
+}
+
+@media screen and (max-width: 500px) 
+{
+	div.green {width:95%;height:250px;left:0 !important;margin-left:3px;margin-right:3px;}
+	div.green th {height:30px; font-size:13px;}
+	div.green td {height:30px; font-size:13px;}
+	div.green caption a {height:15px;width:15px;}
+	div.green caption a.prev {background-image:url(green-prev-l.gif);}
+	div.green caption a.next {background-image:url(green-next-l.gif);}
+	div.green caption a:hover {background-position:0 15px;}
+}

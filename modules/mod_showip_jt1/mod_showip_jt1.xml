@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="2.5"
+	client="site"
+	method="upgrade">
+	<name>ShowIp JT1</name>
+    <author>muratyil</author>
+	<creationDate>Dec 2012</creationDate>
+	<copyright>www.joomlatema.net</copyright>
+	<license>GNU/GPLv3 http://www.gnu.org/licenses/gpl-3.0.html</license>
+	<authorEmail>destek@joomlatema.net</authorEmail>
+	<authorUrl>www.joomlatema.net</authorUrl><description>
+	<version>1.0</version>
+<![CDATA[
+		<style type='text/css'>span.readonly { padding: 10px; font-family: Arial; font-size:13px !important; font-weight: normal !important; text-align: left; color: #4d4d4d; line-height: 24px; } span.readonly h1 { clear:both; font-family: Georgia, sans-serif; font-size:38px; margin:30px 20px 23px; padding:0px 0px 24px 10px; color:#333; border-bottom: 1px solid #eee; font-weight: normal; } span.readonly p { margin: 0 26px 10px } span.readonly p a { color: #ab3f0a } span.readonly p.homepage { margin-top: 30px } span.readonly p.license { border-top: 1px solid #eee; font-size: 11px; margin: 30px 26px 0; padding: 6px 0; }</style><span class='readonly'><h1>ShowIp JT1 Module <small>ver. 1.0</small></h1><p class="img-logo"><img src="../modules/mod_showip_jt1/admin/logo.png" width="175" height="151" align="right"  />ShowIp_JT Module is a free extension developed by <a href='http://www.joomlatema.net' target='_blank' style='color: #146295'>Joomlatema.Net</a>.</p><p>
+<br>Features:
+    <ul style="margin-left:15px;">
+    <li>Joomla 2.5 and 3.0 compatible</li>
+	<li>Show Visitor's IP Addres</li>
+	<li>Change background color, Padding, border color etc.</li>
+	<li>Show/Hide Os-Browser Option</li>
+	</ul>
+.</p> <p class='homepage'><a href='http://www.joomlatema.net' target='_blank'>http://www.joomlatema.net</a></p><p class='license'>Thanks for choosing us. <a target="_blank" href="http://www.joomlatema.net/forum">JOOMLATEMA.NET</a></p></span>
+	]]></description>
+    <files>
+       <filename module="mod_showip_jt1">mod_showip_jt1.php</filename>
+	   <filename>mod_showip_jt1.xml</filename>
+	   <filename>index.html</filename>
+    </files>
+	<languages>
+<language tag="en-GB">language/en-GB.mod_showip_jt1.ini</language>
+		<language tag="tr-TR">language/tr-TR.mod_showip_jt1.ini</language>
+	</languages>
+	<config>
+	<fields name="params">
+	 <fieldset name="GENERAL_SETTINGS" addfieldpath="/modules/mod_showip_jt1/admin/elements">
+          <field name="moduleclass_sfx" type="text" default="" label="MOD_SHOWIP_JT_MODULE_CLASS_SUFFIX" description="Modül Sınıf Soneki" />
+		<field name="heading" type="text" default="IP Addres:" label="MOD_SHOWIP_JT_IPTEXT" description="MOD_SHOWIP_JT_IPTEXT_DESC" />
+		<field name="bgcolor" type="text" default="#F0F0F0" label="MOD_SHOWIP_JT_BGCOLOR" description="MOD_SHOWIP_JT_BGCOLOR_DESC" />
+		<field name="bordercolor" type="text" default="#dedede" label="MOD_SHOWIP_JT_BORDERCOLOR" description="MOD_SHOWIP_JT_BORDERCOLOR_DESC" />
+		<field name="showbrowser" type="list" default="0" label="MOD_SHOWIP_SHOWBROWSER" description="MOD_SHOWIP_SHOWBROWSER_DESC">
+		<option value="0">MOD_SHOWIP_NO</option>
+			<option value="1">MOD_SHOWIP_YES</option>
+		</field>			
+            </fieldset>
+		</fields>
+	</config>
+</extension>

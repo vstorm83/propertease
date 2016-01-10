@@ -1,0 +1,186 @@
+
+body,html {height:100%;}
+body{background:#ffffff;color:#777;margin:0;padding:0}
+.clr{clear:both;overflow:hidden;font-size:0;line-height:0;}
+a:link, a:visited { color:#4d4d4d;text-decoration:none;}
+a:hover, a:active, a:focus { color:#4d4d4d; }
+
+
+h1,h2,h3,h4,h5,h6 {
+color:#333333;line-height:normal; 
+
+}
+
+#footermenu ul{
+padding-bottom:20px;
+margin:0;
+}
+
+#footermenu ul li{
+list-style-type:none;
+width:25%;
+color:#FFFFFF;
+float:left;
+text-align:center;
+}
+
+.item-140{
+text-align:left !important;
+}
+
+.item-143{
+text-align:right !important;
+}
+
+#footermenu ul li a{
+color:#FFFFFF;
+}
+
+#reference{
+text-align:right;
+}
+
+#footermenu1 ul,#footermenu2 ul,#footermenu3 ul,#footermenu4 ul{
+padding:0;
+margin:0;
+}
+
+#footermenu1 ul li,#footermenu2 ul li,#footermenu3 ul li,#footermenu4 ul li{
+height:auto;
+width:auto;
+list-style-type:none;
+}
+
+#footermenu1 ul li a,#footermenu2 ul li a,#footermenu3 ul li a,#footermenu4 ul li a{
+color:#FFFFFF;
+}
+
+#footermenu4 {
+float:right;
+}
+
+#footermenu1 h3{
+color:#FFFFFF;
+}
+
+.moduletablebenefits{
+text-align:center;
+margin-top:40px;
+font-weight:bold;
+}
+
+#tabcontent{
+width:100%;
+height:auto;
+clear:both;
+}
+
+#tabimg{
+width:200px;
+height:auto;
+float:left;
+text-align:left;
+}
+
+#tabtext{
+width:70%;
+height:auto;
+float:left;
+text-align:left;
+}
+
+.second{
+margin-top:30px;
+}
+
+input{
+border:1px solid #333333;
+}
+
+input#fcp_send_button {
+    background: none repeat scroll 0 0 #333333;
+    color: #ffffff;
+    margin-left: 44px;
+    padding-left: 55px;
+    padding-right: 60px;
+}
+
+.moduletablerightcontact{
+background:#a2cd4c;
+padding:15px;
+}
+
+.moduletablerightcontact p{
+font-size:20px;
+}
+
+.moduletablebenefitvideo,.moduletablerightcontact,.moduletabletestimonial,moduletablesurvey{
+margin-top:15px;
+margin-bottom:15px;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+
+

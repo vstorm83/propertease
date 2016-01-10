@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="Members List">
+		<message>
+			Display Members from one selected plan or all subscription plans
+		</message>
+        <fields name="request">
+            <fieldset name="request"
+                      addfieldpath="/administrator/components/com_osmembership/models/fields">
+                <field name="id" type="osmplan" size="3" default="0" label="Select Plan" description="Select plan which you want to display members. If you don't select a plan, members from all plans will be displayed" />
+            </fieldset>
+        </fields>
+	</layout>		
+</metadata>

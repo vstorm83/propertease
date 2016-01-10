@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="osmembership" method="upgrade">
+	<name>OS Membership - Articles restriction settings</name>
+	<author>Tuan Pham Ngoc</author>
+	<creationDate>Apirl 2014</creationDate>
+	<copyright>Ossolution Team</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@joomdonation.com</authorEmail>
+	<authorUrl>www.joomdonation.com</authorUrl>
+	<version>1.0</version>
+	<description>This plugin is used to restrict access to Joomla artciles which subscribers of a plan can access to</description>
+	<files>
+		<filename plugin="articles">articles.php</filename>		
+	</files>	
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="category_ids" show_root="true" type="category"
+					extension="com_content" multiple="true" size="10" label="CONTENT_CATEGORY"
+					description="CONTENT_CATEGORY_DESC" />	
+			</fieldset>
+		</fields>
+	</config>				
+</extension>

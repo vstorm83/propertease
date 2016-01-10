@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="2.5.0" type="plugin" group="osmembership" method="upgrade">
+	<name>OS Membership - Account creation plugin</name>
+	<author>Tuan Pham Ngoc</author>
+	<creationDate>Apirl 2012</creationDate>
+	<copyright>Ossolution Team</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>contact@joomdonation.com</authorEmail>
+	<authorUrl>www.joomdonation.com</authorUrl>
+	<version>1.6.5</version>
+	<description>This plugin is used to create a Joomla account for user when their membership pro account is activated/approved</description>
+	<files>
+		<filename plugin="account">account.php</filename>
+	</files>
+</extension>

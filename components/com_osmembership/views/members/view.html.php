@@ -1,0 +1,51 @@
+<?php
+/**
+ * @version        1.6.7
+ * @package        Joomla
+ * @subpackage     Membership Pro
+ * @author         Tuan Pham Ngoc
+ * @copyright      Copyright (C) 2012 - 2014 Ossolution Team
+ * @license        GNU/GPL, see LICENSE.php
+ */
+
+// Check to ensure this file is included in Joomla!
+defined('_JEXEC') or die();
+
+/**
+ * HTML View class for Membership Pro component
+ *
+ * @static
+ * @package        Joomla
+ * @subpackage     Membership Pro
+ */
+class OSMembershipViewMembers extends JViewLegacy
+{
+
+	function display($tpl = null)
+	{
+		if (!JFactory::getUser()->authorise('core.view_members', 'com_osmembership'))
+		{
+			JFactory::getApplication()->redirect('index.php', JText::_('OSM_NOT_ALLOW_TO_VIEW_MEMBERS'));
+
+			return;
+		}
+		$state  = $this->get('State');
+		$fields = OSMembershipHelper::getProfileFields($state->id, true);
+		for ($i = 0, $n = count($fields); $i < $n; $i++)
+		{
+			if (!$fields[$i]->show_on_members_list)
+			{
+				unset($fields[$i]);
+			}
+		}
+		$this->items      = $this->get('Data');
+		$this->fieldsData = $this->get('fieldsData');
+		$this->fields     = $fields;
+		$this->Itemid     = JFactory::getApplication()->input->getInt('Itemid');
+		$this->config     = OSMembershipHelper::getConfig();
+		$this->pagination = $this->get('Pagination');
+		$this->state      = $state;
+
+		parent::display($tpl);
+	}
+}

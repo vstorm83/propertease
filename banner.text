@@ -1,0 +1,18 @@
+<div id="layerslider" style="width: 100%; height: 700px;">
+<div class="ls-layer" style="transition2d: all; slidedelay: 6000;">
+<div class="container"><img class="ls-bg" src="images/slideshow/slideshow1.png" alt="" />
+<div class="ls-s1 heading" style="left: 230px; top: 130px; slidedirection: left; slideoutdirection: left; durationin: 500; durationout: 500; easingin: easeOutElastic;"><strong>Before buying </strong>that property,<strong> find out</strong></div>
+<div class="ls-s1 heading" style="left: 230px; top: 170px; slidedirection: left; slideoutdirection: left; durationin: 750; durationout: 750; easingin: easeOutElastic;">what <strong>you can or can`t do </strong>with it</div>
+<p class="ls-s3 text" style="left: 960px; top: 130px; slidedirection: left; slideoutdirection: right; durationin: 1000; durationout: 1000;">A once off search is<strong> just $59</strong></p>
+<p class="ls-s3 text" style="left: 838px; top: 160px; slidedirection: left; slideoutdirection: right; durationin: 1500; durationout: 1500;"><em>(instant answers but some research involved)</em></p>
+<p class="ls-s3 text" style="left: 800px; top: 190px; slidedirection: left; slideoutdirection: right; durationin: 1900; durationout: 1900;">with<strong> monthly </strong>or<strong> yearly</strong> subscriptions also offered.</p>
+<img class="ls-s5" style="left: 300px; top: 253px; slidedirection: bottom; durationin: 2000; durationout: 1000; easingin: easeOutExpo; delayin: 2000;" src="images/banner.png" alt="" />
+<div class="ls-s6" style="left: 956px; top: 300px; slidedirection: right; durationin: 2000; durationout: 1000; easingin: easeOutExpo; delayin: 2000;">
+<p><a class="btn btn-default btn-warning">Take the <strong>Tour</strong></a></p>
+<p><a class="btn btn-default btn-primary ">Try it <strong>NOW</strong></a></p>
+</div>
+</div>
+</div>
+
+</div>
+</div>

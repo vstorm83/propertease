@@ -1,0 +1,42 @@
+[28-Jul-2015 07:53:33 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'asd' (T_STRING) in D:\xampp\htdocs\propertease0724\repo\templates\propertease\index.php on line 3
+[28-Jul-2015 07:53:50 Europe/Berlin] PHP Notice:  Undefined variable: isuser in D:\xampp\htdocs\propertease0724\repo\templates\propertease\index.php on line 129
+[28-Jul-2015 07:56:56 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 07:57:00 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 07:57:01 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 07:57:02 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 07:57:02 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 07:57:05 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 07:57:05 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 07:57:06 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 07:57:06 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 07:57:06 Europe/Berlin] PHP Fatal error:  Call to undefined method OSMembershipHelper::getAvatar() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 30
+[28-Jul-2015 09:14:45 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in D:\xampp\htdocs\propertease0724\repo\templates\propertease\index.php on line 7
+[28-Jul-2015 10:26:56 Europe/Berlin] PHP Fatal error:  Call to a member function get() on a non-object in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 120
+[28-Jul-2015 10:30:04 Europe/Berlin] PHP Fatal error:  Call to a member function get() on a non-object in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 130
+[28-Jul-2015 10:31:40 Europe/Berlin] PHP Fatal error:  Call to a member function get() on a non-object in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 136
+[28-Jul-2015 10:32:00 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 241
+[28-Jul-2015 10:36:05 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 313
+[28-Jul-2015 10:36:13 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 313
+[28-Jul-2015 10:36:37 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 314
+[28-Jul-2015 10:37:04 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 314
+[28-Jul-2015 10:37:07 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 314
+[28-Jul-2015 10:51:57 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 407
+[28-Jul-2015 12:05:16 Europe/Berlin] PHP Fatal error:  Call to undefined method JDocumentHTML::escape() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 242
+[28-Jul-2015 12:06:09 Europe/Berlin] PHP Fatal error:  Call to undefined method JDocumentHTML::escape() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 242
+[28-Jul-2015 12:09:15 Europe/Berlin] PHP Fatal error:  Call to undefined method JDocumentHTML::escape() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 243
+[28-Jul-2015 13:24:32 Europe/Berlin] PHP Fatal error:  Call to a member function get() on a non-object in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 227
+[28-Jul-2015 13:39:18 Europe/Berlin] PHP Fatal error:  Call to undefined method JDocumentHTML::baseurl() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 224
+[01-Aug-2015 08:33:14 Europe/Berlin] PHP Fatal error:  Call to undefined function inlude_once() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 301
+[02-Aug-2015 11:05:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 275
+[02-Aug-2015 11:18:41 Europe/Berlin] PHP Parse error:  syntax error, unexpected '=', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 277
+[02-Aug-2015 12:42:25 Europe/Berlin] PHP Parse error:  syntax error, unexpected '&' in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 279
+[07-Aug-2015 00:23:22 Europe/Berlin] PHP Parse error:  syntax error, unexpected end of file in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 431
+[07-Aug-2015 00:59:02 Europe/Berlin] PHP Fatal error:  Call to undefined function l2br() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\profilef.php on line 1430
+[07-Aug-2015 01:44:35 Europe/Berlin] PHP Parse error:  syntax error, unexpected '{' in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 229
+[11-Aug-2015 18:03:14 Europe/Berlin] PHP Fatal error:  Call to undefined method JDocumentHTML::getTemplate() in D:\xampp\htdocs\propertease0724\repo\templates\propertease\home_logged.php on line 437
+[11-Aug-2015 18:03:59 Europe/Berlin] PHP Fatal error:  Call to a member function get() on a non-object in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\com_content\article\plans.php on line 18
+[11-Aug-2015 18:04:41 Europe/Berlin] PHP Fatal error:  Call to a member function get() on a non-object in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\com_content\article\plans.php on line 18
+[11-Aug-2015 22:02:30 Europe/Berlin] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 222
+[11-Aug-2015 23:32:57 Europe/Berlin] PHP Warning:  sprintf(): Too few arguments in D:\xampp\htdocs\propertease0724\repo\libraries\joomla\language\text.php on line 280
+[11-Aug-2015 23:32:57 Europe/Berlin] PHP Warning:  sprintf(): Too few arguments in D:\xampp\htdocs\propertease0724\repo\libraries\joomla\language\text.php on line 280
+[12-Aug-2015 00:45:40 Europe/Berlin] PHP Parse error:  syntax error, unexpected '}' in D:\xampp\htdocs\propertease0724\repo\templates\propertease\html\mod_bt_login\default.php on line 228

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<extension
+		type="module"
+		version="3"
+		client="site"
+		method="upgrade">
+	<name>Valley News Ticker</name>
+	<author>http://www.pluginvalley.com</author>
+	<creationDate>April 2013</creationDate>
+	<copyright>http://www.pluginvalley.com</copyright>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<authorEmail>support@pluginvalley.com</authorEmail>
+	<authorUrl>http://www.pluginvalley.com</authorUrl>
+	<version>1.0.1</version>
+	<description>
+<![CDATA[
+<span style="font-size:21px; color:#92D900">Valley News Ticker by PluginValley - Version 1.0.1</span>
+<br /><br />Latest News in a News Ticker!
+<br /><br />
+We Make Cool Plugins For Your Websites!  <br /> <br />
+If you have any questions please never hesitate to use PluginValley Forum for Support!<br /><br />
+<a href="http://www.pluginvalley.com" style="font-size:15px;" target="_blank">Visit PluginValley for the Latest Works!</a>
+<div style="text-align:left; margin-top:10px;"><img src="../modules/mod_valleynewsticker/assets/images/logo.png"></div>
+<p>
+]]>	
+	</description>
+	<files>
+			<filename module="mod_valleynewsticker">mod_valleynewsticker.php</filename>
+			<filename>index.html</filename>
+			<filename>helper.php</filename>
+			<folder>assets</folder>
+			<folder>tmpl</folder>					
+	</files>
+	<languages>
+			<language tag="en-GB">en-GB.mod_valleynewsticker.ini</language>
+			<language tag="en-GB">en-GB.mod_valleynewsticker.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic" label="MOD_VALLEYNEWSTICKER_FIELDSETLABEL_BASICSETTINGS">
+				<field name="tickercontid" type="text" size="20" default="newsticker" label="MOD_VALLEYNEWSTICKER_FIELD_TCI" description="MOD_VALLEYNEWSTICKER_FIELD_TCI_DESC" />
+				<field name="tickertitle" type="text" size="50" default="Latest News from PluginValley: " label="MOD_VALLEYNEWSTICKER_FIELD_TT" description="MOD_VALLEYNEWSTICKER_FIELD_TT_DESC" />
+				<field name="showtitle" type="radio" default="1" label="MOD_VALLEYNEWSTICKER_FIELD_STITLE" description="MOD_VALLEYNEWSTICKER_FIELD_STITLE_DESC">
+					<option value="1">MOD_VALLEYNEWSTICKER_YES</option>
+					<option value="0">MOD_VALLEYNEWSTICKER_NO</option>
+				</field>	
+				<field name="showcontrols" type="radio" default="true" label="MOD_VALLEYNEWSTICKER_FIELD_SCONT" description="MOD_VALLEYNEWSTICKER_FIELD_SCONT_DESC">
+					<option value="true">MOD_VALLEYNEWSTICKER_YES</option>
+					<option value="false">MOD_VALLEYNEWSTICKER_NO</option>
+				</field>				
+				<field name="speed" type="text" size="20" default="0.2" label="MOD_VALLEYNEWSTICKER_FIELD_SPEED" description="MOD_VALLEYNEWSTICKER_FIELD_SPEED_DESC" />
+				<field name="displaytype" type="list" default="false" label="MOD_VALLEYNEWSTICKER_FIELD_DPT" description="MOD_VALLEYNEWSTICKER_FIELD_DPT_DESC">
+					<option value="reveal">MOD_VALLEYNEWSTICKER_REVEAL</option>
+					<option value="fade">MOD_VALLEYNEWSTICKER_FADE</option>
+				</field>
+				<field name="directiontype" type="list" default="ltr" label="MOD_VALLEYNEWSTICKER_FIELD_DRT" description="MOD_VALLEYNEWSTICKER_FIELD_DRT_DESC">
+					<option value="ltr">MOD_VALLEYNEWSTICKER_LTR</option>
+					<option value="rtl">MOD_VALLEYNEWSTICKER_RTL</option>
+				</field>
+				<field name="pausetime" type="text" size="20" default="2000" label="MOD_VALLEYNEWSTICKER_FIELD_PT" description="MOD_VALLEYNEWSTICKER_FIELD_PT_DESC" />
+				<field name="fins" type="text" size="20" default="600" label="MOD_VALLEYNEWSTICKER_FIELD_FIS" description="MOD_VALLEYNEWSTICKER_FIELD_FIS_DESC" />
+				<field name="fous" type="text" size="20" default="300" label="MOD_VALLEYNEWSTICKER_FIELD_FOUS" description="MOD_VALLEYNEWSTICKER_FIELD_FOUS_DESC" />
+			</fieldset>
+			<fieldset name="arrowset" label="MOD_VALLEYNEWSTICKER_FIELDSETLABEL_CONTENTSETTINGS">
+			<field name="tickercontent" type="textarea" default="Latest Joomla, CSS, Php Tips &#38; Tutorials@@Ads Manager Google Map Released@@We Update Extensions Regularly@@Optin Professional New version Released@@Vote Us on JED!" label="MOD_VALLEYNEWSTICKER_FIELD_CONT" description="MOD_VALLEYNEWSTICKER_FIELD_CONT_DESC" rows="10" cols="40" filter="safehtml"/>
+			<field name="contentlink" type="textarea" default="http://www.pluginvalley.com@@http://www.pluginvalley.com/extensions/adsmanager/google-map-for-adsmanager.html@@http://www.pluginvalley.com/blog.html@@http://www.pluginvalley.com/extensions/optin-professional-toolbar.html@@extensions.joomla.org/extensions/owner/PluginValley" label="MOD_VALLEYNEWSTICKER_FIELD_CONTL" description="MOD_VALLEYNEWSTICKER_FIELD_CONTL_DESC" rows="12" cols="40" filter="safehtml"/>
+			<field name="linktype" type="list" default="_self" label="MOD_VALLEYNEWSTICKER_FIELD_LTYPE" description="MOD_VALLEYNEWSTICKER_FIELD_LTYPE_DESC">
+					<option value="_blank">MOD_VALLEYNEWSTICKER_BLANK</option>
+					<option value="_self">MOD_VALLEYNEWSTICKER_SELF</option>
+			</field>
+			<field name="addnofolllow" type="radio" default="1" label="MOD_VALLEYNEWSTICKER_FIELD_ADDNOF" description="MOD_VALLEYNEWSTICKER_FIELD_ADDNOF_DESC">
+					<option value="1">MOD_VALLEYNEWSTICKER_YES</option>
+					<option value="0">MOD_VALLEYNEWSTICKER_NO</option>
+			</field>
+			</fieldset>
+			<!-- advanced settings -->
+			<fieldset name="advanced">
+				<field name="moduleclass_sfx" type="text" label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL" escription="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field name="cache" type="list" default="1" label="COM_MODULES_FIELD_CACHING_LABEL" description="COM_MODULES_FIELD_CACHING_DESC">
+					<option value="1">JGLOBAL_USE_GLOBAL</option>
+					<option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+				<field name="cache_time" type="text" default="900" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" description="COM_MODULES_FIELD_CACHE_TIME_DESC" />
+				<field name="cachemode" type="hidden" default="static">
+					<option value="static"></option>
+				</field>
+			</fieldset>
+			<!-- end of advanced setting -->
+		</fields>
+	</config>
+</extension>

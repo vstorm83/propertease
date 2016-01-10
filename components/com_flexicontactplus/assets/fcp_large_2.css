@@ -1,0 +1,133 @@
+/* Extra large fields and a large blue send button */
+/* Version 10.02 */
+
+.fcp_wrapper 
+	{background-color: #F5F5F5; border-radius:2px;
+	 padding:10px 10px 10px 10px; font-family:Arial, sans-serif; font-size:16px; font-weight:bold; color:#222222; 
+	 display:inline-block; width:95%; max-width:400px;}
+
+/* line layout */
+
+div.fcp_line        {clear:left; padding-top:0.5em;}
+div.fcp_line label  {display:block; vertical-align:top; text-align:left; width:auto; max-width:90%; margin-right:1em; font-weight:bold; }
+
+/* mandatory and errors */
+
+.fcp_mandatory       { }
+.fcp_error_msg       {margin-left:5px; font-size:90%; font-weight:normal; color:#DD4134; }
+.fcp_error_field     {border:1px solid #F57777 !important; box-shadow:0 0 2px #f00;}
+
+/* make the main error message show as text */
+
+#fcp_spinner.fcp_error_msg {background:none;}
+#fcp_spinner.fcp_error_msg span {display:none;}
+#fcp_spinner span.fcp_err {display:inline; color:#EC4646;}
+
+/* secure-image captcha */
+
+div.fcp_captcha input   {vertical-align:top;}
+div.fcp_captcha_inner   {display:inline-block; padding:10px; background:#F3F4F5 url('css_images/securimage.png') no-repeat 4% 90%;
+                         border:1px solid #DADADA; border-radius:3px;}
+img.fcp_captcha_img     {vertical-align:middle; margin:0 5px 0 5px; 
+                         border:1px solid #DADADA; border-radius:3px;}
+span.fcp_captcha_reload {display:inline-block; height:24px; width:24px; vertical-align:middle;
+                         background:#F3F4F5 url('css_images/reload_blue.png') no-repeat center center; cursor:pointer;}
+#fcp_err_captcha        {margin-top:20px;}                
+                         
+/* image captcha */
+
+.fcp_image_inner        {display:inline-block; }
+.fcp_image_inner img 	{cursor:pointer; transition:border 0.7s;}
+.fcp_inactive           {border:2px solid transparent;}
+.fcp_active             {border:2px solid #0079C1; border-radius:3px;}
+#fcp_err_image          {margin-top:20px;}
+
+/* recaptcha */
+
+#recaptcha_widget_div	{display:inline-block; }
+#fcp_err_recap		{margin-top:10px;}
+
+/* magic word */
+
+div.fcp_magic input	{width: 10em !important;}
+
+/* fieldsets */
+
+fieldset.fcp_fieldset         
+	{display:inline-block; margin:5px; padding:5px; border:1px solid #DADADA; vertical-align:top; }
+fieldset.fcp_fieldset legend  
+	{padding:3px 10px 3px 10px;
+         width:auto; font-size:100%; line-height:1em; margin:0 0 0 10px;}
+
+/* input fields */
+
+div.fcp_line select
+	{font-size:16px; border:1px solid #B3B3B3; border-radius: 5px; width:90%;
+	 transition:border-color 0.3s; padding:8px 3px 8px 8px; }
+div.fcp_line input, div.fcp_line textarea
+	{font-family:Arial, sans-serif; font-size:16px; border:1px solid #B3B3B3; border-radius:5px; width:90%;
+	 transition:border-color 0.3s; padding:8px 3px 8px 8px; }
+div.fcp_line textarea {height:auto; }
+div.fcp_line input:hover, div.fcp_line textarea:hover, div.fcp_line select:hover
+	{outline:none; border-color:#0079C1;}
+div.fcp_line input:focus, div.fcp_line textarea:focus, div.fcp_line select:focus
+	{outline:none; border-color:#0079C1;}
+div.fcp_radio input, div.fcp_checkbox input             {border:none;}
+div.fcp_radio input:hover, div.fcp_checkbox input:hover {border:none;}
+div.fcp_line input[type="checkbox"] {margin-top:0; vertical-align:middle; width:auto;}	
+div.fcp_line.fcp_date input {width:75%;}
+
+/* radio button and checkbox layout */
+
+div.fcp_radio_h_inner     {display:inline-block; max-width: 90%;}
+span.fcp_radio_h          {display:inline-block;}
+span.fcp_radio_h label    {display:inline-block; width:auto; padding-left:5px; padding-top:0;}
+span.fcp_radio_h input    {width:auto !important; height:auto;}
+
+div.fcp_radio_v_inner     {display:inline-block; max-width:90%;}
+span.fcp_radio_v          {display:block; clear:left; }
+span.fcp_radio_v label    {display:inline-block; width:auto; padding-left:5px; padding-top:0;}
+span.fcp_radio_v input    {width:auto !important; height:auto;}
+
+div.fcp_checkbox_inner    {display:inline-block; max-width:90%;}
+span.fcp_checkbox_m       {display:inline-block; }
+div.fcp_checkbox_inner span.fcp_checkbox_m label 
+                          {display:inline-block; width:auto; max-width:none; padding-left:5px; padding-top:0; white-space:nowrap; }
+
+div.fcp_checkbox_l input.fcp_lcb {width:auto; margin-right:1em;}
+div.fcp_checkbox_l label.fcp_lcb {display:inline-block; width:auto; max-width:80%; padding-top:0;}
+
+div.fcp_checkbox_r label  {display:inline-block; float:left; padding-top:0;}
+div.fcp_checkbox_r input  {width:auto !important; height:auto;}
+
+/* fixed texts */
+
+div.fcp_fixed_text 	  { }
+div.fcp_fixed_text label  {text-align:left; font-size:1.2em; padding-top:0; white-space:nowrap;}
+div.fcp_fixed_text span   {display:block; }
+
+/* the send button */
+
+div.fcp_sendrow {text-align:center;}
+.fcp_form input.button 
+	{background-color:#0079C1; border:1px solid #2F5BB7;
+         border-radius:3px;
+         width:auto; min-width:200px; margin:2px 2px 2px 5px; padding:5px; text-shadow:0 1px rgba(0, 0, 0, 0.1); text-align:center;
+         font-size:1em; font-weight:bold; color:white; cursor:pointer;}
+.fcp_form input.button:hover    
+	{background-color:#0285D2; }
+.fcp_form input.button:disabled {opacity:0.5; border:none; cursor:default;}
+	
+#fcp_spinner {margin-top:8px;}
+.fcp_spinner {background:url('css_images/spinner.gif') no-repeat left center !important; height:16px; width:16px;}
+
+/* info buttons */
+
+.fcp_info {display:inline-block; vertical-align:text-bottom; 
+	background:url('css_images/info-16.png') no-repeat left center !important; height:16px; width:16px;}
+
+/* Tooltips */
+
+.tooltip {padding:4px; position:absolute; z-index:9999; max-width:400px; box-shadow:0 0 5px #AAA;
+             border-radius:3px !important;
+             font-size:1em !important; background:#74B9EF !important; color:black !important;}
