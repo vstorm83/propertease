@@ -374,7 +374,7 @@ jQuery(function() {
                                     <div class="slide-desc-bg slide-desc-bg-default"></div>  
                                     <div class="slide-desc-text slide-desc-text-default">  
                                                                             <div class="slide-text">  
-                                                                                                <p>“I use <span style="color: #7ab700;"> Propert<span class="bold">EASE</span> </span>every day, it helps me figure out which properties I could<br>work with and which to move on from. <span class="bold">Such a time saver</span>.”</p>  
+                                                                                                <p>"I use <span style="color: #7ab700;"> Propert<span class="bold">EASE</span> </span>every day, it helps me figure out which properties I could<br>work with and which to move on from. <span class="bold">Such a time saver</span>."</p>  
  <p class="bold" style="font-size: 21px;">Carl Ryan, DEVELOPER</p>                                                                                     </div>  
                                                                        <div style="clear: both"></div>  
                                     </div>  
@@ -391,7 +391,7 @@ jQuery(function() {
                                     <div class="slide-desc-bg slide-desc-bg-default"></div>  
                                     <div class="slide-desc-text slide-desc-text-default">  
                                                                             <div class="slide-text">  
-                                                                                                <p>“I use <span style="color: #7ab700;"> Propert<span class="bold">EASE</span> </span>every day, it helps me figure out which properties I could<br>work with and which to move on from. <span class="bold">Such a time saver</span>.”</p>  
+                                                                                                <p>"I use <span style="color: #7ab700;"> Propert<span class="bold">EASE</span> </span>every day, it helps me figure out which properties I could<br>work with and which to move on from. <span class="bold">Such a time saver</span>."</p>  
  <p class="bold" style="font-size: 21px;">Carl Ryan, DEVELOPER</p>                                                                                     </div>  
                                                                        <div style="clear: both"></div>  
                                     </div>  
@@ -408,7 +408,7 @@ jQuery(function() {
                                     <div class="slide-desc-bg slide-desc-bg-default"></div>  
                                     <div class="slide-desc-text slide-desc-text-default">  
                                                                             <div class="slide-text">  
-                                                                                                <p>“I use <span style="color: #7ab700;"> Propert<span class="bold">EASE</span> </span>every day, it helps me figure out which properties I could<br>work with and which to move on from. <span class="bold">Such a time saver</span>.”</p>  
+                                                                                                <p>"I use <span style="color: #7ab700;"> Propert<span class="bold">EASE</span> </span>every day, it helps me figure out which properties I could<br>work with and which to move on from. <span class="bold">Such a time saver</span>."</p>  
  <p class="bold" style="font-size: 21px;">Carl Ryan, DEVELOPER</p>                                                                                     </div>  
                                                                        <div style="clear: both"></div>  
                                     </div>  
@@ -501,7 +501,7 @@ jQuery(function() {
                                          <div class="t3-module module footer-menu-right " id="Mod130"><div class="module-inner"><div class="module-ct"><ul class="nav nav-pills nav-stacked ">  
  <li class="item-101 current active"><a class="home" href="<?php echo $mainURL; ?>">Home</a></li><li class="item-113"><a href="plans.html">Plans   </a></li>
  <li class="item-112"><a href="sample-reports.html">Sample Reports</a></li>
- <li class="item-169"><a href="support.html">Support</a></li>
+ <li class="item-169"><a href="resources.html">Resources</a></li>
  <li class="item-114"><a class="Connect bold" href="get-in-touch.html" title="  ">Contact    </a></li></ul>  
  </div></div></div>  
                                     </div>  

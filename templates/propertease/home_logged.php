@@ -205,7 +205,7 @@ if(isset($_REQUEST['conciergeaddy'])&&$userstate) {
         <ul class="nav nav-tabs">
           <?php
           if (($menu->getActive() == $menu->getDefault() and $status>0  and intval($_GET['sr'])>=0) || $menu->getActive()->alias == 'all-reports'
-          		|| $menu->getActive()->alias == 'submit-a-ticket' || $menu->getActive()->alias == 'support' && $userstate) {
+          		|| $menu->getActive()->alias == 'submit-a-ticket' || $menu->getActive()->alias == 'resources' && $userstate) {
           	$menuTitle = $menu->getActive()->title;
           	if ($menuTitle == 'Start') {
           	if (intval($_GET['sr']) == 0) {
@@ -230,7 +230,7 @@ if(isset($_REQUEST['conciergeaddy'])&&$userstate) {
           <?php } ?>
           <a href="all-reports">REPORT HISTORY</a></li>
           <li class="<?php echo $menuTitle == 'Submit a Ticket' ? 'active' : ''?>"><a href="submit-a-ticket.html?view=ticket&layout=support&tickets=1">TICKET</a></li>
-          <li class="<?php echo $menuTitle == 'Support' ? 'active' : ''?>"><a href="support.html">SUPPORT</a></li>
+          <li class="<?php echo $menuTitle == 'Resources' ? 'active' : ''?>"><a href="resources.html">RESOURCES</a></li>
           <?php
           } else if($heading_title<>""){
             echo '<h1 class="article-title" itemprop="name"><i class="sun"></i> '.$heading_title.'</h1>';
@@ -515,7 +515,7 @@ if ($menu->getActive() == $menu->getDefault() and intval($_GET['sr'])==0) {
                                          <div class="t3-module module footer-menu-right " id="Mod130"><div class="module-inner"><div class="module-ct"><ul class="nav nav-pills nav-stacked ">  
  <li class="item-113"><a href="plans.html">Plans   </a></li>
  <li class="item-112"><a href="sample-reports.html">Sample Reports</a></li>
- <li class="item-169"><a href="support.html">Support</a></li>
+ <li class="item-169"><a href="resources.html">Resources</a></li>
  <li class="item-114"><a class="Connect bold" href="get-in-touch.html" title="  ">Contact    </a></li></ul>  
  </div></div></div>  
                                     </div>  
