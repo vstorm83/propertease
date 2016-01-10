@@ -2916,9 +2916,7 @@ class OSMembershipHelper
 				->setLimit(1);
 			$db->setQuery($query);
 			$rows = $db->loadObjectList()[0];
-			$avatar = explode("_", $rows->avatar);
-			array_shift($avatar);
-			$avatar = implode("_",$avatar);
+			$avatar = $rows->avatar;
 			if($avatar<>""){
 				return JURI::base().'media/com_osmembership/upload/'.$avatar;
 			}else{
