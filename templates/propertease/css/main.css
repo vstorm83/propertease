@@ -1111,9 +1111,14 @@ input[type="password"] {
     font-size: 16px;
     /*margin-top: 10px;*/
 }
+
 .modal-dialog .modal-content .modal-body {
     overflow: visible;
 }
+#plan-step-3 .modal-body {
+	max-height: 500px;
+}
+
 #login-popup .modal-dialog input[type="text"],
 #login-popup .modal-dialog input[type="password"] {
     margin-bottom: 20px;
@@ -8371,6 +8376,13 @@ block-price .block.greyed i.one-report {
 #t3-header .top-right .nav {
     display: block;
 }
+
+.userMenu.top-right .first a {
+	font-size: 23px;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
 @media(min-width: 1500px) {
     .ls-layer .heading {
         left: 430px!important;

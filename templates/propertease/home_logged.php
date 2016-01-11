@@ -171,7 +171,7 @@ if(isset($_REQUEST['conciergeaddy'])&&$userstate) {
               <span></span><span></span><span></span>
           </div>    
              <!-- HEAD SEARCH -->  
-           <div class="top-right col-md-6 ">  
+           <div class="userMenu top-right col-md-6 ">  
                <?php include_once("element/header_nav.php"); ?>
            </div>  
            <!-- //HEAD SEARCH -->  

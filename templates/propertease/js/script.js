@@ -147,7 +147,7 @@ jQuery(document).ready(function($){
 			var label = $input.closest('.control-group').find('label').text().replace('*', '');
 			var $div = $('<div class="form-group"></div>');
 			$div.append($input);
-			if (idx < 5) {
+			if (idx < 3) {
 				$('.step2Details').append($div);
 			} else {
 				$('.step3Details').append($div);			
