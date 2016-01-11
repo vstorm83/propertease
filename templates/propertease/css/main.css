@@ -2203,7 +2203,7 @@ input[type="password"]:focus {
 .resource .t3-content .article-content #accordion .panel-body ul.list li .btn:hover {
     background: #7cba01;
 }
-.resource .t3-content .article-content #accordion .panel-body ul.list li .btn-live-chat {
+.resource .t3-content .article-content #accordion .panel-body ul.list li .btn-live-chat, #my-subscriptions-page .btn-upgrade {
     display: inline-block;
     float: right;
     border-radius: 3px;

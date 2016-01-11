@@ -429,6 +429,9 @@ jQuery(document).ready(function(){
                             ?>
                         </tbody>
                     </table>	
+                    <div>
+                    	<a href="plans.html" class="btn-upgrade">Upgrade now</a>
+                    </div>
                 </div><!-- my-subscriptions-page -->
                 <div class="tab-pane" id="subscription-history-page">
                     <table class="table table-bordered table-striped">
