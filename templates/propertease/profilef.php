@@ -1050,7 +1050,7 @@ jQuery(document).ready(function($){
 				if(!$or) {
 					if(isset($dbfields['field_'.$textfield])) {
 						if(trim($dbfields['field_'.$textfield])!='') {
-							$or=true;
+// 							$or=true;
 						}
 					}
 				}
@@ -1066,8 +1066,8 @@ jQuery(document).ready(function($){
 			foreach($fielddata as $fk => $fd) {
 				if(strlen($fd)<1) {
 					$data[$fk]=NULL;
-				} else {
-					$data[$fk]=$fd;
+				} else {				
+					$data[$fk]=$fd;				
 				}
 			}
 			foreach($textfields as $textfield) {
@@ -1075,6 +1075,16 @@ jQuery(document).ready(function($){
 					$data[$textfield]=$dbfields['field_'.$textfield];
 				} else {
 					$data[$textfield]='';
+				}
+			}
+		} elseif (isset($data[$numfields[0]])) {
+			foreach($textfields as $textfield) {
+				if(isset($dbfields['field_'.$textfield])) {
+					if (isset($data[$textfield])) {
+						$data[$textfield] .= "\n".$dbfields['field_'.$textfield];						
+					} else {
+						$data[$textfield] = $dbfields['field_'.$textfield];
+					}
 				}
 			}
 		}
@@ -1856,6 +1866,7 @@ We further note the following acronyms may be used throughout this website: GFA 
 		<div id="multiple" class="tab-pane fade"><table class="table table-striped"><tr'.($simple?' align="left" valign="top"':' class="ptresheader"').'>
     <th colspan="3"'.($simple?' bgcolor="#F4E8AE"':'').'>MULTIPLE DWELLING ('.(!empty($data['muddefinition'])?profilef::hte($data['muddefinition']).') '.(!empty($data['muddisclaimer'])?'<sup>3</sup>':''):'Any multiple residential development)').'</th>
   </tr>
+    		
   <tr'.($simple?' align="left" valign="top"':'').'>
     <th>Minimum Lot Size and Frontage Required for unit development'.($data['minmultiplefromplan']?' <sup>2</sup>':'').'</th>
     <td>'.(is_null($data['minmultiple'])?(is_null($data['minmultiplefrontage'])?'N/A':$data['minmultiplefrontage'].'m frontage'):(is_null($data['minmultiplefrontage'])?$data['minmultiple'].'sqm':$data['minmultiple'].'sqm and '.$data['minmultiplefrontage'].'m frontage')).'</td>
@@ -1881,6 +1892,7 @@ We further note the following acronyms may be used throughout this website: GFA 
     <td>'.(is_null($data['maxdensity'])?'N/A':$data['maxdensity'].' per hectare').'</td>
     <td'.(!$simple?(empty($data['densityinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::hte((!empty($data['densityinfo'])?$data['densityinfo']:'N/A'))).'</td>
   </tr></table></div>
+    		
 		<div id="additional" class="tab-pane fade">'; foreach($data['overlays'] as $overlay) {
 				$newreport.='<table class="table table-striped">
   <tr'.($simple?' align="left" valign="top"':'').'>
@@ -1893,7 +1905,7 @@ We further note the following acronyms may be used throughout this website: GFA 
 		
 		if(!empty($data['mudsetback'])||!empty($data['housesetback'])||!empty($data['smalllotsetback'])||!empty($data['secondarysetback'])) {
 			$newreport.='
-  <tr'.(' align="left" valign="top"').'>
+  <table><tr'.(' align="left" valign="top"').'>
     <th colspan="3"'.(' bgcolor="#F4E8AE"').'>GENERAL INFORMATION (Note, any information following are general provisions that may be altered by the zoning, neighbourhood plan and/or overlays of a site)</th>
   </tr>';
 			if(!empty($data['mudsetback'])) {
@@ -1922,7 +1934,7 @@ We further note the following acronyms may be used throughout this website: GFA 
   <tr'.(' align="left" valign="top"').'>
     <th>Prescribed secondary Dwelling Provisions'.($data['secondarysetbackfromplan']?' <sup>2</sup>':'').'</th>
     <td colspan="2">'.nl2br(profilef::hte($data['secondarysetback'])).'</td>
-  </tr>';
+  </tr></table>';
 			}
 		}
 		
