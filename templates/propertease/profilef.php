@@ -1347,7 +1347,6 @@ jQuery(document).ready(function($){
                     <td style="border-bottom:  2px solid #eaeaea;padding: 15px " >Zoning</td>
                     <td style="border-bottom:  2px solid #eaeaea;padding: 15px "  colspan="2">'
                     	.'<div>'.(empty($data['zone'])?'N/A':(profilef::hte($data['zone']))).'</div>'
-                    	.'<div>'.(empty($data['precinct'])?'':(profilef::hte($data['precinct']))).'</div>'
                     .'</td>
                 </tr>
                 <tr align="left" valign="middle">
@@ -1836,7 +1835,6 @@ We further note the following acronyms may be used throughout this website: GFA 
 		<li><a href="#"><span class="blk">Local Council</span> - '.(empty($data['council'])?'N/A':(profilef::hte($data['council']))).'</a></li>
 		<li><a href="#"><span class="blk">Planning Scheme</span> - '.(empty($data['scheme'])?'N/A':(profilef::hte($data['scheme']))).'</a></li>
 		<li><a href="#"><span class="blk">Zoning </span> - '.(empty($data['zone'])?'N/A':(profilef::hte($data['zone'])))
-		.(empty($data['precinct'])?'':'</br> <span style="margin-left:46px">- ' .(profilef::hte($data['precinct'])).'</span>')
 		.'</a></li>
 		<li><a href="#"><span class="blk">Overlays</span> - '; 
 		$overlaynames=array();
@@ -1891,11 +1889,49 @@ We further note the following acronyms may be used throughout this website: GFA 
   </tr></table>';
   			}
   		$newreport.='</div>
-		<div id="general" class="tab-pane fade"><sup>1</sup> Neighbourhood Plan can refer to a Local Plan, Precinct, Local Area... etc. dependent on the planning scheme.<br>
+		<div id="general" class="tab-pane fade">';
+		
+		if(!empty($data['mudsetback'])||!empty($data['housesetback'])||!empty($data['smalllotsetback'])||!empty($data['secondarysetback'])) {
+			$newreport.='
+  <tr'.(' align="left" valign="top"').'>
+    <th colspan="3"'.(' bgcolor="#F4E8AE"').'>GENERAL INFORMATION (Note, any information following are general provisions that may be altered by the zoning, neighbourhood plan and/or overlays of a site)</th>
+  </tr>';
+			if(!empty($data['mudsetback'])) {
+				$newreport.='
+  <tr'.(' align="left" valign="top"').'>
+    <th>Prescribed setbacks for a Multiple Unit Dwelling'.($data['mudsetbackfromplan']?' <sup>2</sup>':'').'</th>
+    <td colspan="2">'.nl2br(profilef::hte($data['mudsetback'])).'</td>
+  </tr>';
+			}
+			if(!empty($data['housesetback'])) {
+				$newreport.='
+  <tr'.(' align="left" valign="top"').'>
+    <th>Prescribed setbacks for a House'.($data['housesetbackfromplan']?' <sup>2</sup>':'').'</th>
+    <td colspan="2">'.nl2br(profilef::hte($data['housesetback'])).'</td>
+  </tr>';
+			}
+			if(!empty($data['smalllotsetback'])) {
+				$newreport.='
+  <tr'.(' align="left" valign="top"').'>
+    <th>Prescribed setbacks for Small Lot House (450sqm or less)'.($data['smalllotsetbackfromplan']?' <sup>2</sup>':'').'</th>
+    <td colspan="2">'.nl2br(profilef::hte($data['smalllotsetback'])).'</td>
+  </tr>';
+			}
+			if(!empty($data['secondarysetback'])) {
+				$newreport.='
+  <tr'.(' align="left" valign="top"').'>
+    <th>Prescribed secondary Dwelling Provisions'.($data['secondarysetbackfromplan']?' <sup>2</sup>':'').'</th>
+    <td colspan="2">'.nl2br(profilef::hte($data['secondarysetback'])).'</td>
+  </tr>';
+			}
+		}
+		
+		$newreport .= '<div><sup>1</sup> Neighbourhood Plan can refer to a Local Plan, Precinct, Local Area... etc. dependent on the planning scheme.<br>
 <sup>2</sup> Provision taken from a Local or Neighbourhood Plan or Precinct.<br>
 '.(!empty($data['muddisclaimer'])?'<sup>3</sup> '.profilef::hte($data['muddisclaimer']).'<br>':'').'<br>
 Please refer to the local planning scheme for definitions of administrative definitions (e.g. Gross Floor Area, Plot Ratio, Site Cover... etc.).<br><br>
-We further note the following acronyms may be used throughout this website: GFA (Gross Floor Area), MCU (Material Change Of Use), SQM (Square Metres).</div>
+We further note the following acronyms may be used throughout this website: GFA (Gross Floor Area), MCU (Material Change Of Use), SQM (Square Metres).</div>'.
+		'</div>
 		</div>
 		</div>
 		</div>';
