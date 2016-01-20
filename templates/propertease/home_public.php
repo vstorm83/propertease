@@ -94,7 +94,7 @@ jQuery(function() {
            <!-- LOGO -->  
            <div class="pull-left logo">  
                 <div class="logo-image">  
-                     <a href="<?php echo $mainURL; ?>" title="Propertease">  
+                     <a href="./" title="Propertease">  
                                                         <img class="logo-img" src="<?php echo $mainURL; ?>images/logo.png" alt="Propertease">  
                                                                             <span>Propertease</span>  
                      </a>  
@@ -131,8 +131,14 @@ jQuery(function() {
       <div class="ls-container ls-glass" id="layerslider" style="width: 100%; height: 700px; visibility: visible;"><div class="ls-webkit-hack"></div>  
  <div style="background-color: transparent; width: 1349px; height: 700px;" class="ls-inner"><div class="ls-layer ls-animating" style="width: 1349px; height: 700px; visibility: visible; display: none; left: auto; right: auto; top: auto; bottom: auto;">  
  <img style="width: 1500px; height: 768px; margin-left: -750px; margin-top: -384px;" class="ls-bg" src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/images/slideshow1.png" alt=""><div class="ls-s1 heading" style="left: 230px; top: 130px; opacity: 1; transform: rotate(0deg) scale(1, 1); display: block; visibility: visible; margin-left: 0px; margin-top: 0px;"><span class="med">Before buying </span>that property,<span class="med"> find out</span></div><div class="ls-s1 heading" style="left: 230px; top: 170px; opacity: 1; transform: rotate(0deg) scale(1, 1); display: block; visibility: visible; margin-left: 0px; margin-top: 0px;">what <span class="med">you can or can`t do </span>with it</div><p class="ls-s3 text" style="left: 960px; top: 130px; opacity: 1; transform: rotate(0deg) scale(1, 1); display: block; visibility: visible; margin-left: 0px; margin-top: 0px;">A once off search is<span class="med"> just $59</span></p><p class="ls-s3 text" style="left: 838px; top: 160px; opacity: 1; transform: rotate(0deg) scale(1, 1); display: block; visibility: visible; margin-left: 0px; margin-top: 0px;"><em>(instant answers but some research involved)</em></p><p class="ls-s3 text" style="left: 800px; top: 190px; opacity: 1; transform: rotate(0deg) scale(1, 1); display: block; visibility: visible; margin-left: 0px; margin-top: 0px;">with<span class="med"> monthly or<span class="med"> yearly</span> subscriptions also offered.</span></p><img class="ls-s5" style="left: 300px; top: 253px; opacity: 1; transform: rotate(0deg) scale(1, 1); display: block; visibility: visible; margin-left: 0px; margin-top: 0px;" src="<?php echo $mainURL; ?>images/banner.png" alt=""><div class="ls-s6" style="left: 956px; top: 300px; opacity: 1; transform: rotate(0deg) scale(1, 1); display: block; visibility: visible; margin-left: 0px; margin-top: 0px;">  
- <p><a class="btn btn-default btn-warning" href="#benefits" id="take-the-tour">Take the <span class="med">Tour</span></a></p>  
- <p><a class="btn btn-default btn-primary" href="sample-reports.html">Try it <span class="med">NOW</span></a></p>  
+ <p><a class="btn btn-default btn-warning" href="#benefits" id="take-the-tour">
+ 	Why subscribe ?
+ 	<!-- Take the <span class="med">Tour</span>  -->
+ </a></p>  
+ <p><a class="btn btn-default btn-primary" href="sample-reports.html">
+ 	View sample report
+ 	<!-- Try it <span class="med">NOW</span>  -->
+ </a></p>  
  </div>  
  </div><div class="ls-circle-timer"><div class="ls-ct-left"><div style="transform: rotate(0deg);" class="ls-ct-rotate"><div class="ls-ct-hider"><div class="ls-ct-half"></div></div></div></div><div class="ls-ct-right"><div style="transform: rotate(0deg);" class="ls-ct-rotate"><div class="ls-ct-hider"><div class="ls-ct-half"></div></div></div></div><div class="ls-ct-center"></div></div></div>  
  <div class="ls-loading-container" style="z-index: -1; display: none;"><div class="ls-loading-indicator"></div></div><div class="ls-shadow"></div></div></div>  

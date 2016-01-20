@@ -609,7 +609,7 @@ function loginAjax(){
 				else
 				{
 					if(html.indexOf('btl-panel-profile')==-1){ 
-						showLoginError('Another plugin has redirected the page on login, Please check your plugins system');
+						showLoginError(Joomla.JText._('E_LOGIN_AUTHENTICATE'));
 					}
 					else
 					{
@@ -626,7 +626,7 @@ function loginAjax(){
 }
 function showLoginError(notice,reload){
 	BTLJ("#btl-login-in-process").hide();
-	BTLJ("#btl-login-error").html(notice);
+	BTLJ("#btl-login-error").html('<span style="font-size:16px;">' + notice + '</span>');
 	BTLJ("#btl-login-error").show();
 	BTLJ('#login-popup .modal-content').effect('shake');
 	if(reload){

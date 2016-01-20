@@ -198,9 +198,11 @@ jQuery(document).ready(function($){
 	
 	//show registration form
 	$('.btn-register').click(function(event){
-		$('.modal').modal('hide');
-		$('#plan-step-1').modal('show');
-		return false;
+	  if ($('#plan-step-1').length) {
+	    $('.modal').modal('hide');
+	    $('#plan-step-1').modal('show');
+	    return false;	    
+	  }
 	});	
 	
 	$('#plan-step-1 .btn').click(function() {
