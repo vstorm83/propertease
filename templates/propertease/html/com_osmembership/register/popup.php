@@ -42,7 +42,7 @@ if (!$this->userId && $this->config->registration_integration && $this->config->
 						<div class="form-group">
 							<div class="radio">
 								<label> <input type="radio" /> Remember me
-								</label><a href="#">Forgot?</a>
+								</label><a href="component/users/?view=reset">Forgot?</a>
 							</div>
 					   </div>
 					   <div class="form-group">
