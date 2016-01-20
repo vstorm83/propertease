@@ -269,7 +269,10 @@ var precinctnames=['.implode(',',$precinctnames).'];';
 		return $db->loadResult();
 	}
 	public function hte($str) {
-		return htmlentities($str,ENT_COMPAT,'UTF-8');
+		$tmp = htmlentities($str,ENT_COMPAT,'UTF-8');
+		$tmp = str_replace('%sup%', '<sup>', $tmp);
+		$tmp = str_replace('%/sup%', '</sup>', $tmp);			
+		return $tmp;
 	}
 	public function unhte($str) {
 		return html_entity_decode($str,ENT_COMPAT,'UTF-8');
@@ -1072,7 +1075,7 @@ jQuery(document).ready(function($){
 			}
 			foreach($textfields as $textfield) {
 				if(isset($dbfields['field_'.$textfield])) {
-					$data[$textfield]=$dbfields['field_'.$textfield];
+					$data[$textfield]=profilef::addSub($dbfields['field_'.$textfield], $setfields);
 				} else {
 					$data[$textfield]='';
 				}
@@ -1081,14 +1084,25 @@ jQuery(document).ready(function($){
 			foreach($textfields as $textfield) {
 				if(isset($dbfields['field_'.$textfield])) {
 					if (isset($data[$textfield])) {
-						$data[$textfield] .= "\n".$dbfields['field_'.$textfield];						
+						$data[$textfield] .= "\n".profilef::addSub($dbfields['field_'.$textfield], $setfields);						
 					} else {
-						$data[$textfield] = $dbfields['field_'.$textfield];
+						$data[$textfield] = profilef::addSub($dbfields['field_'.$textfield], $setfields);
 					}
 				}
 			}
 		}
 	}
+	
+	private function addSub($str, $setfields) {
+		$tmp = $str;
+		if (strpos($setfields[0], 'fromplan') || strpos($setfields[0], 'fromoverlay')) {
+			if (strlen($str) > 0) {
+				$tmp = '%sup%2%/sup% '.$str;							
+			}
+		}
+		return $tmp;
+	}
+	
 	public function profilegetsearch($searchid) {
 		$sectionid=profilef::profilesectionid();
 		$user=JFactory::getUser();
