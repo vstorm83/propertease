@@ -103,7 +103,7 @@ defined('_JEXEC') or die('Restricted access');
 					<a title="Close" class="modalCloseImg second simplemodal-close"></a>
 				<div class="modal-header">
 				<div class="normal-logo"> </div>
-				<a class="btn btn-register pull-right" href="<?php echo JURI::base(); ?>plans.html#register-modal">Don`t have an <b>account?</b></a></div>
+				<a class="btn btn-register pull-right" href="<?php echo JURI::base(); ?>/subscribe-mail.html">Don`t have an <b>account?</b></a></div>
 				<div class="modal-body">
 				<h3><span class="green blk light">Log in</span> to your account</h3>
 				<form>
