@@ -669,7 +669,7 @@ function get_council() {
 	}
 }
 function get_scheme() {
-	var ddval=jQuery('#council').val();
+	var ddval=jQuery('#council').val();				
 	var i=0;
 	var c=0;
 	var tlink='';
@@ -680,7 +680,7 @@ function get_scheme() {
 	$('.scheme-n').html('')
 		 .append($('<option></option>')
          .attr('value',' - ')
-         .text('Select Regional Council')); 
+         .text('Select Scheme')); 
 
 	$('#zonebody').empty().append(
 		$('<div class=\"videoins\">').append($('#videoins').html()),
@@ -827,6 +827,8 @@ function get_restriction() {
 			}
 			i++;
 		}
+				
+		$('.zone-n').append('<optgroup label=\"\"></optgroup>');
 		zonedd.selectedIndex=0;
 		overlaysdd.selectedIndex=-1;
 		plandd.selectedIndex=0;
