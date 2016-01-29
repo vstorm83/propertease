@@ -1080,7 +1080,7 @@ jQuery(document).ready(function($){
 					$data[$textfield]='';
 				}
 			}
-		} elseif (isset($data[$numfields[0]])) {
+		} else {
 			foreach($textfields as $textfield) {
 				if(isset($dbfields['field_'.$textfield])) {
 					if (isset($data[$textfield])) {
