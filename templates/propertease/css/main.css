@@ -6980,10 +6980,13 @@ div.btl-buttonsubmit {
     text-decoration: underline!important;
     background-color: transparent!important;
 }
+/*
+bug on iphone4 (test with chrome), can't open the login dialog
 #btl-content > .btl-content-block {
     position: absolute!important;
     z-index: 9999;
 }
+*/
 #btl-content #btl-content-login {
     width: 350px;
 }
@@ -8580,7 +8583,7 @@ div.modal {
     }
     .resource .t3-content .article-content #accordion .panel-heading h4,
     #accordion select {
-        font-size: 12px;
+        font-size: 10px;
     }
     .step-process {
         float: none;

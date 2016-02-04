@@ -798,6 +798,7 @@ function get_restriction() {
 					}
 					u++;
 				}
+		    $('.overlays-n select').append('<optgroup label=\"\"></optgroup>');
 
 				$('.precinct-n').html('')
 					 .append(
@@ -824,6 +825,7 @@ function get_restriction() {
 					}
 					u++;
 				}
+		    $('.precinct-n').append('<optgroup label=\"\"></optgroup>');
 			}
 			i++;
 		}

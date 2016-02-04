@@ -163,10 +163,13 @@ div.btl-buttonsubmit{
 	background-color: transparent!important;
 	
 }
+/*
+bug on iphone4 (test with chrome), can't open the login dialog
 #btl-content > .btl-content-block{
 	position:absolute!important;
 	z-index:9999;
 }
+*/
 #btl-content #btl-content-login{
 	width:350px;
 }
