@@ -23,6 +23,7 @@
   <!-- <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/slider.js" type="text/javascript"></script>  -->
   <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/map.js" type="text/javascript"></script>
   <script src="<?php echo $this->baseurl ?>/templates/<?php echo $this->template ?>/js/login.js" type="text/javascript"></script>
+  <script src="<?php echo $this->baseurl ?>/components/com_flexicontactplus/assets/js/fcp_jquery.js" type="text/javascript"></script>
   <script type="text/javascript">  
  jQuery(window).on('load', function() {  
                      new JCaption('img.caption');  
@@ -30,6 +31,7 @@
 				
 
 jQuery(function() {
+  fcp_setup();
   jQuery('a#take-the-tour').click(function() {
 	 
 	if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
