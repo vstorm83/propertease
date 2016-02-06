@@ -266,8 +266,9 @@ table.ptresults tr.ptresheader th, table.ptresults tr.ptresheader td {
 	}
 }
 
-
-.subscribeMail {
-	width: 34%;
-	margin: 0 auto;
+@media (min-width: 768px) {
+	.subscribeMail {
+		width: 34%;
+		margin: 0 auto;
+	}
 }
