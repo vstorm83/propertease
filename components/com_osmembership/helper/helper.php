@@ -2886,7 +2886,8 @@ class OSMembershipHelper
 			->where('user_id=' . (int) $userid)
 			->setLimit(1);
 		$db->setQuery($query);
-		$rows = $db->loadObjectList()[0];
+		$list = $db->loadObjectList();
+		$rows = $list[0];
 		return $rows->id; 	
 	}
 
@@ -2915,7 +2916,8 @@ class OSMembershipHelper
 				->where('user_id=' . (int) $userid)
 				->setLimit(1);
 			$db->setQuery($query);
-			$rows = $db->loadObjectList()[0];
+			$list = $db->loadObjectList();
+			$rows = $list[0];
 			$avatar = $rows->avatar;
 			if($avatar<>""){
 				return JURI::base().'media/com_osmembership/upload/'.$avatar;

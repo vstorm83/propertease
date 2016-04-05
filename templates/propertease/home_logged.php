@@ -141,7 +141,7 @@ if(isset($_REQUEST['conciergeaddy'])&&$userstate) {
                <!-- LOGO -->  
                <div class="pull-left logo">  
                  <div class="logo-image">  
-                   <a href="<?php echo $this->baseurl ?>" title="Propertease">  
+                   <a href="./" title="Propertease">  
                      <img class="logo-img" src="<?php echo $mainURL; ?>images/logo2.png" alt="Propertease">  
                      <span>Propertease</span>  
                    </a>  
