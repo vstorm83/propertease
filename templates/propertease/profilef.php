@@ -271,9 +271,23 @@ var precinctnames=['.implode(',',$precinctnames).'];';
 	public function hte($str) {
 		$tmp = htmlentities($str,ENT_COMPAT,'UTF-8');
 		$tmp = str_replace('%sup%', '<sup>', $tmp);
-		$tmp = str_replace('%/sup%', '</sup>', $tmp);			
+		$tmp = str_replace('%/sup%', '</sup>', $tmp);	
+		
 		return $tmp;
 	}
+	
+	public function wrap($str) {
+	 $builder = '';
+	 foreach (explode("\n", $str) as $p) {
+	  $p = trim($p);
+	  if (!empty($p)) {
+	   $builder .= '<p>'.$p.'</p>';
+	  }
+	 }
+	 
+	 return str_replace('\n', '', $builder);
+	}
+	
 	public function unhte($str) {
 		return html_entity_decode($str,ENT_COMPAT,'UTF-8');
 	}
@@ -1870,7 +1884,7 @@ We further note the following acronyms may be used throughout this website: GFA 
 			$overlaynames[]=$overlay[0];
 		}
 		$newreport.=profilef::hte((count($overlaynames)?implode(', ',$overlaynames):'N/A')).'</a></li>
-		<li><a href="#"><span class="blk">Neighbourhood Plan + Precinct </span> - '.(empty($data['precinct'])?'':(profilef::hte($data['precinct']))).' </a></li>
+		<li><a href="#"><span class="blk">Neighbourhood Plan + Precinct </span> - '.(empty($data['precinct'])?'N/A':(profilef::hte($data['precinct']))).' </a></li>
 		</ul>
 		<div class="info">
 		<p>Report for:<span class="blk"> '.(empty($search['by'])?'N/A':(profilef::hte($search['by']))).'</span></p>
@@ -1880,7 +1894,7 @@ We further note the following acronyms may be used throughout this website: GFA 
 		</div>
 		<div id="reconfiguration" class="tab-pane fade"> <table class="table table-striped"><tr><td>Minimum Lot Size and Frontage Required'.($data['minfromplan']?' <sup>2</sup>':'').'</td>
     <td>'.(is_null($data['min'])?(is_null($data['minfrontage'])?'N/A':$data['minfrontage'].'m frontage'):(is_null($data['minfrontage'])?$data['min'].'sqm':$data['min'].'sqm and '.$data['minfrontage'].'m frontage')).'</td>
-    <td'.(!$simple?(empty($data['lotinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::hte((!empty($data['lotinfo'])?$data['lotinfo']:'N/A'))).'</td></tr></table></div>
+    <td'.(!$simple?(empty($data['lotinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::wrap(profilef::hte((!empty($data['lotinfo'])?$data['lotinfo']:'N/A')))).'</td></tr></table></div>
 		<div id="multiple" class="tab-pane fade"><table class="table table-striped"><tr'.($simple?' align="left" valign="top"':' class="ptresheader"').'>
     <th colspan="3"'.($simple?' bgcolor="#F4E8AE"':'').'>MULTIPLE DWELLING ('.(!empty($data['muddefinition'])?profilef::hte($data['muddefinition']).') '.(!empty($data['muddisclaimer'])?'<sup>3</sup>':''):'Any multiple residential development)').'</th>
   </tr>
@@ -1888,34 +1902,34 @@ We further note the following acronyms may be used throughout this website: GFA 
   <tr'.($simple?' align="left" valign="top"':'').'>
     <th>Minimum Lot Size and Frontage Required for unit development'.($data['minmultiplefromplan']?' <sup>2</sup>':'').'</th>
     <td>'.(is_null($data['minmultiple'])?(is_null($data['minmultiplefrontage'])?'N/A':$data['minmultiplefrontage'].'m frontage'):(is_null($data['minmultiplefrontage'])?$data['minmultiple'].'sqm':$data['minmultiple'].'sqm and '.$data['minmultiplefrontage'].'m frontage')).'</td>
-    <td'.(!$simple?(empty($data['lotmultipleinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::hte((!empty($data['lotmultipleinfo'])?$data['lotmultipleinfo']:'N/A'))).'</td>
+    <td'.(!$simple?(empty($data['lotmultipleinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::wrap(profilef::hte((!empty($data['lotmultipleinfo'])?$data['lotmultipleinfo']:'N/A')))).'</td>
   </tr>
   <tr'.($simple?' align="left" valign="top"':'').'>
     <th>Maximum Height Prescribed'.($data['maxheightfromplan']?' <sup>2</sup>':'').'</th>
     <td>'.(is_null($data['maxstorey'])?(is_null($data['maxheight'])?'N/A':$data['maxheight'].'m above Natural Ground Level'):(is_null($data['maxheight'])?$data['maxstorey'].' storeys':$data['maxstorey'].' storeys and '.$data['maxheight'].'m above Natural Ground Level')).'</td>
-    <td'.(!$simple?(empty($data['heightinfo'])?' class="ptdeadinfo"':''):'').'>'.str_replace("\n","<br>",nl2br(profilef::hte((!empty($data['heightinfo'])?$data['heightinfo']:'N/A')))).'</td>
+    <td'.(!$simple?(empty($data['heightinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::wrap(profilef::hte((!empty($data['heightinfo'])?$data['heightinfo']:'N/A')))).'</td>
   </tr>
   <tr'.($simple?' align="left" valign="top"':'').'>
     <th>Maximum Gross Floor Area/Plot Ratio Prescribed'.($data['maxgfafromplan']?' <sup>2</sup>':'').'</th>
     <td>'.(is_null($data['maxgfa'])?'N/A':$data['maxgfa'].'% of the total site area').'</td>
-    <td'.(!$simple?(empty($data['gfainfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::hte((!empty($data['gfainfo'])?$data['gfainfo']:'N/A'))).'</td>
+    <td'.(!$simple?(empty($data['gfainfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::wrap(profilef::hte((!empty($data['gfainfo'])?$data['gfainfo']:'N/A')))).'</td>
   </tr>
   <tr'.($simple?' align="left" valign="top"':'').'>
     <th>Maximum Site Cover Prescribed'.($data['maxcoverfromplan']?' <sup>2</sup>':'').'</th>
     <td>'.(is_null($data['maxcover'])?'N/A':$data['maxcover'].'% of the total site area').'</td>
-    <td'.(!$simple?(empty($data['coverinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::hte((!empty($data['coverinfo'])?$data['coverinfo']:'N/A'))).'</td>
+    <td'.(!$simple?(empty($data['coverinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::wrap(profilef::hte((!empty($data['coverinfo'])?$data['coverinfo']:'N/A')))).'</td>
   </tr>
   <tr'.($simple?' align="left" valign="top"':'').'>
     <th>Maximum Density Prescribed'.($data['maxdensityfromplan']?' <sup>2</sup>':'').'</th>
     <td>'.(is_null($data['maxdensity'])?'N/A':$data['maxdensity'].' per hectare').'</td>
-    <td'.(!$simple?(empty($data['densityinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::hte((!empty($data['densityinfo'])?$data['densityinfo']:'N/A'))).'</td>
+    <td'.(!$simple?(empty($data['densityinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::wrap(profilef::hte((!empty($data['densityinfo'])?$data['densityinfo']:'N/A')))).'</td>
   </tr></table></div>
     		
 		<div id="additional" class="tab-pane fade">'; foreach($data['overlays'] as $overlay) {
 				$newreport.='<table class="table table-striped">
   <tr'.($simple?' align="left" valign="top"':'').'>
     <th>'.profilef::hte($overlay[0]).'</th>
-    <td colspan="2">'.nl2br(profilef::hte($overlay[1])).'</td>
+    <td colspan="2">'.nl2br(profilef::wrap(profilef::hte($overlay[1]))).'</td>
   </tr></table>';
   			}
   		$newreport.='</div>
@@ -1930,28 +1944,28 @@ We further note the following acronyms may be used throughout this website: GFA 
 				$newreport.='
   <tr'.(' align="left" valign="top"').'>
     <th>Prescribed setbacks for a Multiple Unit Dwelling'.($data['mudsetbackfromplan']?' <sup>2</sup>':'').'</th>
-    <td colspan="2">'.nl2br(profilef::hte($data['mudsetback'])).'</td>
+    <td colspan="2">'.nl2br(profilef::wrap(profilef::hte($data['mudsetback']))).'</td>
   </tr>';
 			}
 			if(!empty($data['housesetback'])) {
 				$newreport.='
   <tr'.(' align="left" valign="top"').'>
     <th>Prescribed setbacks for a House'.($data['housesetbackfromplan']?' <sup>2</sup>':'').'</th>
-    <td colspan="2">'.nl2br(profilef::hte($data['housesetback'])).'</td>
+    <td colspan="2">'.nl2br(profilef::wrap(profilef::hte($data['housesetback']))).'</td>
   </tr>';
 			}
 			if(!empty($data['smalllotsetback'])) {
 				$newreport.='
   <tr'.(' align="left" valign="top"').'>
     <th>Prescribed setbacks for Small Lot House (450sqm or less)'.($data['smalllotsetbackfromplan']?' <sup>2</sup>':'').'</th>
-    <td colspan="2">'.nl2br(profilef::hte($data['smalllotsetback'])).'</td>
+    <td colspan="2">'.nl2br(profilef::wrap(profilef::hte($data['smalllotsetback']))).'</td>
   </tr>';
 			}
 			if(!empty($data['secondarysetback'])) {
 				$newreport.='
   <tr'.(' align="left" valign="top"').'>
     <th>Prescribed secondary Dwelling Provisions'.($data['secondarysetbackfromplan']?' <sup>2</sup>':'').'</th>
-    <td colspan="2">'.nl2br(profilef::hte($data['secondarysetback'])).'</td>
+    <td colspan="2">'.nl2br(profilef::wrap(profilef::hte($data['secondarysetback']))).'</td>
   </tr></table>';
 			}
 		}

@@ -40,7 +40,7 @@ if(isset($_REQUEST['conciergeaddy'])&&$userstate) {
   $pdf->setFontSubsetting(false);
   $pdf->AddPage();
   $pdf->writeHTML($ht, true, false, true, false, '');
-  $pdf->Output('report.pdf', 'D');
+  $pdf->Output('PropertEASE_Report_Reference.pdf', 'D');
   exit();
 } else {
   $content='<jdoc:include type="component" />';
