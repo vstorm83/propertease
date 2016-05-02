@@ -33,7 +33,7 @@ FSS_Translate_Helper::Tr($tabs);
 		
 	<?php if (!FSS_Settings::Get('support_only_admin_open')): ?>
 	<li class='<?php if (FSS_Input::getCmd('layout') == 'open') echo 'active'; ?>'>
-		<a href='<?php echo FSSRoute::_( 'index.php?option=com_fss&view=ticket&layout=open' ); ?>'>
+		<a href='<?php echo FSSRoute::_( 'index.php?option=com_fss&view=ticket&layout=open' ); ?>' style="color: #0049b7 !important;">
 			<?php echo JText::_("OPEN_NEW_TICKET"); ?>
 		</a>
 	</li>  
@@ -74,11 +74,13 @@ FSS_Translate_Helper::Tr($tabs);
 	</li>
 	
 	<li <?php if ($cst && $cst->id == 5) echo "class='active'";?>>
+	<!-- 
 		<a href='<?php echo FSSRoute::_( 'index.php?option=com_fss&view=ticket&layout=support&tickets=5'); ?>'>
 			Archived (<?php echo '<span>'.$this->count[5].'</span>'; ?>)
 		</a>
 	</li>
-
+ -->
+ 
 	<?php if (FSS_Settings::get('support_tabs_allopen') || $this->ticket_view == "open"): ?>
 	<!-- 	<li <?php if ($this->ticket_view == "open") echo "class='active'";?>>
 			<a href='<?php echo FSSRoute::_( 'index.php?option=com_fss&view=ticket&layout=support&tickets=open' ); ?>'>

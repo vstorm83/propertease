@@ -1088,7 +1088,7 @@ jQuery(document).ready(function($){
 			foreach($textfields as $textfield) {
 				if(isset($dbfields['field_'.$textfield])) {
 					if (isset($data[$textfield])) {
-						$data[$textfield] .= "\n".profilef::addSub($dbfields['field_'.$textfield], $setfields);						
+						$data[$textfield] .= "\n".profilef::addSub($dbfields['field_'.$textfield], $setfields);
 					} else {
 						$data[$textfield] = profilef::addSub($dbfields['field_'.$textfield], $setfields);
 					}
@@ -1878,9 +1878,9 @@ We further note the following acronyms may be used throughout this website: GFA 
 		<p>Reference: <span class="blk">'.(empty($search['reference'])?'N/A':(profilef::hte($search['reference']))).'</span></p>
 		<a class="blk" id="getpdf" href="javascript:void(0);">Download .pdf</a></div>
 		</div>
-		<div id="reconfiguration" class="tab-pane fade"> <table class="table table-striped"><tr><th>Minimum Lot Size and Frontage Required'.($data['minfromplan']?' <sup>2</sup>':'').'</th></tr>
-    <tr><td>'.(is_null($data['min'])?(is_null($data['minfrontage'])?'N/A':$data['minfrontage'].'m frontage'):(is_null($data['minfrontage'])?$data['min'].'sqm':$data['min'].'sqm and '.$data['minfrontage'].'m frontage')).'</td></tr>
-    <tr><td'.(!$simple?(empty($data['lotinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::hte((!empty($data['lotinfo'])?$data['lotinfo']:'N/A'))).'</td></tr></table></div>
+		<div id="reconfiguration" class="tab-pane fade"> <table class="table table-striped"><tr><td>Minimum Lot Size and Frontage Required'.($data['minfromplan']?' <sup>2</sup>':'').'</td>
+    <td>'.(is_null($data['min'])?(is_null($data['minfrontage'])?'N/A':$data['minfrontage'].'m frontage'):(is_null($data['minfrontage'])?$data['min'].'sqm':$data['min'].'sqm and '.$data['minfrontage'].'m frontage')).'</td>
+    <td'.(!$simple?(empty($data['lotinfo'])?' class="ptdeadinfo"':''):'').'>'.nl2br(profilef::hte((!empty($data['lotinfo'])?$data['lotinfo']:'N/A'))).'</td></tr></table></div>
 		<div id="multiple" class="tab-pane fade"><table class="table table-striped"><tr'.($simple?' align="left" valign="top"':' class="ptresheader"').'>
     <th colspan="3"'.($simple?' bgcolor="#F4E8AE"':'').'>MULTIPLE DWELLING ('.(!empty($data['muddefinition'])?profilef::hte($data['muddefinition']).') '.(!empty($data['muddisclaimer'])?'<sup>3</sup>':''):'Any multiple residential development)').'</th>
   </tr>
@@ -1923,8 +1923,8 @@ We further note the following acronyms may be used throughout this website: GFA 
 		
 		if(!empty($data['mudsetback'])||!empty($data['housesetback'])||!empty($data['smalllotsetback'])||!empty($data['secondarysetback'])) {
 			$newreport.='
-  <table><tr'.(' align="left" valign="top"').'>
-    <th colspan="3"'.(' bgcolor="#F4E8AE"').'>GENERAL INFORMATION (Note, any information following are general provisions that may be altered by the zoning, neighbourhood plan and/or overlays of a site)</th>
+  <table class="table table-striped"><tr'.(' align="left" valign="top"').'>
+    <th colspan="3"'.'>GENERAL INFORMATION (Note, any information following are general provisions that may be altered by the zoning, neighbourhood plan and/or overlays of a site)</th>
   </tr>';
 			if(!empty($data['mudsetback'])) {
 				$newreport.='
