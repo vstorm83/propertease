@@ -37,7 +37,7 @@
                     <h4 class="panel-title"><div class="collapsed row-input" href="#collapseFive" data-parent="#accordion" data-toggle="collapse"><span class="first blk">Overlays</span><span class="second med">Select Overlays</span></div></h4>
                 </div>
                 <div id="collapseFive" class="panel-collapse collapse" style="height: 0px;">
-                    <div class="panel-body overlays-n"><select multiple="multiple"></select><p class="overlays-help">Hold the <strong>CTRL</strong> or <strong>Cmd</strong> key to select multiple options.</p></div>
+                    <div class="panel-body overlays-n"><select multiple="multiple"></select></div>
                 </div>
             </div>
             <div class="panel panel-default">

@@ -27,7 +27,9 @@ foreach ($this->items as $item) {
 			$corporateAnual = $item;	
 	}
 }
-
+?>
+<h1 style="text-align: center; font-family: Conv_Brandon_blk">Select your plan below</h1>
+<?php 
 if (isset($single)) {
 ?>
 <div class="block-price">

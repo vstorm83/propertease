@@ -27,7 +27,7 @@ jQuery(document).ready(function($){
 	}, 1000);	
 	window.setTimeout(function() {
 	  $('.ipPanel').fadeOut(1000);
-	}, 5000);	
+	}, 5000);			
 	
 	//terms and conditions
 	$(document).off('click.verticalTab').on('click.verticalTab', '.vertical-tab .tab-item a', function(e) {
@@ -62,6 +62,8 @@ jQuery(document).ready(function($){
 	/* PRICE PAGE related code */
 	$('.selectpicker').selectpicker();
 	$('#report-name').focus(function(){
+	  $('.rpNameAlert').fadeOut();
+	  
 		var e = $(this);
 		if(e.val()=="Name of the Report"){e.val(''); }
 	}).focusout(function(){

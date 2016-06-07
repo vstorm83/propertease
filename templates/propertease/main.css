@@ -8102,7 +8102,7 @@ block-price .block.greyed i.one-report{ color:#e4e4e4; }
     }
     .table-div tr:hover {
         box-shadow: 0px 0px 1px 2px #c0df81 inset;
-        background:#f7f7f7 url(../images/ico-add-col.png) no-repeat 90% 20%;
+        /*background:#f7f7f7 url(../images/ico-add-col.png) no-repeat 90% 20%;*/
         color: black;
     }
     .table-div tr:nth-child(8) .no-border span {

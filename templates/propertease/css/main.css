@@ -7570,6 +7570,7 @@ block-price .block.greyed i.one-report {
 .current-ticket .fss_view_ticket .nav-tabs > li:first-child > a {
     padding: 4px 20px 4px 0;
 }
+/*
 .current-ticket .fss_view_ticket .nav-tabs > li a:hover,
 .current-ticket .fss_view_ticket .nav-tabs > li a:focus,
 .current-ticket .fss_view_ticket .nav-tabs > li.open a,
@@ -7579,6 +7580,7 @@ block-price .block.greyed i.one-report {
     background: none;
     border: none;
 }
+*/
 .current-ticket .fss_view_ticket .nav-tabs li a span {
     color: #b6b6b6;
     font-family: 'Conv_Brandon_blk';
@@ -8218,7 +8220,7 @@ block-price .block.greyed i.one-report {
     }
     .table-div tr:hover {
         box-shadow: 0px 0px 1px 2px #c0df81 inset;
-        background: #f7f7f7 url(../images/ico-add-col.png) no-repeat 90% 20%;
+        /*background: #f7f7f7 url(../images/ico-add-col.png) no-repeat 90% 20%;*/
         color: black;
     }
     .table-div tr:nth-child(8) .no-border span {

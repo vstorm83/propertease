@@ -229,7 +229,7 @@ if(isset($_REQUEST['conciergeaddy'])&&$userstate) {
           	<!-- <i class="clock-icon"></i>  -->
           <?php } ?>
           <a href="all-reports">REPORT HISTORY</a></li>
-          <li class="<?php echo $menuTitle == 'Submit a Ticket' ? 'active' : ''?>"><a href="submit-a-ticket.html?view=ticket&layout=support&tickets=1">TICKET</a></li>
+          <li class="<?php echo $menuTitle == 'Submit a Ticket' ? 'active' : ''?>"><a href="submit-a-ticket.html?view=ticket&layout=support&tickets=1">HELP DESK</a></li>
           <li class="<?php echo $menuTitle == 'Resources' ? 'active' : ''?>"><a href="resources.html">RESOURCES</a></li>
           <?php
           } else if($heading_title<>""){
@@ -366,6 +366,11 @@ if ($menu->getActive() == $menu->getDefault() and intval($_GET['sr'])==0) {
         <?php endif; 
         if ($menu->getActive() == $menu->getDefault() and intval($_GET['sr'])==0) {
         ?>
+          <div class="alert alert-warning alert-dismissible rpNameAlert" role="alert" style="display:none">
+    			  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+    			  Fill <strong>report name </strong> please !!!
+    		 </div>
+		 
           <div class="alert alert-success alert-dismissible ipPanel" role="alert">
 			  <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
 			  Your device IP is: <strong><?php echo $_SERVER['REMOTE_ADDR'];?></strong>

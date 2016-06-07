@@ -911,13 +911,35 @@ jQuery(document).ready(function($){
 		cleanHighLight();
 		addHighLight($('.precinct-n'));
 	});
+
+  $('.overlays-n select').mousedown(function(e) {
+	  var \$option = $(e.target);
+	  if (\$option.attr('selected')) {
+	    \$option.attr('selected', false);
+	  } else {
+	    \$option.attr('selected', true);
+	  }
+	  
+	  $('#overlays').val($(this).val());
+    $('.step-process .number').text('6');
+    cleanHighLight();
+    addHighLight($('.precinct-n'));
+	  
+	  return false;
+	});
+		  
 	$('.precinct-n').change(function(){
 		$('#plan').val($(this).val());
 		$('.step-process .number').text('7');
 		$('.btn-sbm').addClass('btn-active-submit');
 		cleanHighLight();
 	});
-	$('.btn-sbm').click(function(){
+	$('.btn-sbm').click(function() {
+		var title = $.trim($('#report-name').val()); 
+		if (!title || title == 'Name of the Report') {
+		  $('.rpNameAlert').fadeIn();
+		  return false;
+		}  		
 		$('#submitw input').trigger('click');
 	});	
 });
@@ -963,7 +985,7 @@ jQuery(document).ready(function($){
 <p id="overlaysw" style="display:none;">
 	<label><strong>Select Overlays:</strong></label>
 	<select size="8" id="overlays" name="overlays[]" multiple="multiple">
-	</select><br><span class="small">Hold the CTRL or Cmd key to select multiple options.</span>
+	</select>
 </p>
 <p id="planw" style="display:none;">
 	<label><strong>Select Neighbourhood Plan + Precinct:</strong></label>
