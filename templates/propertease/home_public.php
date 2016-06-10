@@ -147,14 +147,12 @@ jQuery(function() {
   </div>  
   <!-- //slideshow -->  
                      <!-- HEAD SEARCH -->  
-                     <div class="custom-position ">  
+ <div class="custom-position ">  
                                     <div class="moduletable green-bg first-custom">  
  <div class="custom green-bg first-custom">  
       <div style="visibility: hidden; animation-duration: 1500ms; animation-name: none;" class="container wow fadeInDown" data-wow-duration="1500ms"><center>  
- <p class="heading-text">Too busy? <span class="bold">Let us do it for you.&nbsp;<img src="<?php echo $mainURL; ?>images/arrow.png" alt="">&nbsp;<a class="s-btn" href="plans.html">HIRE A <span class="blk">CONCIERGE</span></a></span></p>  
- <p>Currently Servicing Queensland Councils: Brisbane, Redland, Moreton   
- Bay, Gold Coast, Ipswich, Logan, Sunshine Coast, Toowoomba, Fraser   
- Coast...</p>  
+ <p class="heading-text">Find out the development potential<span class="bold"> of any property instantly.&nbsp;&nbsp;</br><a style="color:#FFFFFF;" class="btn" href="plans.html">GET YOUR <span class="blk">REPORT HERE</span></a></span></p>  
+ <p>Currently servicing Queensland Councils: Brisbane, Logan, Moreton Bay, Gold Coast, Ipswich, Sunshine Coast, and Redland City with more to come.</p>  
  </center></div></div>  
            </div>  
 <!--  start   of tabs --> 
@@ -168,65 +166,68 @@ jQuery(function() {
         <div class="row first-row nav nav-tabs">
        
            <div style="visibility: hidden; animation-delay: 0.1s; animation-name: none;" class="col-md-2 col-xs-12 wow slideInLeft" data-wow-delay="0.1s">
-           		<a data-toggle="tab" class="benefit-item active" href="#architects"> Architects <i style="font-size: 0;">icon</i> </a>
+           		<a data-toggle="tab" class="benefit-item active" href="#architects"> Architect <i style="font-size: 0;">icon</i> </a>
            </div>
            <div style="visibility: hidden; animation-delay: 0.2s; animation-name: none;" class="col-md-2 col-xs-12 wow slideInLeft" data-wow-delay="0.2s">
-           		<a data-toggle="tab" class="benefit-item Developers" href="#developers"> Developers <i style="font-size: 0;">icon</i></a>
+           		<a data-toggle="tab" class="benefit-item Developers" href="#developers"> Developer <i style="font-size: 0;">icon</i></a>
            </div>
            <div style="visibility: hidden; animation-delay: 0.3s; animation-name: none;" class="col-md-2 col-xs-12 wow slideInLeft" data-wow-delay="0.3s">
-           		<a data-toggle="tab" class="benefit-item TownPlanners" href="#town-planners"> Town Planners <i style="font-size: 0;">icon</i></a>
+           		<a data-toggle="tab" class="benefit-item TownPlanners" href="#town-planners"> Town Planner <i style="font-size: 0;">icon</i></a>
            </div>
            <div style="visibility: hidden; animation-delay: 0.1s; animation-name: none;" class="col-md-2 col-xs-12 wow slideInRight" data-wow-delay="0.1s">
-           		<a data-toggle="tab" class="benefit-item RealEstate" href="#real-estate-agents"> Real Estate Agents <i style="font-size: 0;">icon</i></a>
+           		<a data-toggle="tab" class="benefit-item RealEstate" href="#real-estate-agents"> Real Estate Agent <i style="font-size: 0;">icon</i></a>
            </div>
            <div style="visibility: hidden; animation-delay: 0.2s; animation-name: none;" class="col-md-2 col-xs-12 wow slideInRight" data-wow-delay="0.2s">
-           		<a data-toggle="tab" class="benefit-item Investors" href="#builders"> Builders <i style="font-size: 0;">icon</i> </a>
+           		<a data-toggle="tab" class="benefit-item Investors" href="#builders"> Builder <i style="font-size: 0;">icon</i> </a>
            </div>
            <div style="visibility: hidden; animation-delay: 0.2s; animation-name: none;" class="col-md-2 col-xs-12 wow slideInRight" data-wow-delay="0.2s">
-           		<a data-toggle="tab" class="benefit-item Builders" href="#investors"> Investors <i style="font-size: 0;">icon</i></a>
+           		<a data-toggle="tab" class="benefit-item Builders" href="#investors"> Investor <i style="font-size: 0;">icon</i></a>
            </div>
         </div>
         
+        
         <div style="visibility: hidden; animation-name: none;" class="wow fadeInDown tab-content">
         	<div id="architects" class="tab-pane fade in active"><!-- tab pane -->
-                <h1 style="font-size: 37px;">Benefits for Architects</h1>
-                <p class="med" style="font-size: 20px;">The PropertEASE online system can provide you with instant answers when looking at a property for a prospective client.</p>
-                <p style="font-size: 19px;">A month to month or yearly unlimited subscription can ensure that you get the best value for money to utilize the system.
+              <h1 style="font-size: 37px;">Benefits for Architects</h1>
+                <p class="med" style="font-size: 20px;">PropertEASE can provide you with instant answers when looking at properties for your clients.</p>
+                <p style="font-size: 19px;">Month to month or unlimited yearly <a href="plans.html">subscriptions</a> are a great way to ensure you get the best value for money when utilizing PropertEASE. <br>
                     <br>
-                    <br>
-                </p>
-                <h4 style="font-size: 23px;"><strong>PropertEASE can assist architects in many ways:</strong></h4>
+              </p>
+                <h4 style="font-size: 23px;"><strong>PropertEASE Pros for Architects:</strong></h4>
                 <div class="medias"><a class="pull-right img-c" href="#"> <img class="media-object" src="<?php echo $mainURL; ?>images/architects-ico.png" alt=""> </a>
                     <div class="media-body">
                         <ul class="green-list">
-                            <li>Getting instant and accurate information making the system extremely time (and money) efficient;</li>
-                            <li>Allows the user to provide a client with instant detailed advice regarding a property;</li>
-                            <li>Is mobile friendly (i.e. use it on site);</li>
-                            <li>Will allow any assistant or untrained employee to quickly obtain information;</li>
-                            <li>Saves hours a day waiting on hold to Council or town planners to get the same answers; and</li>
-                            <li>Avoid spending hours reading through planning schemes.</li>
+                            <li>Save time and money with instant accurate town planning and property information</li>
+                            <li>Provide fast feedback for your clients with detailed property information in a professional format pre prepared just for you</li>
+                            <li>24/7 access allowing you to use the application on your computer, mobile or iPad anywhere anytime</li>
+                            <li>Delegate the task and have any untrained assistant or employee arrange a property report for you through the easy use app</li>
+                            <li>Don’t wait on hold to Council or town planners, get the same results faster and easier with instant reports </li>
+                            <li>Don’t waste time reading through complex planning schemes, get the specific relevant information you need with the click of a button</li>
+                            <li>Fast, Simple, Easy and Convenient</li>
                         </ul>
                     </div>
                     
                 </div>
-             </div><!-- tab pane -->
+          </div><!-- tab pane -->
              
              <div id="developers" class="tab-pane fade in"><!-- tab pane -->
                 <h1 style="font-size: 37px;">Benefits for Developers</h1>
-                <p class="med" style="font-size: 20px;">he PropertEASE online system can provide you with instant answers when looking at a potential development site. </p>
-                <p style="font-size: 19px;">A month to month or yearly unlimited subscription can ensure that you get the best value for money to utilize the system.
+                <p class="med" style="font-size: 20px;">PropertEASE can provide you with instant answers when looking at properties for your clients.</p>
+                <p style="font-size: 19px;">Month to month or unlimited yearly <a href="plans.html">subscriptions</a> are a great way to ensure you get the best value for money when utilizing PropertEASE.
                     <br>
                     <br>
                 </p>
-                <h4 style="font-size: 23px;"><strong>PropertEASE can assist Developers in many ways:</strong></h4>
+                <h4 style="font-size: 23px;"><strong>PropertEASE Pros for Developers:</strong></h4>
                 <div class="medias"><a class="pull-right img-c" href="#"> <img class="media-object" src="<?php echo $mainURL; ?>images/developers-ico.png" alt=""> </a>
                     <div class="media-body">
                         <ul class="green-list">
-                            <li>Easy instant answers (using our online resources);</li>
-                            <li>A simple overview of a properties development potential to give you the information to make a quick 'yes' or 'no' answer when purchasing;</li>
-                            <li>Saves hours a day waiting on hold to Council or town planners to get the same answers;</li>
-                            <li>Gives you the upper hand when negotiating with real estate agents; and</li>
-                            <li>Is mobile friendly (i.e. use it on site).</li>
+                            <li>Qualify your site instantly with on the spot town planning and property information</li>
+                            <li>Provide fast feedback for your clients with detailed property information in a professional format pre prepared just for you</li>
+                            <li>24/7 access allowing you to use the application on your computer, mobile or iPad anywhere anytime</li>
+                            <li>Have the upper hand and knowledge to rely on when negotiating with real estate agents</li>
+                            <li>Don’t wait on hold to Council or town planners, get the same results faster and easier with instant reports</li>
+                            <li>Don’t waste time reading through complex planning schemes, get the specific relevant information you need with the click of a button</li>
+                            <li>Fast, Simple, Easy and Convenient</li>
                         </ul>
                     </div>
                     
@@ -236,46 +237,49 @@ jQuery(function() {
 
              <div id="town-planners" class="tab-pane fade in"><!-- tab pane -->
                 <h1 style="font-size: 37px;">Benefits for Town Planners</h1>
-                <p class="med" style="font-size: 20px;">The PropertEASE online system can provide you with instant answers when discussing a property with a client.</p>
-                <p style="font-size: 19px;">A month to month or yearly unlimited subscription can ensure that you get the best value for money to utilize the system.
+                <p class="med" style="font-size: 20px;">PropertEASE can provide you with instant answers when looking at properties for your clients.</p>
+                <p style="font-size: 19px;">Month to month or unlimited yearly <a href="plans.html">subscriptions</a> are a great way to ensure you get the best value for money when utilizing PropertEASE.
                     <br>
                     <br>
                 </p>
-                <h4 style="font-size: 23px;"><strong>PropertEASE has a range of advantages for a town planner including:</strong></h4>
+                <h4 style="font-size: 23px;"><strong>PropertEASE Pros for Town Planners:</strong></h4>
                 <div class="medias"><a class="pull-right img-c" href="#"> <img class="media-object" src="<?php echo $mainURL; ?>images/town-planners-ico.png" alt=""> </a>
                     <div class="media-body">
                         <ul class="green-list">
-                            <li>Getting instant and accurate information making the system extremely time (and money) efficient;</li>
-                            <li>Allows the user to provide a client with instant detailed advice regarding a property;</li>
-                            <li>Is mobile friendly (i.e. use it on site) to give instant answers to a client;</li>
-                            <li>Will allow any assistant or untrained employee to quickly obtain information;</li>
-                            <li>Avoid spending hours reading through planning schemes; and</li>
-                            <li>Removes the human element (errors) when finding property limitations.</li>
+                            <li>Save time and money with instant accurate town planning and property information</li>
+                            <li>Find out the development potential of a property on the spot and provide your clients with instant pre prepared personalized reports.</li>
+                            <li>24/7 access allowing you to use the application on your computer, mobile or iPad anywhere anytime, even use the app while your on site!</li>
+                            <li>Delegate the task and have any untrained assistant or employee arrange a property report for you through the easy use app</li>
+                            <li>Don’t wait on hold to Council, get the same results faster and easier with instant reports</li>
+                            <li>Don’t waste time reading through complex planning schemes, get the specific relevant information you need with the click of a button</li>
+                            <li>Remove the human error element when finding property limitations</li>
+                            <li>Fast, Simple, Easy and Convenient</li>
                         </ul>
                     </div>
                     
                 </div>
-                <p>One of our town planning clients saves up to 2 hours a day between 3 staff by utilizing the PropertEASE service.</p>
              </div><!-- tab pane -->
              
         
    
              <div id="real-estate-agents" class="tab-pane fade in"><!-- tab pane -->
                 <h1 style="font-size: 37px;">Benefits for Real Estate Agents</h1>
-                <p class="med" style="font-size: 20px;">The PropertEASE online system can provide you with instant answers when discussing a property with a prospective seller or purchaser.</p>
-                <p style="font-size: 19px;">A month to month or yearly unlimited subscription can ensure that you get the best value for money to utilize the system.
+                <p class="med" style="font-size: 20px;">PropertEASE can provide you with instant answers when looking at properties for your clients.</p>
+                <p style="font-size: 19px;">Month to month or unlimited yearly <a href="plans.html">subscriptions</a> are a great way to ensure you get the best value for money when utilizing PropertEASE.
                     <br>
                     <br>
                 </p>
-                <h4 style="font-size: 23px;"><strong>PropertEASE provides:</strong></h4>
+                <h4 style="font-size: 23px;"><strong>PropertEASE Pros for Real Estate Agents:</strong></h4>
                 <div class="medias"><a class="pull-right img-c" href="#"> <img class="media-object" src="<?php echo $mainURL; ?>images/real-estate-agents-ico.png" alt=""> </a>
                     <div class="media-body">
                         <ul class="green-list">
-                            <li>Easy instant information (using our online resources);</li>
-                            <li>A simple overview of a properties development potential to give you an informed sales pitch and the upper hand in negotiations;</li>
-                            <li>Ensures that your asking price coincides with a properties potential; I.e. get the best sales price with the correct information;</li>
-                            <li>Saves hours a day waiting on hold to Council or town planners to get the same answers; and</li>
-                            <li>Is mobile friendly (i.e. use it on site).</li>
+                            <li>Save time and money with instant accurate town planning and property information</li>
+                            <li>Find out the development potential of a property on the spot to give you an informed sales pitch and the upper hand when negotiating</li>
+                            <li>24/7 access allowing you to use the application on your computer, mobile or iPad anywhere anytime</li>
+                            <li>Get the best sales prices with the correct information and ensure your asking price coincides with the development potential of the property</li>
+                            <li>Don’t wait on hold to Council, get the same results faster and easier with instant reports</li>
+                            <li>Don’t waste time reading through complex planning schemes, get the specific relevant information you need with the click of a button</li>
+                            <li>Fast, Simple, Easy and Convenient</li>
                         </ul>
                     </div>
                     
@@ -285,21 +289,22 @@ jQuery(function() {
              
              <div id="investors" class="tab-pane fade in"><!-- tab pane -->
                 <h1 style="font-size: 37px;">Benefits for Investors</h1>
-                <p class="med" style="font-size: 20px;">It can take hours to investigate the development potential of a property, PropertEASE can give you answers instantly.</p>
-                <p style="font-size: 19px;">One off reports can be purchased and a month to month or yearly unlimited subscription can ensure that you get the best value for money to utilize the system.
+                <p class="med" style="font-size: 20px;">PropertEASE can provide you with instant answers when looking at properties for your clients.</p>
+                <p style="font-size: 19px;">Month to month or unlimited yearly <a href="plans.html">subscriptions</a> are a great way to ensure you get the best value for money when utilizing PropertEASE.
                     <br>
                     <br>
                 </p>
-                <h4 style="font-size: 23px;"><strong>PropertEASE provides:</strong></h4>
+                <h4 style="font-size: 23px;"><strong>PropertEASE Pros for Investors:</strong></h4>
                 <div class="medias"><a class="pull-right img-c" href="#"> <img class="media-object" src="<?php echo $mainURL; ?>images/builders-ico.png" alt=""> </a>
                     <div class="media-body">
                         <ul class="green-list">
-                            <li>Easy instant information (using our online resources);</li>
-<li>A simple overview of a properties development potential to give you the information to make a quick 'yes' or 'no' answer when purchasing;</li>
-<li>Gives you the current development potential of a property. Could you subdivide? Could you do units? Could you build a secondary dwelling?</li>
-<li>Saves hours a day waiting on hold to Council or town planners to get the same answers;</li>
-<li>Gives you the upper hand when negotiating with real estate agents; and</li>
-<li>Is mobile friendly (i.e. use it on site).</li>
+                            <li>Save time and money with instant accurate town planning and property information</li>
+                            <li>Find out the development potential of a property on the spot for a quick ‘yes’ or ‘no’ answer when purchasing</li>
+                            <li>24/7 access allowing you to use the application on your computer, mobile or iPad anywhere anytime, even get a report while you’re on site!</li>
+                            <li>Have the upper hand and knowledge to rely on when negotiating with real estate agents</li>
+                            <li>Don’t wait on hold to Council or town planners, get the same results faster and easier with instant reports </li>
+                            <li>Don’t waste time reading through complex planning schemes, get the specific relevant information you need with the click of a button</li>
+                            <li>Fast, Simple, Easy and Convenient</li>
                         </ul>
                     </div>
                     
@@ -308,20 +313,22 @@ jQuery(function() {
 
              <div id="builders" class="tab-pane fade in"><!-- tab pane -->
                 <h1 style="font-size: 37px;">Benefits for Builders</h1>
-                <p class="med" style="font-size: 20px;">The PropertEASE online system can provide you with instant answers when looking at a property for a prospective client.</p>
-                <p style="font-size: 19px;">A month to month or yearly unlimited subscription can ensure that you get the best value for money to utilize the system.
+                <p class="med" style="font-size: 20px;">PropertEASE can provide you with instant answers when looking at properties for your clients.</p>
+                <p style="font-size: 19px;">Month to month or unlimited yearly <a href="plans.html">subscriptions</a> are a great way to ensure you get the best value for money when utilizing PropertEASE.
                     <br>
                     <br>
                 </p>
-                <h4 style="font-size: 23px;"><strong>The PropertEASE system is:</strong></h4>
+                <h4 style="font-size: 23px;"><strong>PropertEASE Pros for Builders:</strong></h4>
                 <div class="medias"><a class="pull-right img-c" href="#"> <img class="media-object" src="<?php echo $mainURL; ?>images/investors-ico.png" alt=""> </a>
                     <div class="media-body">
                         <ul class="green-list">
-                            <li>Very easy to use (with our online resources);</li>
-                            <li>Gives a quick overview of the development potential of a property before meeting with a client/owner;</li>
-                            <li>Saves hours a day waiting on hold to Council or town planners to get the same answers;</li>
-                            <li>Assists in engaging discussion regarding town planning matters with clients/owners and</li>
-                            <li>Is mobile friendly (i.e. use it on site).</li>
+                            <li>Save time and money with instant accurate town planning and property information</li>
+                            <li>Find out the development potential of a property on the spot before meeting with a client/owner</li>
+                            <li>24/7 access allowing you to use the application on your computer, mobile or iPad anywhere anytime, even get a report while you’re on site!</li>
+                            <li>Know your stuff when discussing town planning matters with your clients/owners.</li>
+                            <li>Don’t wait on hold to Council or town planners, get the same results faster and easier with instant reports </li>
+                            <li>Don’t waste time reading through complex planning schemes, get the specific relevant information you need with the click of a button</li>
+                            <li>Fast, Simple, Easy and Convenient</li>
                         </ul>
                     </div>
                     
@@ -339,31 +346,35 @@ jQuery(function() {
  <div class="custom green-bg our-process">  
       <div class="container">  
  <div class="process">  
- <h3>Our Process</h3>  
+ <h3>HOW DOES IT WORK?</h3>  
  <div class="row">  
  <div style="visibility: hidden; animation-delay: 0.1s; animation-name: none;" class="col-md-4 col-sm-4 col-xs-12 wow slideInLeft" data-wow-delay="0.1s">  
  <div class="panel-content">  
  <div class="arrow">arrow</div>  
  <h5 class="med">Step 1</h5>  
- <p><span class="med">Enter</span> the address of <br>your property.</p>  
+ <p><span class="med">Enter</span> your property <br>address.<br><br><br><br><br><br><br><br></p>  
  <img src="<?php echo $mainURL; ?>images/step1.png" alt=""></div>  
  </div>  
  <div style="visibility: hidden; animation-delay: 0.2s; animation-name: none;" class="col-md-4 col-sm-4 col-xs-12 wow slideInLeft" data-wow-delay="0.2s">  
  <div class="panel-content">  
  <div class="arrow">arrow</div>  
  <h5 class="med">Step 2</h5>  
- <p><span class="med">Select</span> the property <br>attributes.</p>  
- <img src="<?php echo $mainURL; ?>images/step2.png" alt=""></div>  
+ <p><span class="med">Select</span> property details <br>(e.g. Zone, Overlays…etc)<br>If you don’t know<br>your property details<br>select the Single Report<br>‘We do it for you’<br>option, just provide<br>the property address<br>and we do the rest.
+ </p>  
+ <img src="<?php echo $mainURL; ?>images/step2.png" alt=""></div> 
  </div>  
  <div style="visibility: hidden; animation-delay: 0.5s; animation-name: none;" class="col-md-4 col-sm-4 col-xs-12 last wow slideInLeft" data-wow-delay="0.5s">  
  <div class="panel-content">  
  <h5 class="med">Step 3</h5>  
- <p><span class="med">Review</span> your results on <br>our online app or<br> print and download a <br>report.</p>  
+ <p><span class="med">Click</span> ‘submit’ and review<br>your results and<br>download your report<br>instantly<br><br><br><br><br><br></p>  
  <img src="<?php echo $mainURL; ?>images/step3.png" alt=""></div>  
  </div>  
  </div>  
- </div>  
- </div></div>  
+ </div> <div align="center">
+   <a class="btn" style="color:#FFFFFF;" href="plans.html">GET STARTED NOW</a></div>    
+ </div></div> 
+
+ 
            </div>  
                 <div class="moduletabletestimonial">  
                                     <h3>What our subscribers say</h3>  
@@ -502,13 +513,15 @@ jQuery(function() {
                           <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">  
                                          <div class="t3-module module footer-menu " id="Mod103"><div class="module-inner"><div class="module-ct"><ul class="nav nav-pills nav-stacked ">  
  <li class="item-140 divider"><span class="separator">Copyright 2015</span>  
- </li><li class="item-141"><a href="about2.html">About PropertEASE</a></li><li class="item-142"><a href="conditions-of-use.html">Conditions of Use</a></li></ul>  
+ </li><li class="item-141"><a href="about2.html">About PropertEASE</a></li>
+ <li class="item-142"><a href="conditions-of-use.html">Terms &amp; Conditions</a></li></ul>  
  </div></div></div>  
                                     </div>  
                           <div class=" col-lg-6 col-md-6 col-sm-6 col-xs-12">  
                                          <div class="t3-module module footer-menu-right " id="Mod130"><div class="module-inner"><div class="module-ct"><ul class="nav nav-pills nav-stacked ">  
- <li class="item-101 current active"><a class="home" href="<?php echo $mainURL; ?>">Home</a></li><li class="item-113"><a href="plans.html">Plans   </a></li>
- <li class="item-112"><a href="sample-reports.html">Sample Reports</a></li>
+ <li class="item-101 current active"><a class="home" href="<?php echo $mainURL; ?>">Home</a></li>
+ <li class="item-113"><a href="plans.html">Get Started   </a></li>
+ <li class="item-112"><a href="sample-reports.html">Sample Report</a></li>
  <li class="item-169"><a href="resources.html">Resources</a></li>
  <li class="item-114"><a class="Connect bold" href="get-in-touch.html" title="  ">Contact    </a></li></ul>  
  </div></div></div>  
