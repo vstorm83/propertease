@@ -101,12 +101,13 @@ jQuery(document).ready(function($){
 	$('.block-price .block').click(function(){
 		changeBlockColor($(this));
 		$('.subscribeForm .planid').val($(this).data('id'));
+		$(this).closest('.block-price').find('.active').removeClass('active');
 	});
 	
 	$('.block-price .single .plus').click(function() {
 	  var $block = $(this).closest('.block');
-//	  $block.find('.active').removeClass('active');
-//	  $(this).addClass('active');
+	  $block.closest('.block-price').find('.active').removeClass('active');
+	  $(this).addClass('active');
 		changeBlockColor($block);
 		$block.find('.pay-month .blk').text($(this).data('price'));
 		$('.subscribeForm .planid').val($(this).data('id'));
@@ -121,8 +122,14 @@ jQuery(document).ready(function($){
 			$('.block-price .standard .pay-month .blk').text($('.block-price .standard .upFront').data('price'));
 			$('.block-price .corporate .pay-month .blk').text($(this).data('price'));
 		}		
+		
+		var $block = $(this).closest('.block-price');
+		$block.find('.active').removeClass('active');
+    $(this).addClass('active');
+		
 		$('.standard .pay-month i').text('*for the first month');
 		$('.corporate .pay-month i').text('**for the first month');
+		return false;
 	});
 	
 	$('.block-price .yearly').click(function() {
@@ -136,6 +143,11 @@ jQuery(document).ready(function($){
 			$('.block-price .standard .pay-month .blk').text($('.block-price .standard .yearly').data('price'));
 			$('.block-price .corporate .pay-month .blk').text($(this).data('price'));
 		}
+		
+		var $block = $(this).closest('.block-price');
+    $block.find('.active').removeClass('active');
+    $(this).addClass('active');
+		
 		$('.pay-month i').text('/ year');
 		$('.subscribeForm .planid').val($(this).data('id'));
 		return false;

@@ -690,7 +690,7 @@ input[type="password"] {
     font-size: 15px;
 }
 .t3-content .article-content .block-price .block .plus.active {
-    background: #f1f1f1 url('../images/ico-plus.png') no-repeat 20px 10px;
+    background: #f1f1f1 url('../images/ico-plus-green.png') no-repeat 20px 10px;
 }
 .t3-content .article-content .block-price .block .through-line {
     text-decoration: line-through;
@@ -701,7 +701,7 @@ input[type="password"] {
     text-align: center;
 }
 .t3-content .article-content .block-price .single .plus {
-    background: url('../images/ico-plus-green.png') no-repeat 20px 10px;
+    background: url('../images/ico-plus.png') no-repeat 20px 10px;
     padding-left: 15px;
     margin-bottom: 0;
 }
@@ -716,7 +716,7 @@ input[type="password"] {
     color: #009bb7;
 }
 .t3-content .article-content .block-price .standard .plus {
-    background: url('../images/ico-plus-green.png') no-repeat 20px 10px;
+    background: url('../images/ico-plus.png') no-repeat 20px 10px;
     padding-left: 15px;
     margin-bottom: 0;
 }
@@ -734,7 +734,7 @@ input[type="password"] {
     color: #fbc013;
 }
 .t3-content .article-content .block-price .corporate .plus {
-    background: url('../images/ico-plus-green.png') no-repeat 20px 10px;
+    background: url('../images/ico-plus.png') no-repeat 20px 10px;
     padding-left: 15px;
     margin-bottom: 0;
 }
