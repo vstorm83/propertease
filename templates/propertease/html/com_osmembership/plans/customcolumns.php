@@ -147,7 +147,8 @@ if (isset($corporate)) {
 		if (JRequest::getVar('id')) {
 			require_once __DIR__.'/../../../../../components/com_osmembership/views/register/view.html.php';
 			$test = new OSMembershipViewRegister();
-			$test->__construct(['base_path'=>$this->base_path, 'layout'=>'popup']);
+			$data = array('base_path'=>$this->base_path, 'layout'=>'popup');
+			$test->__construct($data);
 			$test->display();			
 		}
 	?>
